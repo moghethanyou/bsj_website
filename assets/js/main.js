@@ -28,10 +28,10 @@
       var next = current === 'dark' ? 'light' : 'dark';
       applyTheme(next);
       try { localStorage.setItem('bsj-theme', next); } catch (e) {}
-      themeBtn.textContent = next === 'dark' ? '☀' : '☾';
+      themeBtn.textContent = next === 'dark' ? '☀︎' : '☾︎';
     });
     var cur = document.documentElement.getAttribute('data-theme');
-    themeBtn.textContent = cur === 'dark' ? '☀' : '☾';
+    themeBtn.textContent = cur === 'dark' ? '☀︎' : '☾︎';
   }
 
   // Scroll reveal. IntersectionObserver is the primary mechanism, but a fast/instant
