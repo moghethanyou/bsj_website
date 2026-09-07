@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Berkeley Scientific Journal (BSJ) Design Tokens
+   Official Brand Palette & Typography Tokens
+   ========================================================================== */
+
+:root {
+  /* Brand Core Colors */
+  --bsj-navy: #0F193F;
+  --bsj-deep-blue: #002B49;
+  --bsj-berkeley-blue: #003262;
+  --bsj-california-gold: #FDB515;
+  --bsj-founders-rock: #3B7EA1;
+  --bsj-medalist: #C4820E;
+
+  /* Accent Colors */
+  --bsj-accent-goldengate: #D96B27;
+  --bsj-accent-southhall: #B9D3B6;
+  --bsj-accent-bayfog: #DDD5C7;
+
+  /* Theme: Light */
+  --bsj-bg: #F8FAFC;
+  --bsj-surface: #FFFFFF;
+  --bsj-surface-elevated: #FFFFFF;
+  --bsj-border: #E2E8F0;
+  --bsj-text: #0F172A;
+  --bsj-text-muted: #64748B;
+  --bsj-primary: #003262;
+  --bsj-primary-hover: #0F193F;
+  --bsj-gold: #C4820E;
+
+  /* Typography */
+  --bsj-font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+  --bsj-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bsj-font-mono: 'JetBrains Mono', Menlo, Monaco, monospace;
+
+  /* Shadows & Radius */
+  --bsj-radius-sm: 6px;
+  --bsj-radius-md: 12px;
+  --bsj-radius-lg: 20px;
+  --bsj-radius-full: 9999px;
+  --bsj-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --bsj-shadow-md: 0 4px 14px rgba(0, 50, 98, 0.08);
+  --bsj-shadow-lg: 0 10px 30px rgba(0, 50, 98, 0.12);
+  --bsj-shadow-glow: 0 0 25px rgba(253, 181, 21, 0.35);
+}
+
+[data-theme="dark"] {
+  --bsj-bg: #080D1D;
+  --bsj-surface: #111827;
+  --bsj-surface-elevated: #1F2937;
+  --bsj-border: #1F2937;
+  --bsj-text: #F8FAFC;
+  --bsj-text-muted: #94A3B8;
+  --bsj-primary: #3B7EA1;
+  --bsj-primary-hover: #FDB515;
+  --bsj-gold: #FDB515;
+  --bsj-shadow-md: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --bsj-shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.6);
+}

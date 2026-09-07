@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+
+# Raw source uploads (original PDFs/PNGs) — large, and not referenced by the
+# site itself (assets/covers/{jpg,webp,thumbs} are the processed versions used
+# on the live pages). Keep these locally; no need to ship them to the repo.
+/covers/

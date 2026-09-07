@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Past Journals | Berkeley Scientific Journal</title>
+<meta name="description" content="Browse the full archive of Berkeley Scientific Journal issues, from Volume 12 to the present, with links to read each issue.">
+<link rel="icon" href="assets/brand/favicons/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="assets/brand/favicons/favicon.svg">
+<link rel="apple-touch-icon" href="assets/brand/favicons/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
+      <span>Berkeley Scientific Journal<span class="brand-sub">UC Berkeley</span></span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="leadership.html">Leadership</a></li>
+        <li><a href="journals.html" class="active">Past Journals</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+      <a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Full eScholarship Archive</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Past Journals</div>
+    <h1>The Archive</h1>
+    <p class="lede">Every issue of the Berkeley Scientific Journal, Volume 12 to today. Click a cover to read the full issue on eScholarship or Issuu.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="journal-search">
+      <input type="text" id="issue-search" placeholder="Search by title, volume, or year…">
+    </div>
+    <div class="journal-filters" id="decade-filters"></div>
+    <div class="issue-grid" id="issue-grid"></div>
+    <div class="issue-empty" id="issue-empty">No issues match your search.</div>
+  </div>
+</section>
+
+<script>
+  // Full BSJ issue archive. `title` is the issue's thematic name, read directly off each
+  // cover, and cross-checked against eScholarship/Issuu listings where available.
+  const ISSUES = [
+    {v:12,i:1,title:"Science and War",sem:null,year:null,url:"https://escholarship.org/uc/our_bsj/12/1"},
+    {v:12,i:2,title:"Consciousness and the Mind",sem:"Fall",year:2008,url:"https://escholarship.org/uc/our_bsj/12/2"},
+    {v:13,i:1,title:"Technology & the Human",sem:"Fall",year:2009,url:"https://escholarship.org/uc/our_bsj/13/1"},
+    {v:13,i:2,title:"Economics",sem:"Spring",year:2010,url:"https://escholarship.org/uc/our_bsj/13/2"},
+    {v:14,i:1,title:"Infectious Disease",sem:null,year:null,url:"https://escholarship.org/uc/our_bsj/14/1"},
+    {v:14,i:2,title:"Accidents: Serendipity in Science",sem:null,year:null,url:"https://escholarship.org/uc/our_bsj/14/2"},
+    {v:15,i:1,title:"Emotions and Thought",sem:null,year:null,url:"https://escholarship.org/uc/our_bsj/15/1"},
+    {v:15,i:2,title:"Science Fiction",sem:"Spring",year:2011,url:"https://escholarship.org/uc/our_bsj/15/2"},
+    {v:16,i:1,title:"The Science of Food",sem:null,year:2011,url:"https://escholarship.org/uc/our_bsj/16/1"},
+    {v:16,i:2,title:"Save or Destroy",sem:null,year:2012,url:"https://escholarship.org/uc/our_bsj/16/2"},
+    {v:17,i:1,title:"Science of Color",sem:null,year:2013,url:"https://escholarship.org/uc/our_bsj/17/1"},
+    {v:17,i:2,title:"Death and Dying",sem:null,year:2013,url:"https://escholarship.org/uc/our_bsj/17/2"},
+    {v:18,i:1,title:"Stress",sem:null,year:2013,url:"https://escholarship.org/uc/our_bsj/18/1"},
+    {v:18,i:2,title:"Synthetics",sem:null,year:2014,url:"https://escholarship.org/uc/our_bsj/18/2"},
+    {v:19,i:1,title:"Extremes",sem:null,year:2014,url:"https://escholarship.org/uc/our_bsj/19/1"},
+    {v:19,i:2,title:null,sem:null,year:2015,url:"https://escholarship.org/uc/our_bsj/19/2"},
+    {v:20,i:1,title:"Symmetry",sem:"Fall",year:2015,url:"https://escholarship.org/uc/our_bsj/20/1"},
+    {v:21,i:1,title:"Chronos",sem:null,year:2016,url:"https://escholarship.org/uc/our_bsj/21/1"},
+    {v:21,i:2,title:null,sem:null,year:2017,url:"https://escholarship.org/uc/our_bsj/21/2"},
+    {v:22,i:1,title:"Order & Disorder",sem:"Fall",year:2017,url:"https://escholarship.org/uc/our_bsj/22/1"},
+    {v:22,i:2,title:"Next Generation",sem:"Spring",year:2018,url:"https://escholarship.org/uc/our_bsj/22/2"},
+    {v:23,i:1,title:"Crisis",sem:"Fall",year:2018,url:"https://escholarship.org/uc/our_bsj/23/1"},
+    {v:23,i:2,title:"Perspectives",sem:"Spring",year:2019,url:"https://issuu.com/berkeleyscientific1/docs/perspectives_issue_23_volume_2"},
+    {v:24,i:1,title:"Glitch",sem:"Fall",year:2019,url:"https://issuu.com/berkeleyscientific1/docs/glitch_forpublication"},
+    {v:24,i:2,title:"Intersections",sem:"Spring",year:2020,url:"https://escholarship.org/uc/our_bsj/24/2"},
+    {v:25,i:1,title:"Bonds",sem:"Fall",year:2021,url:"https://issuu.com/berkeleyscientific1/docs/bonds_final_wsupp"},
+    {v:25,i:2,title:"Emergence",sem:"Spring",year:2021,url:"https://issuu.com/berkeleyscientific1/docs/emergence-final"},
+    {v:26,i:1,title:"Origins (25th Anniversary Edition)",sem:null,year:2021,url:"https://escholarship.org/uc/our_bsj/26/1"},
+    {v:26,i:2,title:"Flux",sem:null,year:2022,url:"https://escholarship.org/uc/our_bsj/26/2"},
+    {v:27,i:1,title:"Signal",sem:null,year:2022,url:"https://escholarship.org/uc/our_bsj/27/1"},
+    {v:27,i:2,title:"Potential",sem:null,year:2023,url:"https://escholarship.org/uc/our_bsj/27/2"},
+    {v:28,i:1,title:"Magnitude",sem:"Spring",year:2024,url:"https://escholarship.org/uc/our_bsj/28/1"},
+    {v:28,i:2,title:"Anomaly",sem:"Fall",year:2024,url:"https://escholarship.org/uc/our_bsj/28/2"},
+    {v:29,i:1,title:"Pulse",sem:"Spring",year:2025,url:"https://escholarship.org/uc/our_bsj/29/1"},
+    {v:29,i:2,title:"Chimera",sem:"Fall",year:2025,url:"https://escholarship.org/uc/our_bsj/29/2"},
+  ].map(issue => ({
+    ...issue,
+    cover: `assets/covers/webp/${issue.v}_${issue.i}.webp`,
+    coverFallback: `assets/covers/jpg/${issue.v}_${issue.i}.jpg`,
+  })).reverse(); // newest first
+
+  const grid = document.getElementById('issue-grid');
+  const empty = document.getElementById('issue-empty');
+  const search = document.getElementById('issue-search');
+  const filterBar = document.getElementById('decade-filters');
+
+  function decadeOf(vol) {
+    // BSJ volume numbering roughly maps 1996 + (volume - 1) years → group by decade of publication era
+    if (vol >= 26) return '2023–Present';
+    if (vol >= 21) return '2018–2022';
+    if (vol >= 16) return '2013–2017';
+    return 'Pre-2013';
+  }
+  const decades = ['All', ...Array.from(new Set(ISSUES.map(x => decadeOf(x.v))))];
+  let activeDecade = 'All';
+
+  function render() {
+    const q = search.value.trim().toLowerCase();
+    grid.innerHTML = '';
+    let shown = 0;
+    ISSUES.forEach(issue => {
+      if (activeDecade !== 'All' && decadeOf(issue.v) !== activeDecade) return;
+      const label = issue.title || `Volume ${issue.v}, Issue ${issue.i}`;
+      const sem = issue.sem && issue.year ? `${issue.sem} ${issue.year}` : '';
+      const haystack = `${label} ${sem} volume ${issue.v} issue ${issue.i}`.toLowerCase();
+      if (q && haystack.indexOf(q) === -1) return;
+      shown++;
+      const a = document.createElement('a');
+      a.className = 'issue-card reveal in-view';
+      a.href = issue.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.innerHTML = `
+        <div class="issue-cover">
+          <img src="${issue.cover}" onerror="this.onerror=null;this.src='${issue.coverFallback}'" alt="${label} cover" loading="lazy">
+        </div>
+        <div class="issue-meta">
+          <div class="vol">Vol. ${issue.v} · No. ${issue.i}</div>
+          <h4>${label}</h4>
+          <div class="sem">${sem}</div>
+        </div>`;
+      grid.appendChild(a);
+    });
+    empty.style.display = shown === 0 ? 'block' : 'none';
+  }
+
+  decades.forEach(d => {
+    const btn = document.createElement('button');
+    btn.textContent = d;
+    if (d === 'All') btn.classList.add('active');
+    btn.addEventListener('click', () => {
+      activeDecade = d;
+      filterBar.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    });
+    filterBar.appendChild(btn);
+  });
+  search.addEventListener('input', render);
+  render();
+</script>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
+          <span>Berkeley Scientific Journal</span>
+        </div>
+        <p>The undergraduate science research journal at UC Berkeley, publishing original research, interviews, and features since 1996.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="journals.html">Past Journals</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Read</h5>
+        <ul>
+          <li><a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener">eScholarship Archive</a></li>
+          <li><a href="https://issuu.com/berkeleyscientific1" target="_blank" rel="noopener">Issuu</a></li>
+          <li><a href="https://bsj.studentorg.berkeley.edu/" target="_blank" rel="noopener">Official BSJ Site</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:bsj.berkeley@gmail.com">bsj.berkeley@gmail.com</a></li>
+          <li><a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/company/berkeley-scientific-journal" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Berkeley Scientific Journal · UC Berkeley</span>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="https://www.linkedin.com/company/berkeley-scientific-journal" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="mailto:bsj.berkeley@gmail.com" aria-label="Email">✉</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

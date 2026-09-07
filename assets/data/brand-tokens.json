@@ -1,0 +1,38 @@
+{
+  "name": "Berkeley Scientific Journal",
+  "abbreviation": "BSJ",
+  "founded": 1996,
+  "institution": "University of California, Berkeley",
+  "colors": {
+    "primary": {
+      "bsjNavy": "#0F193F",
+      "bsjDeepBlue": "#002B49",
+      "berkeleyBlue": "#003262",
+      "californiaGold": "#FDB515",
+      "foundersRock": "#3B7EA1",
+      "medalist": "#C4820E"
+    },
+    "neutrals": {
+      "white": "#FFFFFF",
+      "lightBg": "#F8FAFC",
+      "cardBg": "#FFFFFF",
+      "darkBg": "#080D1D",
+      "darkSurface": "#111827",
+      "darkBorder": "#1F2937",
+      "textLight": "#0F172A",
+      "textMuted": "#64748B",
+      "textDark": "#F1F5F9"
+    },
+    "accents": {
+      "goldenGate": "#D96B27",
+      "southHall": "#B9D3B6",
+      "wellmanTile": "#D9661F",
+      "bayFog": "#DDD5C7"
+    }
+  },
+  "typography": {
+    "fontHeading": "'Outfit', 'Cinzel', 'Playfair Display', Georgia, serif",
+    "fontBody": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    "fontMono": "'JetBrains Mono', monospace"
+  }
+}
