@@ -27,6 +27,7 @@
   --bsj-primary: #003262;
   --bsj-primary-hover: #0F193F;
   --bsj-gold: #C4820E;
+  --bsj-heading: var(--bsj-navy);
 
   /* Typography */
   --bsj-font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
@@ -54,6 +55,7 @@
   --bsj-primary: #3B7EA1;
   --bsj-primary-hover: #FDB515;
   --bsj-gold: #FDB515;
+  --bsj-heading: #F8FAFC;
   --bsj-shadow-md: 0 4px 14px rgba(0, 0, 0, 0.4);
   --bsj-shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.6);
 }

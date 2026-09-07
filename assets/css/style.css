@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
   font-weight: 700;
   line-height: 1.15;
   margin: 0 0 .5em;
-  color: var(--bsj-navy, var(--bsj-primary));
+  color: var(--bsj-heading, var(--bsj-navy));
 }
 p { margin: 0 0 1em; }
 .container {
@@ -120,10 +120,11 @@ section { padding: 88px 0; }
   gap: 10px;
   font-weight: 800;
   font-size: 17px;
-  color: var(--bsj-navy);
+  color: var(--bsj-heading);
   letter-spacing: -.01em;
 }
 .brand img { height: 34px; width: auto; }
+[data-theme="dark"] .brand img { filter: brightness(0) invert(1); }
 .brand .brand-sub { display: block; font-family: var(--bsj-font-mono); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--bsj-text-muted); font-weight: 600; }
 .nav-links {
   display: flex;
@@ -203,7 +204,7 @@ section { padding: 88px 0; }
 .hero h1 em { font-style: italic; color: var(--bsj-medalist); }
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 30px; }
 .hero-stats { display: flex; gap: 30px; margin-top: 46px; flex-wrap: wrap; }
-.hero-stats div strong { display: block; font-family: var(--bsj-font-serif); font-size: 30px; color: var(--bsj-navy); }
+.hero-stats div strong { display: block; font-family: var(--bsj-font-serif); font-size: 30px; color: var(--bsj-heading); }
 .hero-stats div span { font-size: 13px; color: var(--bsj-text-muted); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; }
 
 .hero-visual {
@@ -529,7 +530,7 @@ section { padding: 88px 0; }
 @media (max-width: 780px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
 .footer-brand { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
-.footer-brand img { height: 30px; }
+.footer-brand img { height: 30px; filter: brightness(0) invert(1); }
 .footer-brand span { font-family: var(--bsj-font-serif); font-weight: 700; color: #fff; font-size: 17px; }
 .site-footer p { color: #94a3b8; font-size: 14px; max-width: 34ch; }
 .site-footer h5 { color: #fff; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 16px; font-family: var(--bsj-font-mono); }
