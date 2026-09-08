@@ -448,12 +448,16 @@ a.person-card { cursor: pointer; }
   display: block;
 }
 .issue-card:hover { transform: translateY(-5px); box-shadow: var(--bsj-shadow-lg); }
-.issue-cover { aspect-ratio: 3/4; overflow: hidden; background: var(--bsj-bg); }
+.issue-cover { display: block; aspect-ratio: 3/4; overflow: hidden; background: var(--bsj-bg); }
 .issue-cover img { width: 100%; height: 100%; object-fit: cover; }
 .issue-meta { padding: 13px 14px 16px; }
 .issue-meta .vol { font-family: var(--bsj-font-mono); font-size: 11px; color: var(--bsj-medalist); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 .issue-meta h4 { font-size: 14.5px; margin: 4px 0 2px; font-family: var(--bsj-font-serif); }
 .issue-meta .sem { font-size: 12px; color: var(--bsj-text-muted); }
+.issue-links { margin-top: 7px; display: flex; align-items: center; gap: 6px; font-size: 12px; }
+.issue-links a { color: var(--bsj-berkeley-blue); font-weight: 700; }
+.issue-links a:hover { text-decoration: underline; }
+.issue-links-sep { color: var(--bsj-border); }
 .issue-empty { text-align: center; padding: 60px 20px; color: var(--bsj-text-muted); display: none; }
 
 /* Recovered article archive */

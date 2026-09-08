@@ -73,6 +73,11 @@
     // falls in Fall (1995+N) and issue 2 in Spring (1996+N) — anchored to the journal's
     // 1996 founding (its Fall 1996 volume 1, issue 1) and confirmed by, among others,
     // the 25th Anniversary issue landing exactly on volume 26 / Fall 2021.
+    const LOCAL_PDFS = new Set([
+      '19_2', '20_1', '22_1', '22_2', '23_1', '23_2', '24_1', '24_2',
+      '25_1', '25_2', '26_1', '26_2', '27_1', '27_2',
+    ]);
+
     const ISSUES = [
       { v: 12, i: 1, title: "Science and War", sem: "Fall", year: 2007, url: "https://escholarship.org/uc/our_bsj/12/1" },
       { v: 12, i: 2, title: "Consciousness and the Mind", sem: "Spring", year: 2008, url: "https://escholarship.org/uc/our_bsj/12/2" },
@@ -113,6 +118,7 @@
       ...issue,
       cover: `assets/covers/webp/${issue.v}_${issue.i}.webp`,
       coverFallback: `assets/covers/jpg/${issue.v}_${issue.i}.jpg`,
+      pdf: LOCAL_PDFS.has(`${issue.v}_${issue.i}`) ? `assets/issues/pdfs/${issue.v}_${issue.i}.pdf` : null,
     })).reverse(); // newest first
 
     const grid = document.getElementById('issue-grid');
@@ -141,19 +147,20 @@
         const haystack = `${label} ${sem} volume ${issue.v} issue ${issue.i}`.toLowerCase();
         if (q && haystack.indexOf(q) === -1) return;
         shown++;
-        const a = document.createElement('a');
+        const a = document.createElement('div');
         a.className = 'issue-card reveal in-view';
-        a.href = issue.url;
-        a.target = '_blank';
-        a.rel = 'noopener';
         a.innerHTML = `
-        <div class="issue-cover">
+        <a class="issue-cover" href="${issue.pdf || issue.url}" target="_blank" rel="noopener">
           <img src="${issue.cover}" onerror="this.onerror=null;this.src='${issue.coverFallback}'" alt="${label} cover" loading="lazy">
-        </div>
+        </a>
         <div class="issue-meta">
           <div class="vol">Vol. ${issue.v} · No. ${issue.i}</div>
           <h4>${label}</h4>
           <div class="sem">${sem}</div>
+          <div class="issue-links">
+            ${issue.pdf ? `<a href="${issue.pdf}" target="_blank" rel="noopener">Read PDF</a><span class="issue-links-sep">·</span>` : ''}
+            <a href="${issue.url}" target="_blank" rel="noopener">eScholarship</a>
+          </div>
         </div>`;
         grid.appendChild(a);
       });
