@@ -9,18 +9,26 @@
     });
   }
 
-  // Theme toggle (persists via localStorage)
+  // Theme toggle (light by default, persists via localStorage)
+  var ICON_MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>';
+  var ICON_SUN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>';
   var themeBtn = document.querySelector('.theme-toggle');
   function applyTheme(theme) {
-    if (theme === 'dark' || theme === 'light') {
-      document.documentElement.setAttribute('data-theme', theme);
+    if (theme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
     } else {
       document.documentElement.removeAttribute('data-theme');
     }
   }
+  function paintThemeBtn() {
+    if (!themeBtn) return;
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    themeBtn.innerHTML = isDark ? ICON_SUN : ICON_MOON;
+    themeBtn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+  }
   try {
     var saved = localStorage.getItem('bsj-theme');
-    if (saved) applyTheme(saved);
+    if (saved === 'dark') applyTheme('dark');
   } catch (e) {}
   if (themeBtn) {
     themeBtn.addEventListener('click', function () {
@@ -28,10 +36,9 @@
       var next = current === 'dark' ? 'light' : 'dark';
       applyTheme(next);
       try { localStorage.setItem('bsj-theme', next); } catch (e) {}
-      themeBtn.textContent = next === 'dark' ? '☀︎' : '☾︎';
+      paintThemeBtn();
     });
-    var cur = document.documentElement.getAttribute('data-theme');
-    themeBtn.textContent = cur === 'dark' ? '☀︎' : '☾︎';
+    paintThemeBtn();
   }
 
   // Scroll reveal. IntersectionObserver is the primary mechanism, but a fast/instant
