@@ -245,6 +245,7 @@ section { padding: 88px 0; }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 900px) { .grid-3, .grid-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .article-grid, .article-preview-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; } }
 
 .card {
@@ -492,6 +493,8 @@ a.person-card { cursor: pointer; }
 .article-content figure img { width: 100%; border-radius: var(--bsj-radius-md); }
 .article-content figcaption { margin-top: 9px; color: var(--bsj-text-muted); font-size: 13px; line-height: 1.45; }
 .article-content li { margin-bottom: .65em; }
+.article-content .video-embed { position: relative; aspect-ratio: 16 / 9; border-radius: var(--bsj-radius-md); overflow: hidden; background: var(--bsj-bg); box-shadow: var(--bsj-shadow-sm); }
+.article-content .video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .archive-tabs { display: inline-flex; gap: 4px; margin-bottom: 34px; padding: 4px; border: 1px solid var(--bsj-border); border-radius: var(--bsj-radius-full); background: var(--bsj-surface); }
 .archive-tabs button { border: 0; border-radius: var(--bsj-radius-full); padding: 10px 20px; background: transparent; color: var(--bsj-text-muted); cursor: pointer; font: 700 14px var(--bsj-font-sans); transition: background .15s ease, color .15s ease; }
