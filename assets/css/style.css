@@ -234,7 +234,7 @@ section { padding: 88px 0; }
 
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; }
-  .hero-visual { max-width: 420px; }
+  .hero-visual { max-width: 420px; margin: 0 auto; }
 }
 
 /* ==========================================================================
@@ -562,4 +562,67 @@ section { padding: 88px 0; }
   display: flex; align-items: center; justify-content: center;
   cursor: pointer;
   flex: none;
+}
+
+/* ===========================================================================
+   Compact screens
+   These adjustments retain the desktop visual language while giving touch
+   controls, typography, and content blocks comfortable room on small screens.
+   =========================================================================== */
+@media (max-width: 700px) {
+  section { padding: 64px 0; }
+  .section-tight { padding: 40px 0; }
+  .container { padding-left: 18px; padding-right: 18px; }
+  .page-header { padding-top: 52px; padding-bottom: 52px; }
+  .section-head { margin-bottom: 34px; }
+
+  .navbar-inner { padding: 10px 18px; }
+  .brand { gap: 8px; font-size: 15px; }
+  .brand img { height: 31px; }
+  .nav-cta { gap: 8px; }
+  .theme-toggle, .nav-toggle { width: 44px; height: 44px; }
+  .navbar.open .nav-links { padding: 10px 18px 18px; }
+  .navbar.open .nav-links a { padding: 13px 14px; }
+
+  .hero { padding: 64px 0 58px; }
+  .hero-grid { gap: 38px; }
+  .hero-actions { margin-top: 26px; }
+  .hero-actions .btn { flex: 1 1 190px; }
+  .hero-stats { margin-top: 36px; gap: 22px; }
+  .hero-visual .tag { bottom: 12px; left: 12px; right: 12px; padding: 11px 12px; font-size: 12.5px; }
+
+  .card, .division-card { padding: 24px; }
+  .division-card[style*="grid-column"] { grid-column: auto !important; }
+  .person-body { padding: 16px 17px 19px; }
+
+  .journal-search { max-width: none; margin-bottom: 22px; }
+  .journal-search input, .field input, .field select, .field textarea { font-size: 16px; }
+  .journal-filters { gap: 8px; margin-bottom: 28px; }
+  .journal-filters button { min-height: 44px; padding: 9px 15px; }
+  .issue-grid { gap: 18px; }
+
+  .form-card { padding: 24px 20px; }
+  .contact-grid { gap: 32px; }
+  .map-card iframe { height: 220px; }
+
+  .cta-band { padding: 32px 26px; gap: 24px; }
+  .cta-band > div:last-child { width: 100%; }
+  .cta-band > div:last-child .btn { flex: 1 1 180px; }
+
+  .site-footer { padding-top: 52px; }
+  .footer-grid { gap: 32px 24px; margin-bottom: 38px; }
+}
+
+@media (max-width: 430px) {
+  .brand .brand-sub { display: none; }
+  .hero-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .hero-stats div:last-child { grid-column: span 2; }
+  .hero-stats div strong { font-size: 28px; }
+  .cta-band { padding: 28px 22px; }
+  .footer-bottom { align-items: flex-start; flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
