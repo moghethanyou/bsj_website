@@ -32,6 +32,10 @@
     return isNaN(date) ? '' : date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   }
 
+  function byline(post) {
+    return post.author ? 'By ' + post.author + ' · Berkeley Scientific Journal' : 'Berkeley Scientific Journal';
+  }
+
   function escapeHtml(value) {
     var element = document.createElement('div');
     element.textContent = value || '';
@@ -70,9 +74,10 @@
       visual.appendChild(image);
       card.appendChild(visual);
     }
+    var meta = formatDate(post.date) + (post.author ? ' · By ' + escapeHtml(post.author) : '');
     var body = document.createElement('div');
     body.className = 'article-card-body';
-    body.innerHTML = '<div class="article-card-meta">' + formatDate(post.date) + '</div>' +
+    body.innerHTML = '<div class="article-card-meta">' + meta + '</div>' +
       '<h2>' + escapeHtml(post.title) + '</h2>' +
       '<p>' + escapeHtml(excerpt(post)) + '</p>' +
       '<span class="article-card-link">Read article <span aria-hidden="true">→</span></span>';
@@ -93,7 +98,7 @@
     function render() {
       var query = (search.value || '').trim().toLowerCase();
       var matches = posts.filter(function (post) {
-        return !query || (post.title + ' ' + excerpt(post) + ' ' + post.date).toLowerCase().indexOf(query) !== -1;
+        return !query || (post.title + ' ' + excerpt(post) + ' ' + post.date + ' ' + (post.author || '')).toLowerCase().indexOf(query) !== -1;
       });
       grid.innerHTML = '';
       matches.slice(0, shown).forEach(function (post) { grid.appendChild(articleCard(post)); });
@@ -153,7 +158,7 @@
     }
     document.title = post.title + ' | Berkeley Scientific Journal';
     title.textContent = post.title;
-    deck.textContent = excerpt(post);
+    deck.textContent = byline(post);
     date.textContent = formatDate(post.date);
     content.innerHTML = sanitizeArticle(post.content_html);
   }
