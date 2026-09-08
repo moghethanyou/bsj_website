@@ -26,6 +26,7 @@
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="articles.html">Articles</a></li>
           <li><a href="journals.html">Past Journals</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -87,6 +88,22 @@
           <h3>Design</h3>
           <p>Editorial layout and typesetting that bring every issue to life in print.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="article-preview-section">
+    <div class="container">
+      <div class="section-head article-preview-head">
+        <div>
+          <div class="eyebrow">From the recovered archive</div>
+          <h2>Stories worth returning to.</h2>
+          <p class="lede">Explore the writing that shaped BSJ between issues: accessible reporting on science, people, and ideas.</p>
+        </div>
+        <a href="articles.html" class="btn btn-outline">Browse all articles <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="article-preview-grid" id="article-preview" aria-live="polite">
+        <p class="article-loading">Loading the article archive…</p>
       </div>
     </div>
   </section>
@@ -168,6 +185,7 @@
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="articles.html">Articles</a></li>
             <li><a href="journals.html">Past Journals</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
@@ -224,6 +242,7 @@
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/articles.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 

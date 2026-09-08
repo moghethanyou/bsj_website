@@ -5,3 +5,8 @@ Thumbs.db
 # site itself (assets/covers/{jpg,webp,thumbs} are the processed versions used
 # on the live pages). Keep these locally; no need to ship them to the repo.
 /covers/
+
+# Recovered source exports are retained locally for reference. The site uses the
+# curated, web-ready assets in /assets instead; do not commit multi-gigabyte
+# archive dumps.
+/old_stuff/

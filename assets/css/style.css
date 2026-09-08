@@ -455,6 +455,40 @@ a.person-card { cursor: pointer; }
 .issue-meta .sem { font-size: 12px; color: var(--bsj-text-muted); }
 .issue-empty { text-align: center; padding: 60px 20px; color: var(--bsj-text-muted); display: none; }
 
+/* Recovered article archive */
+.article-preview-section { border-top: 1px solid var(--bsj-border); }
+.article-preview-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 32px; }
+.article-preview-head .lede { margin-bottom: 0; }
+.article-preview-head .btn { flex: none; }
+.archive-tools { display: flex; align-items: center; gap: 18px; margin-bottom: 28px; }
+.archive-tools input { min-width: 0; flex: 1; border: 1px solid var(--bsj-border); border-radius: var(--bsj-radius-full); background: var(--bsj-surface); color: var(--bsj-text); padding: 13px 20px; font: inherit; box-shadow: var(--bsj-shadow-sm); }
+.archive-tools input:focus { outline: 2px solid color-mix(in srgb, var(--bsj-berkeley-blue) 45%, transparent); outline-offset: 2px; }
+.archive-count { color: var(--bsj-text-muted); font-size: 14px; white-space: nowrap; }
+.article-grid, .article-preview-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.article-card { display: flex; min-height: 258px; flex-direction: column; align-items: flex-start; padding: 28px; background: var(--bsj-surface); border: 1px solid var(--bsj-border); border-radius: var(--bsj-radius-lg); box-shadow: var(--bsj-shadow-sm); transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+.article-card:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--bsj-founders-rock) 50%, var(--bsj-border)); box-shadow: var(--bsj-shadow-md); }
+.article-card-meta { color: var(--bsj-medalist); font-family: var(--bsj-font-mono); font-size: 11px; font-weight: 700; letter-spacing: .055em; text-transform: uppercase; }
+.article-card h2 { margin: 12px 0 9px; font-size: 21px; }
+.article-card p { color: var(--bsj-text-muted); font-size: 14px; line-height: 1.55; }
+.article-card-link { margin-top: auto; color: var(--bsj-berkeley-blue); font-size: 14px; font-weight: 700; }
+.article-more { display: flex; margin: 34px auto 0; }
+.article-loading { color: var(--bsj-text-muted); grid-column: 1 / -1; text-align: center; padding: 44px 0; }
+.article-header { padding: 68px 0 42px; background: linear-gradient(135deg, color-mix(in srgb, var(--bsj-california-gold) 16%, var(--bsj-bg)), var(--bsj-bg)); border-bottom: 1px solid var(--bsj-border); }
+.article-shell { width: 100%; max-width: 760px; margin: 0 auto; padding: 0 24px; }
+.back-link { display: inline-block; margin-bottom: 28px; color: var(--bsj-berkeley-blue); font-weight: 700; font-size: 14px; }
+.article-header .eyebrow { margin-bottom: 13px; }
+.article-header h1 { font-size: clamp(32px, 4.2vw, 52px); letter-spacing: -.02em; }
+.article-content { padding-top: 54px; padding-bottom: 88px; font-size: 17px; }
+.article-content > * { margin-bottom: 1.35em; }
+.article-content h1, .article-content h2, .article-content h3 { margin-top: 2em; }
+.article-content h2 { font-size: 29px; }
+.article-content a { color: var(--bsj-berkeley-blue); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.article-content figure { margin: 2.1em auto; }
+.article-content figure img { width: 100%; border-radius: var(--bsj-radius-md); }
+.article-content figcaption { margin-top: 9px; color: var(--bsj-text-muted); font-size: 13px; line-height: 1.45; }
+.article-content li { margin-bottom: .65em; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
 /* ==========================================================================
    Contact
    ========================================================================== */
@@ -611,6 +645,14 @@ a.person-card { cursor: pointer; }
   .journal-filters { gap: 8px; margin-bottom: 28px; }
   .journal-filters button { min-height: 44px; padding: 9px 15px; }
   .issue-grid { gap: 18px; }
+
+  .article-preview-head { align-items: flex-start; flex-direction: column; }
+  .article-grid, .article-preview-grid { grid-template-columns: 1fr; }
+  .article-card { min-height: 0; padding: 24px; }
+  .archive-tools { align-items: stretch; flex-direction: column; gap: 9px; }
+  .article-shell { padding-left: 18px; padding-right: 18px; }
+  .article-header { padding-top: 50px; padding-bottom: 32px; }
+  .article-content { padding-top: 38px; padding-bottom: 64px; font-size: 16px; }
 
   .form-card { padding: 24px 20px; }
   .contact-grid { gap: 32px; }

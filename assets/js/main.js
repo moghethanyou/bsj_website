@@ -6,6 +6,7 @@
   if (toggle && navbar) {
     toggle.addEventListener('click', function () {
       navbar.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', navbar.classList.contains('open') ? 'true' : 'false');
     });
   }
 
