@@ -467,6 +467,11 @@ a.person-card { cursor: pointer; }
 .article-grid, .article-preview-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .article-card { display: flex; min-height: 258px; flex-direction: column; align-items: flex-start; padding: 28px; background: var(--bsj-surface); border: 1px solid var(--bsj-border); border-radius: var(--bsj-radius-lg); box-shadow: var(--bsj-shadow-sm); transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
 .article-card:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--bsj-founders-rock) 50%, var(--bsj-border)); box-shadow: var(--bsj-shadow-md); }
+.article-card.has-image { padding: 0; overflow: hidden; }
+.article-card-image { width: 100%; aspect-ratio: 16 / 9; background: var(--bsj-bg); overflow: hidden; }
+.article-card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
+.article-card:hover .article-card-image img { transform: scale(1.035); }
+.article-card-body { display: flex; flex: 1; width: 100%; flex-direction: column; align-items: flex-start; padding: 28px; }
 .article-card-meta { color: var(--bsj-medalist); font-family: var(--bsj-font-mono); font-size: 11px; font-weight: 700; letter-spacing: .055em; text-transform: uppercase; }
 .article-card h2 { margin: 12px 0 9px; font-size: 21px; }
 .article-card p { color: var(--bsj-text-muted); font-size: 14px; line-height: 1.55; }
@@ -488,6 +493,9 @@ a.person-card { cursor: pointer; }
 .article-content figcaption { margin-top: 9px; color: var(--bsj-text-muted); font-size: 13px; line-height: 1.45; }
 .article-content li { margin-bottom: .65em; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.archive-tabs { display: inline-flex; gap: 4px; margin-bottom: 34px; padding: 4px; border: 1px solid var(--bsj-border); border-radius: var(--bsj-radius-full); background: var(--bsj-surface); }
+.archive-tabs button { border: 0; border-radius: var(--bsj-radius-full); padding: 10px 20px; background: transparent; color: var(--bsj-text-muted); cursor: pointer; font: 700 14px var(--bsj-font-sans); transition: background .15s ease, color .15s ease; }
+.archive-tabs button[aria-selected="true"] { background: var(--bsj-berkeley-blue); color: #fff; }
 
 /* ==========================================================================
    Contact
@@ -649,6 +657,8 @@ a.person-card { cursor: pointer; }
   .article-preview-head { align-items: flex-start; flex-direction: column; }
   .article-grid, .article-preview-grid { grid-template-columns: 1fr; }
   .article-card { min-height: 0; padding: 24px; }
+  .article-card.has-image { padding: 0; }
+  .article-card-body { padding: 24px; }
   .archive-tools { align-items: stretch; flex-direction: column; gap: 9px; }
   .article-shell { padding-left: 18px; padding-right: 18px; }
   .article-header { padding-top: 50px; padding-bottom: 32px; }

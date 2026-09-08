@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Past Journals | Berkeley Scientific Journal</title>
+  <title>Archive | Berkeley Scientific Journal</title>
   <meta name="description"
-    content="Browse the full archive of Berkeley Scientific Journal issues, from Volume 12 to the present, with links to read each issue.">
+    content="Explore Berkeley Scientific Journal issues and student-written science articles in one archive.">
   <link rel="icon" href="assets/brand/favicons/favicon.ico" sizes="any">
   <link rel="icon" type="image/svg+xml" href="assets/brand/favicons/favicon.svg">
   <link rel="apple-touch-icon" href="assets/brand/favicons/apple-touch-icon.png">
@@ -26,8 +26,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="leadership.html">Leadership</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="journals.html" class="active">Past Journals</a></li>
+          <li><a href="journals.html" class="active">Archive</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
@@ -40,21 +39,30 @@
 
   <section class="page-header">
     <div class="container">
-      <div class="breadcrumb"><a href="index.html">Home</a> / Past Journals</div>
-      <h1>The Archive</h1>
-      <p class="lede">Every issue of the Berkeley Scientific Journal, Volume 12 to today. Click a cover to read the full
-        issue on eScholarship.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> / Archive</div>
+      <h1>Archive</h1>
+      <p class="lede">Explore the Berkeley Scientific Journal through full issues and individual stories from across the years.</p>
     </div>
   </section>
 
   <section class="section-tight">
     <div class="container">
-      <div class="journal-search">
-        <input type="text" id="issue-search" placeholder="Search by title, volume, or year…">
+      <div class="archive-tabs" role="tablist" aria-label="Archive collection">
+        <button type="button" role="tab" id="issues-tab" aria-controls="archive-issues" aria-selected="true" data-view="issues">Issues</button>
+        <button type="button" role="tab" id="articles-tab" aria-controls="archive-articles" aria-selected="false" data-view="articles">Articles</button>
       </div>
-      <div class="journal-filters" id="decade-filters"></div>
-      <div class="issue-grid" id="issue-grid"></div>
-      <div class="issue-empty" id="issue-empty">No issues match your search.</div>
+      <div id="archive-issues" role="tabpanel" aria-labelledby="issues-tab">
+        <div class="journal-search"><input type="text" id="issue-search" placeholder="Search by title, volume, or year…"></div>
+        <div class="journal-filters" id="decade-filters"></div>
+        <div class="issue-grid" id="issue-grid"></div>
+        <div class="issue-empty" id="issue-empty">No issues match your search.</div>
+      </div>
+      <div id="archive-articles" role="tabpanel" aria-labelledby="articles-tab" hidden>
+        <div class="archive-tools"><label class="sr-only" for="article-search">Search articles</label><input id="article-search" type="search" placeholder="Search articles…" autocomplete="off"><span id="article-count" class="archive-count"></span></div>
+        <div id="article-grid" class="article-grid" aria-live="polite"><p class="article-loading">Loading articles…</p></div>
+        <p id="article-empty" class="issue-empty">No articles match that search.</p>
+        <button id="article-more" class="btn btn-outline article-more" hidden>Show more articles</button>
+      </div>
     </div>
   </section>
 
@@ -166,6 +174,19 @@
     });
     search.addEventListener('input', render);
     render();
+
+    const tabs = document.querySelectorAll('.archive-tabs [data-view]');
+    const panels = { issues: document.getElementById('archive-issues'), articles: document.getElementById('archive-articles') };
+    function selectView(view, replace) {
+      const chosen = panels[view] ? view : 'issues';
+      Object.keys(panels).forEach(name => { panels[name].hidden = name !== chosen; });
+      tabs.forEach(tab => tab.setAttribute('aria-selected', String(tab.dataset.view === chosen)));
+      const url = new URL(window.location.href);
+      if (chosen === 'issues') url.searchParams.delete('view'); else url.searchParams.set('view', chosen);
+      history[replace ? 'replaceState' : 'pushState']({}, '', url);
+    }
+    tabs.forEach(tab => tab.addEventListener('click', () => selectView(tab.dataset.view)));
+    selectView(new URLSearchParams(window.location.search).get('view'), true);
   </script>
 
   <footer class="site-footer">
@@ -184,8 +205,7 @@
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="leadership.html">Leadership</a></li>
-            <li><a href="articles.html">Articles</a></li>
-            <li><a href="journals.html">Past Journals</a></li>
+            <li><a href="journals.html">Archive</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
@@ -241,6 +261,7 @@
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/articles.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 
