@@ -39,10 +39,17 @@
     });
   }
 
+  function cleanInvisibleText(value) {
+    return String(value || '')
+      .replace(/\u00ad/g, '')
+      .replace(/([A-Za-z0-9])[\u200B\u200C\u2060]+(?=[A-Za-z0-9])/g, '$1')
+      .replace(/[\u200B\u200C\u2060]+/g, ' ');
+  }
+
   function plainText(html) {
     var documentFragment = new DOMParser().parseFromString(html || '', 'text/html');
     documentFragment.querySelectorAll('br').forEach(function (lineBreak) { lineBreak.replaceWith(' '); });
-    return (documentFragment.body.textContent || '').replace(/\s+/g, ' ').trim();
+    return cleanInvisibleText(documentFragment.body.textContent).replace(/\s+/g, ' ').trim();
   }
 
   function truncate(value, limit) {
@@ -83,7 +90,7 @@
   }
 
   function normalizeSource(value) {
-    var source = (value || '').trim();
+    var source = String(value || '').replace(/[\u00ad\u200B\u200C\u2060]/g, '').trim();
     if (!source) return '';
     if (source.indexOf('./assets/') === 0) source = source.slice(2);
     if (source.indexOf('assets/') === 0) return source;
@@ -100,7 +107,7 @@
   }
 
   function normalizeLink(value) {
-    var href = (value || '').trim();
+    var href = String(value || '').replace(/[\u00ad\u200B\u200C\u2060]/g, '').trim();
     if (!href) return '';
     if (href.charAt(0) === '#') return href;
     if (href.indexOf('./assets/') === 0) return href.slice(2);
@@ -514,6 +521,80 @@
     });
   }
 
+  function cleanImportedPageFurniture(body) {
+    var walker = body.ownerDocument.createTreeWalker(body, 4);
+    var textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+    textNodes.forEach(function (node) {
+      node.nodeValue = cleanInvisibleText(node.nodeValue)
+        .replace(/\bB\s+S\s+J\s+B\s+S\s+J\b/gi, '')
+        .replace(/(^|\s)[•·]\s*S(?=\s|$)/g, '$1')
+        .replace(/[ \t]{2,}/g, ' ');
+    });
+    body.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(function (heading) {
+      if (!heading.textContent.trim()) heading.remove();
+    });
+    body.querySelectorAll('p, li').forEach(function (block) {
+      if (!block.textContent.trim() && !block.querySelector('img, iframe')) block.remove();
+    });
+    body.querySelectorAll('ul, ol').forEach(function (list) {
+      if (!list.querySelector('li, img, iframe')) list.remove();
+    });
+  }
+
+  function removeRepeatedLeadTitle(body, articleTitle) {
+    var lead = body.firstElementChild;
+    if (!lead || !/^(P|H[1-3])$/.test(lead.tagName)) return;
+    var titleWords = normalizeSearch(articleTitle).split(' ').filter(Boolean);
+    var leadWords = normalizeSearch(lead.textContent).split(' ').filter(Boolean);
+    if (titleWords.length < 5 || Math.abs(titleWords.length - leadWords.length) > 1) return;
+    var matches = titleWords.reduce(function (total, word, index) {
+      return total + (leadWords[index] === word ? 1 : 0);
+    }, 0);
+    if (matches / Math.max(titleWords.length, leadWords.length) >= 0.85) lead.remove();
+  }
+
+  function promoteImportedSectionHeadings(body) {
+    var labels = {
+      abstract: 'Abstract',
+      introduction: 'Introduction',
+      background: 'Background',
+      'materials and methods': 'Materials and Methods',
+      methods: 'Methods',
+      methodology: 'Methodology',
+      results: 'Results',
+      discussion: 'Discussion',
+      conclusion: 'Conclusion',
+      conclusions: 'Conclusions',
+      limitations: 'Limitations',
+      'future directions': 'Future Directions',
+      acknowledgements: 'Acknowledgements',
+      acknowledgments: 'Acknowledgments'
+    };
+    var pattern = /^(\s*)(Abstract|Introduction|Background|Materials and Methods|Methods|Methodology|Results|Discussion|Conclusion|Conclusions|Limitations|Future Directions|Acknowledgements|Acknowledgments)(?:([.:])\s*|\s+)/i;
+    Array.prototype.slice.call(body.children).forEach(function (paragraph) {
+      if (paragraph.tagName !== 'P') return;
+      var walker = body.ownerDocument.createTreeWalker(paragraph, 4);
+      var firstText = null;
+      while (walker.nextNode()) {
+        if (walker.currentNode.nodeValue.trim()) {
+          firstText = walker.currentNode;
+          break;
+        }
+      }
+      if (!firstText) return;
+      var match = firstText.nodeValue.match(pattern);
+      if (!match) return;
+      var remainder = firstText.nodeValue.slice(match[0].length);
+      if (!match[3] && remainder && !/^[A-Z0-9(]/.test(remainder)) return;
+      var heading = document.createElement('h2');
+      heading.textContent = labels[match[2].toLowerCase()];
+      paragraph.parentNode.insertBefore(heading, paragraph);
+      firstText.nodeValue = remainder;
+      if (!paragraph.textContent.trim() && !paragraph.querySelector('img, iframe')) paragraph.remove();
+    });
+  }
+
   function safeSrcset(value) {
     var candidates = (value || '').split(',').map(function (candidate) {
       var parts = candidate.trim().split(/\s+/);
@@ -585,7 +666,10 @@
       heading.replaceWith(replacement);
     });
 
+    cleanImportedPageFurniture(body);
+    removeRepeatedLeadTitle(body, articleTitle);
     promoteEditorialHeadings(body);
+    promoteImportedSectionHeadings(body);
 
     var normalizedTitle = normalizeSearch(articleTitle);
     var firstHeading = body.querySelector('h2, h3');
