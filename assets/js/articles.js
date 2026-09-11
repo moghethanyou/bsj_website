@@ -43,8 +43,9 @@
     return String(value || '')
       .replace(/([\p{L}\p{N}])\u00ad[ \t]+(?=[\p{L}\p{N}])/gu, '$1')
       .replace(/\u00ad/g, '')
-      .replace(/([A-Za-z0-9])[\u200B\u200C\u2060]+(?=[A-Za-z0-9])/g, '$1')
-      .replace(/[\u200B\u200C\u2060]+/g, ' ');
+      .replace(/([\p{L}\p{N}])[\u200B-\u200D\u2060\uFEFF]+(?=[\p{L}\p{N}])/gu, '$1')
+      .replace(/[\u200B-\u200D\u2060\uFEFF]+(?=[.,;:!?\u2014\u2013])/g, '')
+      .replace(/[\u200B-\u200D\u2060\uFEFF]+/g, ' ');
   }
 
   function plainText(html) {
@@ -91,7 +92,7 @@
   }
 
   function normalizeSource(value) {
-    var source = String(value || '').replace(/[\u00ad\u200B\u200C\u2060]/g, '').trim();
+    var source = String(value || '').replace(/[\u00ad\u200B-\u200D\u2060\uFEFF]/g, '').trim();
     if (!source) return '';
     if (source.indexOf('./assets/') === 0) source = source.slice(2);
     if (source.indexOf('assets/') === 0) return source;
@@ -108,7 +109,7 @@
   }
 
   function normalizeLink(value) {
-    var href = String(value || '').replace(/[\u00ad\u200B\u200C\u2060]/g, '').trim();
+    var href = String(value || '').replace(/[\u00ad\u200B-\u200D\u2060\uFEFF]/g, '').trim();
     if (!href) return '';
     if (href.charAt(0) === '#') return href;
     if (href.indexOf('./assets/') === 0) return href.slice(2);
