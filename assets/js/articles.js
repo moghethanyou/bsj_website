@@ -41,6 +41,7 @@
 
   function cleanInvisibleText(value) {
     return String(value || '')
+      .replace(/([\p{L}\p{N}])\u00ad[ \t]+(?=[\p{L}\p{N}])/gu, '$1')
       .replace(/\u00ad/g, '')
       .replace(/([A-Za-z0-9])[\u200B\u200C\u2060]+(?=[A-Za-z0-9])/g, '$1')
       .replace(/[\u200B\u200C\u2060]+/g, ' ');
