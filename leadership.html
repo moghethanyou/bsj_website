@@ -21,18 +21,18 @@
         <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
         <span>Berkeley Scientific Journal<span class="brand-sub">UC Berkeley</span></span>
       </a>
-      <nav>
+      <nav aria-label="Primary navigation">
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="leadership.html" class="active">Leadership</a></li>
+          <li><a href="leadership.html" class="active" aria-current="page">Leadership</a></li>
           <li><a href="journals.html">Archive</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
       <div class="nav-cta">
-        <a href="journals.html" class="btn btn-outline btn-sm">Read the Journal</a>
-        <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+        <a href="journals.html?view=issues" class="btn btn-outline btn-sm">Read the Journal</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
       </div>
     </div>
   </header>
@@ -337,9 +337,9 @@
         <div>
           <h5>Read</h5>
           <ul>
-            <li><a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener">eScholarship Archive</a>
-            </li>
-            <li><a href="https://bsj.studentorg.berkeley.edu/" target="_blank" rel="noopener">Official BSJ Site</a></li>
+            <li><a href="journals.html?view=issues">Full Issues</a></li>
+            <li><a href="journals.html?view=articles">Articles</a></li>
+            <li><a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener">eScholarship</a></li>
           </ul>
         </div>
         <div>

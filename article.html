@@ -1,14 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Article | Berkeley Scientific Journal</title><meta name="description" content="An article from the Berkeley Scientific Journal archive.">
-  <link rel="icon" href="assets/brand/favicons/favicon.ico" sizes="any"><link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article | Berkeley Scientific Journal</title>
+  <meta name="description" content="Read an article from the Berkeley Scientific Journal archive.">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Berkeley Scientific Journal">
+  <meta property="og:title" content="Berkeley Scientific Journal">
+  <meta property="og:description" content="Undergraduate science journalism from UC Berkeley.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link id="article-canonical" rel="canonical" href="article.html">
+  <link rel="icon" href="assets/brand/favicons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/favicons/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/brand/favicons/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-  <header class="navbar"><div class="navbar-inner"><a href="index.html" class="brand"><img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal"><span>Berkeley Scientific Journal<span class="brand-sub">UC Berkeley</span></span></a><nav aria-label="Primary navigation"><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="leadership.html">Leadership</a></li><li><a href="journals.html" class="active">Archive</a></li><li><a href="contact.html">Contact Us</a></li></ul></nav><div class="nav-cta"><a href="journals.html?view=issues" class="btn btn-outline btn-sm">Read the Journal</a><button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button></div></div></header>
-  <main id="article-page"><section class="article-header"><div class="article-shell"><a class="back-link" href="journals.html?view=articles">← All articles</a><p class="eyebrow"><span id="article-date"></span></p><h1 id="article-title">Loading article…</h1><p id="article-deck" class="lede byline"></p></div></section><article id="article-content" class="article-content article-shell" aria-live="polite"></article></main>
-  <footer class="site-footer"><div class="container"><div class="footer-bottom"><span>© <span id="year"></span> Berkeley Scientific Journal · UC Berkeley</span><a href="journals.html?view=articles">Archive</a></div></div></footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script><script src="assets/js/articles.js"></script><script src="assets/js/main.js"></script>
+
+<body class="article-page">
+  <a class="skip-link" href="#article-content">Skip to article</a>
+  <div class="article-progress" aria-hidden="true"><span id="article-progress-bar"></span></div>
+
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
+        <span>Berkeley Scientific Journal<span class="brand-sub">UC Berkeley</span></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="journals.html" class="active" aria-current="page">Archive</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a href="journals.html?view=issues" class="btn btn-outline btn-sm">Read the Journal</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="article-page">
+    <header class="article-header">
+      <div class="article-heading-shell">
+        <nav class="article-breadcrumb" aria-label="Breadcrumb">
+          <a href="journals.html">Archive</a><span aria-hidden="true">/</span><a href="journals.html?view=articles">Articles</a>
+        </nav>
+        <div class="article-kicker-row">
+          <span id="article-category" class="article-category">Article</span>
+        </div>
+        <h1 id="article-title">Loading article…</h1>
+        <p id="article-deck" class="article-deck" hidden></p>
+        <div class="article-byline-meta" aria-label="Article details">
+          <span id="article-author">Berkeley Scientific Journal</span>
+          <span class="article-meta-separator" aria-hidden="true"></span>
+          <time id="article-date"></time>
+          <span class="article-meta-separator" aria-hidden="true"></span>
+          <span id="article-reading-time"></span>
+        </div>
+      </div>
+    </header>
+
+    <div class="article-layout container">
+      <aside class="article-aside" aria-label="Article tools">
+        <a class="article-back-link" href="journals.html?view=articles"><span aria-hidden="true">←</span> All articles</a>
+        <div id="article-toc" class="article-toc" hidden>
+          <p class="article-aside-label">In this article</p>
+          <ol id="article-toc-list"></ol>
+        </div>
+        <div class="article-share">
+          <p class="article-aside-label">Share</p>
+          <button id="article-share-button" type="button" class="article-tool-button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4"></path>
+            </svg>
+            <span id="article-share-label">Share article</span>
+          </button>
+        </div>
+      </aside>
+
+      <article id="article-content" class="article-content" aria-live="polite" aria-busy="true">
+        <p class="article-loading">Loading article…</p>
+      </article>
+    </div>
+
+    <section id="related-articles" class="related-articles" hidden aria-labelledby="related-heading">
+      <div class="container">
+        <div class="related-articles-head">
+          <div>
+            <p class="eyebrow">Continue reading</p>
+            <h2 id="related-heading">More from the journal</h2>
+          </div>
+          <a href="journals.html?view=articles" class="text-link">Browse the archive <span aria-hidden="true">→</span></a>
+        </div>
+        <div id="related-article-grid" class="article-grid related-article-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="figure-lightbox" class="figure-lightbox" role="dialog" aria-modal="true" aria-label="Expanded figure" hidden>
+    <button id="figure-lightbox-close" class="figure-lightbox-close" type="button" aria-label="Close expanded figure">×</button>
+    <div class="figure-lightbox-inner">
+      <img id="figure-lightbox-image" alt="">
+      <p id="figure-lightbox-caption"></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
+            <span>Berkeley Scientific Journal</span>
+          </div>
+          <p>The undergraduate science research journal at UC Berkeley, publishing original research, interviews, and features since 1996.</p>
+        </div>
+        <div>
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="journals.html">Archive</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Read</h5>
+          <ul>
+            <li><a href="journals.html?view=issues">Full Issues</a></li>
+            <li><a href="journals.html?view=articles">Articles</a></li>
+            <li><a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener">eScholarship</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:bsj.berkeley@gmail.com">bsj.berkeley@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/berkeley-scientific-journal" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Berkeley Scientific Journal · UC Berkeley</span>
+        <div class="footer-social">
+          <button class="theme-toggle" aria-label="Switch to dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path></svg></button>
+          <span class="footer-divider"></span>
+          <a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"></circle></svg></a>
+          <a href="https://www.linkedin.com/company/berkeley-scientific-journal" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45z"></path></svg></a>
+          <a href="mailto:bsj.berkeley@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/articles.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
