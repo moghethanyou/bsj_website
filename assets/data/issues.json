@@ -1,317 +1,6182 @@
 [
-  {
-    "volume": 12,
-    "issue": 1,
-    "title": "Science and War",
-    "semester": null,
-    "year": null,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/12/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 12,
-    "issue": 2,
-    "title": "Consciousness and Mind",
-    "semester": "Fall",
-    "year": 2008,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/12/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 13,
-    "issue": 1,
-    "title": "Technology & the Human",
-    "semester": "Fall",
-    "year": 2009,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/13/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 13,
-    "issue": 2,
-    "title": "Economics",
-    "semester": "Spring",
-    "year": 2010,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/13/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 14,
-    "issue": 1,
-    "title": "Infectious Disease",
-    "semester": null,
-    "year": null,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/14/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 14,
-    "issue": 2,
-    "title": "Accidents: Serendipity in Science",
-    "semester": null,
-    "year": null,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/14/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 15,
-    "issue": 1,
-    "title": "Emotions and Thought",
-    "semester": null,
-    "year": null,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/15/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 15,
-    "issue": 2,
-    "title": "Science Fiction",
-    "semester": "Spring",
-    "year": 2011,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/15/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 16,
-    "issue": 1,
-    "title": "The Science of Food",
-    "semester": null,
-    "year": 2011,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/16/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 16,
-    "issue": 2,
-    "title": "Save or Destroy",
-    "semester": null,
-    "year": 2012,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/16/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 17,
-    "issue": 1,
-    "title": "Science of Color",
-    "semester": null,
-    "year": 2013,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/17/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 17,
-    "issue": 2,
-    "title": "Death and Dying",
-    "semester": null,
-    "year": 2013,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/17/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 18,
-    "issue": 1,
-    "title": "Stress",
-    "semester": null,
-    "year": 2013,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/18/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 18,
-    "issue": 2,
-    "title": "Synthetics",
-    "semester": null,
-    "year": 2014,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/18/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 19,
-    "issue": 1,
-    "title": "Extremes",
-    "semester": null,
-    "year": 2014,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/19/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 19,
-    "issue": 2,
-    "title": null,
-    "semester": null,
-    "year": 2015,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/19/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 20,
-    "issue": 1,
-    "title": "Symmetry",
-    "semester": "Fall",
-    "year": 2015,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/20/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 21,
-    "issue": 1,
-    "title": "Chronos",
-    "semester": null,
-    "year": 2016,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/21/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 21,
-    "issue": 2,
-    "title": null,
-    "semester": null,
-    "year": 2017,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/21/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 22,
-    "issue": 1,
-    "title": "Order & Disorder",
-    "semester": null,
-    "year": 2017,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/22/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 22,
-    "issue": 2,
-    "title": "Next Generation",
-    "semester": "Spring",
-    "year": 2018,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/22/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 23,
-    "issue": 1,
-    "title": "Crisis",
-    "semester": "Fall",
-    "year": 2018,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/23/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 23,
-    "issue": 2,
-    "title": "Perspectives",
-    "semester": "Spring",
-    "year": 2019,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/23/2",
-    "issuu_url": "https://issuu.com/berkeleyscientific1/docs/perspectives_issue_23_volume_2"
-  },
-  {
-    "volume": 24,
-    "issue": 1,
+ {
+  "volume": 29,
+  "issue": 2,
+  "title": "Chimera",
+  "note": null,
+  "semester": "Spring",
+  "year": 2025,
+  "cover": "assets/covers/webp/29_2.webp",
+  "cover_fallback": "assets/covers/jpg/29_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/29/2",
+  "article_count": 22,
+  "contents": [
+   {
+    "title": "Arresting Alzheimer’s: CRISPR as a Cure to Neurodegenerative Diseases",
+    "authors": [
+     "Jamie Schwartz"
+    ],
+    "url": "https://escholarship.org/uc/item/12f3h1s2",
+    "pdf": "https://escholarship.org/content/qt12f3h1s2/qt12f3h1s2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Between Science and Spirit: Rethinking Mental Health with Psychedelic Therapy",
+    "authors": [
+     "Isabella Mendoza",
+     "Alma Razavillar",
+     "Aneesa Mustafa",
+     "Sania Choudhary"
+    ],
+    "url": "https://escholarship.org/uc/item/3rp4t8zp",
+    "pdf": "https://escholarship.org/content/qt3rp4t8zp/qt3rp4t8zp.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Bioorthogonal Chemistry: A Revolution in Chemical Biology",
+    "authors": [
+     "Ruben Servin Levya"
+    ],
+    "url": "https://escholarship.org/uc/item/5b68b44b",
+    "pdf": "https://escholarship.org/content/qt5b68b44b/qt5b68b44b.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Breaking Barriers: CAR-T Therapy for Solid Cancers",
+    "authors": [
+     "Harjyot Kaur"
+    ],
+    "url": "https://escholarship.org/uc/item/3754v3kz",
+    "pdf": "https://escholarship.org/content/qt3754v3kz/qt3754v3kz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Comparative Efficacy of Psilocybin and MDMA in PTSD Treatment: A Systematic Review of Long-Term Outcomes",
+    "authors": [
+     "Aspen Kim",
+     "Presley Pham",
+     "Jennifer Mitchell"
+    ],
+    "url": "https://escholarship.org/uc/item/2rr4q8bq",
+    "pdf": "https://escholarship.org/content/qt2rr4q8bq/qt2rr4q8bq.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Contrasting AI and Human Hallucinations",
+    "authors": [
+     "Logan Roscoe"
+    ],
+    "url": "https://escholarship.org/uc/item/8n20q1j0",
+    "pdf": "https://escholarship.org/content/qt8n20q1j0/qt8n20q1j0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Epigenetic Editing: The Temporary Tattoo of the Genome",
+    "authors": [
+     "Ellie Pitcher"
+    ],
+    "url": "https://escholarship.org/uc/item/7z73g15t",
+    "pdf": "https://escholarship.org/content/qt7z73g15t/qt7z73g15t.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Flooding Treatment Effects on Sap Flow of Deciduous Trees in the Chesapeake Bay",
+    "authors": [
+     "Radha Srinivasan",
+     "Kendalynn Morris"
+    ],
+    "url": "https://escholarship.org/uc/item/1n17q7q6",
+    "pdf": "https://escholarship.org/content/qt1n17q7q6/qt1n17q7q6.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "From Fever Dreams to Pharma Queens: How Plants Influenced Modern Medicine",
+    "authors": [
+     "Daphne Huang"
+    ],
+    "url": "https://escholarship.org/uc/item/5336t58r",
+    "pdf": "https://escholarship.org/content/qt5336t58r/qt5336t58r.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "From Trash to Treasure: The Lysosome’s Role in Cancer, Aging, and Neurodegenerative Disorders",
+    "authors": [
+     "Samika Arun",
+     "Grace Zhou",
+     "Brandon Bosch",
+     "Sania Choudhary"
+    ],
+    "url": "https://escholarship.org/uc/item/11j479g2",
+    "pdf": "https://escholarship.org/content/qt11j479g2/qt11j479g2.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Frozen Chemistry and Fantastic Origins: Molecular Reactions and the Chemical Tapestry of Planet-Building Disks",
+    "authors": [
+     "Rian Grant",
+     "Lara Potgeiter",
+     "Catherine Tran",
+     "Tanya Sanghal"
+    ],
+    "url": "https://escholarship.org/uc/item/9vv3t00j",
+    "pdf": "https://escholarship.org/content/qt9vv3t00j/qt9vv3t00j.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Gutsy Moves: Microbes in the Fight Against Colorectal Cancer",
+    "authors": [
+     "Sania Moghe"
+    ],
+    "url": "https://escholarship.org/uc/item/56h671pt",
+    "pdf": "https://escholarship.org/content/qt56h671pt/qt56h671pt.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "How AI Has Changed the World of Healthcare Diagnoses",
+    "authors": [
+     "Aditi Pangal"
+    ],
+    "url": "https://escholarship.org/uc/item/0bn7k37q",
+    "pdf": "https://escholarship.org/content/qt0bn7k37q/qt0bn7k37q.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Molecules, Memory, and the Mind: Psychedelics and the Future of Neuroplasticity",
+    "authors": [
+     "Ana Sofia Brito"
+    ],
+    "url": "https://escholarship.org/uc/item/8c4207kb",
+    "pdf": "https://escholarship.org/content/qt8c4207kb/qt8c4207kb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Phage Warfare: Mechanisms of Bacteriophages and Clinical Applications",
+    "authors": [
+     "Norah Hom"
+    ],
+    "url": "https://escholarship.org/uc/item/9qf0493k",
+    "pdf": "https://escholarship.org/content/qt9qf0493k/qt9qf0493k.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Reduce, Reuse, Recycle: Recovering 100% of Your Plastics by Refining Polymer Synthesis",
+    "authors": [
+     "Rian Grant",
+     "Rohit Divekar",
+     "Sania Choudhary"
+    ],
+    "url": "https://escholarship.org/uc/item/17n6g0dt",
+    "pdf": "https://escholarship.org/content/qt17n6g0dt/qt17n6g0dt.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Rethinking the Prisoner’s Dilemma: How Quantum Games Lead to Classical Gains",
+    "authors": [
+     "Aimee Richards"
+    ],
+    "url": "https://escholarship.org/uc/item/5q95t3f1",
+    "pdf": "https://escholarship.org/content/qt5q95t3f1/qt5q95t3f1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Rising Temperatures, Rising Threats: The Impact of Climate Change on Maternal Health",
+    "authors": [
+     "Lakshya Alagan"
+    ],
+    "url": "https://escholarship.org/uc/item/0gc4d2b8",
+    "pdf": "https://escholarship.org/content/qt0gc4d2b8/qt0gc4d2b8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Tactics To Combat Visual Predators: Cryptic Coloration in Christmas Tree Worms",
+    "authors": [
+     "Sofia Alocer",
+     "Jonathon Stilman"
+    ],
+    "url": "https://escholarship.org/uc/item/81n4d12v",
+    "pdf": "https://escholarship.org/content/qt81n4d12v/qt81n4d12v.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Lost Languages: A Journey Through History of Being Silenced and Language Attrition",
+    "authors": [
+     "Kalyani Puthenpurayil"
+    ],
+    "url": "https://escholarship.org/uc/item/318531nb",
+    "pdf": "https://escholarship.org/content/qt318531nb/qt318531nb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Taste of Survival: How Maria Ylagan Orosa Used Nutritional Science to Combat Malnutrition, Colonialism, and Imperialism in the Philippines",
+    "authors": [
+     "Isabelle Cherry"
+    ],
+    "url": "https://escholarship.org/uc/item/7rb2g6n6",
+    "pdf": "https://escholarship.org/content/qt7rb2g6n6/qt7rb2g6n6.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Toxic Water, Toxic Systems: How Science Can Serve Justice For Toxic Policies",
+    "authors": [],
+    "url": "https://escholarship.org/uc/item/5r5627w3",
+    "pdf": "https://escholarship.org/content/qt5r5627w3/qt5r5627w3.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Chimera: Back Cover",
+    "authors": [
+     "Angeni Lieben"
+    ],
+    "url": "https://escholarship.org/uc/item/55d8w452",
+    "pdf": "https://escholarship.org/content/qt55d8w452/qt55d8w452.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Chimera: Cover",
+    "authors": [
+     "Angeni Lieben"
+    ],
+    "url": "https://escholarship.org/uc/item/3w19g1qr",
+    "pdf": "https://escholarship.org/content/qt3w19g1qr/qt3w19g1qr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Chimera: Editorial Note",
+    "authors": [
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/3bg0g11p",
+    "pdf": "https://escholarship.org/content/qt3bg0g11p/qt3bg0g11p.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Chimera: Table of Contents",
+    "authors": [
+     "Angeni Lieben"
+    ],
+    "url": "https://escholarship.org/uc/item/8jw540r2",
+    "pdf": "https://escholarship.org/content/qt8jw540r2/qt8jw540r2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Thank You to Our Donors",
+    "authors": [
+     "Varun Upadhyay",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/6xb816sg",
+    "pdf": "https://escholarship.org/content/qt6xb816sg/qt6xb816sg.pdf",
+    "peer_reviewed": true
+   }
+  ]
+ },
+ {
+  "volume": 29,
+  "issue": 1,
+  "title": "Pulse",
+  "note": null,
+  "semester": "Fall",
+  "year": 2024,
+  "cover": "assets/covers/webp/29_1.webp",
+  "cover_fallback": "assets/covers/jpg/29_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/29/1",
+  "article_count": 16,
+  "contents": [
+   {
+    "title": "A Double-Edged Sword: The Blood-Brain Barrier",
+    "authors": [
+     "Sania Moghe"
+    ],
+    "url": "https://escholarship.org/uc/item/3j17x37h",
+    "pdf": "https://escholarship.org/content/qt3j17x37h/qt3j17x37h.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Exposure Exposé: Talking Healthcare Accessibility and the Future of Crowd Control Weapons Research",
+    "authors": [
+     "Ella Kaufman",
+     "Aneesa Mustafa",
+     "Haifa Myanto Maung",
+     "Sania Choudhary"
+    ],
+    "url": "https://escholarship.org/uc/item/0p41m1jq",
+    "pdf": "https://escholarship.org/content/qt0p41m1jq/qt0p41m1jq.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Decoding Smell: The Future of Odor Mapping with AI and Molecular Chemistry",
+    "authors": [
+     "Lakshya Alagan"
+    ],
+    "url": "https://escholarship.org/uc/item/6tc6r9q9",
+    "pdf": "https://escholarship.org/content/qt6tc6r9q9/qt6tc6r9q9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Deep Protein Feature Learning for Intrinsically Disordered Regions in Proteins Using Image Inpainting",
+    "authors": [
+     "Samiha Mahin",
+     "Marc Singleton",
+     "Michael Eisen"
+    ],
+    "url": "https://escholarship.org/uc/item/7vw2w9zq",
+    "pdf": "https://escholarship.org/content/qt7vw2w9zq/qt7vw2w9zq.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Effects of Abiotic and Biotic Stress on Antimicrobial and Cytotoxic Properties of Haliclona sp.",
+    "authors": [
+     "Terra R. Evans"
+    ],
+    "url": "https://escholarship.org/uc/item/63406398",
+    "pdf": "https://escholarship.org/content/qt63406398/qt63406398.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Fluidity of Brain States: Unihemispheric Sleep and Its Ties to Consciousness",
+    "authors": [
+     "Emma Bi"
+    ],
+    "url": "https://escholarship.org/uc/item/9532n4vw",
+    "pdf": "https://escholarship.org/content/qt9532n4vw/qt9532n4vw.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "From Giants to Jellyfish: The Evolution of Sleep Across Species",
+    "authors": [
+     "Logan Roscoe"
+    ],
+    "url": "https://escholarship.org/uc/item/3g20r082",
+    "pdf": "https://escholarship.org/content/qt3g20r082/qt3g20r082.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "From Models to Medicine: Understanding Stem Cell Differentiation in Regenerative Therapy",
+    "authors": [
+     "Lara Potgieter",
+     "Harjyot Kaur",
+     "Alma Razavilar",
+     "Tanya Sanghal"
+    ],
+    "url": "https://escholarship.org/uc/item/4rv005vm",
+    "pdf": "https://escholarship.org/content/qt4rv005vm/qt4rv005vm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "From Past to Future: Genomics, Evolution, and Aging",
+    "authors": [
+     "Catherine Tran",
+     "Ana Sofia Brito",
+     "Cali Bond",
+     "Tanya Sanghal"
+    ],
+    "url": "https://escholarship.org/uc/item/0938d2ck",
+    "pdf": "https://escholarship.org/content/qt0938d2ck/qt0938d2ck.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Generational Starvation: Generational Starvation: The Link Between Ancestral Diets and Modern Disease",
+    "authors": [
+     "Linda Thamizharasan"
+    ],
+    "url": "https://escholarship.org/uc/item/6q3565j1",
+    "pdf": "https://escholarship.org/content/qt6q3565j1/qt6q3565j1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Illuminating Insights: Using Fractals to Model Lightning",
+    "authors": [
+     "Aimee Richards"
+    ],
+    "url": "https://escholarship.org/uc/item/2dx850n7",
+    "pdf": "https://escholarship.org/content/qt2dx850n7/qt2dx850n7.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Molecules in Motion: Molecular Mechanisms of Exercise’s Health Benefits",
+    "authors": [
+     "Rami Kabakibi"
+    ],
+    "url": "https://escholarship.org/uc/item/8612h9q1",
+    "pdf": "https://escholarship.org/content/qt8612h9q1/qt8612h9q1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Quantizing Gravity: Unlocking the Mysteries of the Universe's Most Well Known Force",
+    "authors": [
+     "Jamie Ella Schwarz",
+     "Sohini Oza",
+     "Sania Choudhary"
+    ],
+    "url": "https://escholarship.org/uc/item/10b9z911",
+    "pdf": "https://escholarship.org/content/qt10b9z911/qt10b9z911.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Sniffing Out a Cure to Malaria",
+    "authors": [
+     "Sanjana Nitturkar"
+    ],
+    "url": "https://escholarship.org/uc/item/3hq8h46v",
+    "pdf": "https://escholarship.org/content/qt3hq8h46v/qt3hq8h46v.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Heart of an Ecosystem: Pollinator Species in the Face of Climate Change",
+    "authors": [
+     "Ava Volman"
+    ],
+    "url": "https://escholarship.org/uc/item/90q2p4qr",
+    "pdf": "https://escholarship.org/content/qt90q2p4qr/qt90q2p4qr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Unlocking the Secrets of Protein Misfolding: AlphaFold’s Role in Cardiovascular Disease",
+    "authors": [
+     "Ruben Servin Leyva"
+    ],
+    "url": "https://escholarship.org/uc/item/9qs0w7t5",
+    "pdf": "https://escholarship.org/content/qt9qs0w7t5/qt9qs0w7t5.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Pulse: Back Cover",
+    "authors": [
+     "Angeni Lieben",
+     "Aubrey Fife"
+    ],
+    "url": "https://escholarship.org/uc/item/0jm934hv",
+    "pdf": "https://escholarship.org/content/qt0jm934hv/qt0jm934hv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Pulse: Cover",
+    "authors": [
+     "Angeni Lieben"
+    ],
+    "url": "https://escholarship.org/uc/item/7gd018vt",
+    "pdf": "https://escholarship.org/content/qt7gd018vt/qt7gd018vt.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Pulse: Editorial Note",
+    "authors": [
+     "Varun Upadhyay",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/6br1h6xf",
+    "pdf": "https://escholarship.org/content/qt6br1h6xf/qt6br1h6xf.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Pulse: Table of Contents",
+    "authors": [
+     "Varun Upadhyay",
+     "Andrew Delaney",
+     "Angeni Lieben",
+     "Aubrey Fife"
+    ],
+    "url": "https://escholarship.org/uc/item/60f3w0qv",
+    "pdf": "https://escholarship.org/content/qt60f3w0qv/qt60f3w0qv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Thank You to Our Donors",
+    "authors": [
+     "Varun Upadhyay",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/2bg2b7bm",
+    "pdf": "https://escholarship.org/content/qt2bg2b7bm/qt2bg2b7bm.pdf",
+    "peer_reviewed": true
+   }
+  ]
+ },
+ {
+  "volume": 28,
+  "issue": 2,
+  "title": "Anomaly",
+  "note": null,
+  "semester": "Spring",
+  "year": 2024,
+  "cover": "assets/covers/webp/28_2.webp",
+  "cover_fallback": "assets/covers/jpg/28_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/28/2",
+  "article_count": 18,
+  "contents": [
+   {
+    "title": "An Anomaly in Phase Transition: Liquid Crystals",
+    "authors": [
+     "Phillis Wan"
+    ],
+    "url": "https://escholarship.org/uc/item/8sx9d47h",
+    "pdf": "https://escholarship.org/content/qt8sx9d47h/qt8sx9d47h.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Anomaly Editorial Note",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/5jn337rr",
+    "pdf": "https://escholarship.org/content/qt5jn337rr/qt5jn337rr.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Anomaly Table of Contents",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/2nn9t5wv",
+    "pdf": "https://escholarship.org/content/qt2nn9t5wv/qt2nn9t5wv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Area of Ignorance in Stellar Physics: Stellar Mass Black Hole Distribution; Lowest Initial Progenitor Mass Limit for Black Hole Evolution",
+    "authors": [
+     "Aria Tomar",
+     "Raffaella Margutti"
+    ],
+    "url": "https://escholarship.org/uc/item/4c72w675",
+    "pdf": "https://escholarship.org/content/qt4c72w675/qt4c72w675.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Carbon Chronicles: Understanding the Oceanic Impact of Fossil Fuels (Professor James Bishop)",
+    "authors": [
+     "Milla Heckler",
+     "Alma Razavilar",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/0f4805qd",
+    "pdf": "https://escholarship.org/content/qt0f4805qd/qt0f4805qd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Dark Energy: A Possible Solution to the Hubble Tension",
+    "authors": [
+     "Ellie Mak"
+    ],
+    "url": "https://escholarship.org/uc/item/9p675247",
+    "pdf": "https://escholarship.org/content/qt9p675247/qt9p675247.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Dual Consciousness in Split-Brain Patients",
+    "authors": [
+     "Logan Roscoe"
+    ],
+    "url": "https://escholarship.org/uc/item/7mw2m9ft",
+    "pdf": "https://escholarship.org/content/qt7mw2m9ft/qt7mw2m9ft.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Exploring the Effects of GLP-1 Agonists on Weight Management in Non-Diabetic Individuals",
+    "authors": [
+     "Lakshya Alagan"
+    ],
+    "url": "https://escholarship.org/uc/item/2k55c66b",
+    "pdf": "https://escholarship.org/content/qt2k55c66b/qt2k55c66b.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Hearing on the Horizon: Exploring the Multifaceted Dynamics of Hearing, from Genes to Patient Realities (Dr. Dylan Chan)",
+    "authors": [
+     "Aneesa Mustafa",
+     "Lara Potgeiter",
+     "Bradley Vu",
+     "Tanya Sanghal"
+    ],
+    "url": "https://escholarship.org/uc/item/791100pf",
+    "pdf": "https://escholarship.org/content/qt791100pf/qt791100pf.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Liquid Biopsy: Novel Progressions and Comparisons",
+    "authors": [
+     "Lavanya Gupta",
+     "Nicole Klatt",
+     "Humayd Zameer",
+     "Sushruta Surappa"
+    ],
+    "url": "https://escholarship.org/uc/item/5pd7k1rr",
+    "pdf": "https://escholarship.org/content/qt5pd7k1rr/qt5pd7k1rr.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Restoring California’s Kelp Forests",
+    "authors": [
+     "Isabelle Cherry"
+    ],
+    "url": "https://escholarship.org/uc/item/6d77g442",
+    "pdf": "https://escholarship.org/content/qt6d77g442/qt6d77g442.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Symphony of the Human Brain",
+    "authors": [
+     "Nykita Rustad"
+    ],
+    "url": "https://escholarship.org/uc/item/2614g82s",
+    "pdf": "https://escholarship.org/content/qt2614g82s/qt2614g82s.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Menstrual Conundrum",
+    "authors": [
+     "Sania Moghe"
+    ],
+    "url": "https://escholarship.org/uc/item/3hx1h8n3",
+    "pdf": "https://escholarship.org/content/qt3hx1h8n3/qt3hx1h8n3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Tug-of-War of Emotion in Children with AuDHD",
+    "authors": [
+     "Gardenia Chang"
+    ],
+    "url": "https://escholarship.org/uc/item/3b9432n8",
+    "pdf": "https://escholarship.org/content/qt3b9432n8/qt3b9432n8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Tick Tock: A Timely Look into the Science Behind Precise Clocks and their Implications (Professor Shimon Kolkowitz)",
+    "authors": [
+     "Smridhi Mahajan",
+     "Grace Zhou",
+     "Lauren Lee",
+     "Tanya Sanghal"
+    ],
+    "url": "https://escholarship.org/uc/item/83m6j3ps",
+    "pdf": "https://escholarship.org/content/qt83m6j3ps/qt83m6j3ps.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Traversing Tumors: How Single-cell RNA Sequencing Maps Malignant Tumors",
+    "authors": [
+     "Rachel Pariser"
+    ],
+    "url": "https://escholarship.org/uc/item/1ng444wq",
+    "pdf": "https://escholarship.org/content/qt1ng444wq/qt1ng444wq.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Unmasking Deep Fakes: A Candid Exploration of Our Synthetic Society (Professor Hany Farid)",
+    "authors": [
+     "Erica Pan",
+     "Cali Bond",
+     "Ella Kaufman",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/438655cq",
+    "pdf": "https://escholarship.org/content/qt438655cq/qt438655cq.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "X-Linked Genetic Deviations Give Rise to Neural Developmental Disorders",
+    "authors": [
+     "Emma Bi"
+    ],
+    "url": "https://escholarship.org/uc/item/7v8042tf",
+    "pdf": "https://escholarship.org/content/qt7v8042tf/qt7v8042tf.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": []
+ },
+ {
+  "volume": 28,
+  "issue": 1,
+  "title": "Magnitude",
+  "note": null,
+  "semester": "Fall",
+  "year": 2023,
+  "cover": "assets/covers/webp/28_1.webp",
+  "cover_fallback": "assets/covers/jpg/28_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/28/1",
+  "article_count": 20,
+  "contents": [
+   {
+    "title": "A UNIVERSE FULL OF MILKY WAYS REVELATIONS BY JWST",
+    "authors": [
+     "Ellie Mak"
+    ],
+    "url": "https://escholarship.org/uc/item/19h987wc",
+    "pdf": "https://escholarship.org/content/qt19h987wc/qt19h987wc.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Deep Sea Mineral Mining: Impacts on Marine Ecosystems and Climate Change",
+    "authors": [
+     "Isabelle Cherry"
+    ],
+    "url": "https://escholarship.org/uc/item/1pp4r67n",
+    "pdf": "https://escholarship.org/content/qt1pp4r67n/qt1pp4r67n.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Efflux Pumps: Current Targets in the fight against Antibiotic Resistance",
+    "authors": [
+     "Malia Wilson"
+    ],
+    "url": "https://escholarship.org/uc/item/0kv115h0",
+    "pdf": "https://escholarship.org/content/qt0kv115h0/qt0kv115h0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Expansion and Exploration: A Deeper Look into Hubble Tension, Supernovae, and Other Stellar Mysteries (Professor Alex Filippenko)",
+    "authors": [
+     "Tanya Sanghal",
+     "Smridhi Mahajan",
+     "Erica Pan",
+     "Grace Zhou"
+    ],
+    "url": "https://escholarship.org/uc/item/8s85h5jr",
+    "pdf": "https://escholarship.org/content/qt8s85h5jr/qt8s85h5jr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "From Toothpaste to Tumor: How AMG 510 is Revolutionizing Cancer Therapy (Dr. Margaret Chu-Moyer)",
+    "authors": [
+     "Ana Sofia Brito",
+     "Ella Kaufman",
+     "Tiana Gao"
+    ],
+    "url": "https://escholarship.org/uc/item/4pm9g47s",
+    "pdf": "https://escholarship.org/content/qt4pm9g47s/qt4pm9g47s.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Giving a Voice to Paralyzed Patients (Dr. David Moses)",
+    "authors": [
+     "Tanya Sanghal",
+     "Aneesa Mustafa",
+     "Carlyn Leavitt",
+     "Sania Choudhary"
+    ],
+    "url": "https://escholarship.org/uc/item/8rm24287",
+    "pdf": "https://escholarship.org/content/qt8rm24287/qt8rm24287.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Hacking Neural Networks: How Transcranial Magnetic Stimulation Improves Functional and Structural Dysconnectivity",
+    "authors": [
+     "Gardenia Chang"
+    ],
+    "url": "https://escholarship.org/uc/item/9qg551zv",
+    "pdf": "https://escholarship.org/content/qt9qg551zv/qt9qg551zv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Illuminating Parkinson’s Disease with STORM Microscopy",
+    "authors": [
+     "Emma Bi"
+    ],
+    "url": "https://escholarship.org/uc/item/5k30445w",
+    "pdf": "https://escholarship.org/content/qt5k30445w/qt5k30445w.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Innovation at Intersections: Enhancing Public Systems with AI (Professor Michael Jordan)",
+    "authors": [
+     "Lara Potgieter",
+     "Ann Palayur",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/2hp4x8cg",
+    "pdf": "https://escholarship.org/content/qt2hp4x8cg/qt2hp4x8cg.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Magnitude Editorial Note",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/8nh921mv",
+    "pdf": "https://escholarship.org/content/qt8nh921mv/qt8nh921mv.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Magnitude Table of Contents",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/5jc2x29h",
+    "pdf": "https://escholarship.org/content/qt5jc2x29h/qt5jc2x29h.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Mapping Out the Brain: PET Scans and the Structure of the Brain",
+    "authors": [
+     "Crystal Xu"
+    ],
+    "url": "https://escholarship.org/uc/item/3gv3p6p1",
+    "pdf": "https://escholarship.org/content/qt3gv3p6p1/qt3gv3p6p1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Mastering the Nano Realm: Creating Two-Dimensional Materials",
+    "authors": [
+     "Phillis Wan"
+    ],
+    "url": "https://escholarship.org/uc/item/0dw6n7xh",
+    "pdf": "https://escholarship.org/content/qt0dw6n7xh/qt0dw6n7xh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Nanomaterials in Regenerative Dentistry",
+    "authors": [
+     "Varsha Raju"
+    ],
+    "url": "https://escholarship.org/uc/item/72j2p4m8",
+    "pdf": "https://escholarship.org/content/qt72j2p4m8/qt72j2p4m8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Protecting Innovation: The Tumultuous History and Uncertain Future of Biotechnology and Patents",
+    "authors": [
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/5804j5t9",
+    "pdf": "https://escholarship.org/content/qt5804j5t9/qt5804j5t9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Rare Earth Nanoprobes in Revolutionizing Breast Cancer Surgery",
+    "authors": [
+     "Sania Moghe"
+    ],
+    "url": "https://escholarship.org/uc/item/032923w9",
+    "pdf": "https://escholarship.org/content/qt032923w9/qt032923w9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Skeletal Editing: Chemistry’s Next Frontier",
+    "authors": [
+     "Nykita Rustad"
+    ],
+    "url": "https://escholarship.org/uc/item/4qc119k8",
+    "pdf": "https://escholarship.org/content/qt4qc119k8/qt4qc119k8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Feasibility of Radically Translating Alien Language",
+    "authors": [
+     "Logan Roscoe"
+    ],
+    "url": "https://escholarship.org/uc/item/9pm817vh",
+    "pdf": "https://escholarship.org/content/qt9pm817vh/qt9pm817vh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Search for Sustainable Biofuel",
+    "authors": [
+     "Marcela Perez"
+    ],
+    "url": "https://escholarship.org/uc/item/7wp888z7",
+    "pdf": "https://escholarship.org/content/qt7wp888z7/qt7wp888z7.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The search for weak crustal magnetic fields on Mars using solar energetic electrons observed by the SEP instrument on-board the MAVEN spacecraft",
+    "authors": [
+     "Ishita Malik",
+     "Shaosui Xu",
+     "Ali Rahmati",
+     "David L. Mitchell"
+    ],
+    "url": "https://escholarship.org/uc/item/01p4m632",
+    "pdf": "https://escholarship.org/content/qt01p4m632/qt01p4m632.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Magnitude - Back Cover",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/1wc6d289",
+    "pdf": "https://escholarship.org/content/qt1wc6d289/qt1wc6d289.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Magnitude - Cover",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Angeni Lieben",
+     "Aubrey Fife"
+    ],
+    "url": "https://escholarship.org/uc/item/7wp583nk",
+    "pdf": "https://escholarship.org/content/qt7wp583nk/qt7wp583nk.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Thank You to Our Donors",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/53j7c04p",
+    "pdf": "https://escholarship.org/content/qt53j7c04p/qt53j7c04p.pdf",
+    "peer_reviewed": true
+   }
+  ]
+ },
+ {
+  "volume": 27,
+  "issue": 2,
+  "title": "Potential",
+  "note": null,
+  "semester": "Spring",
+  "year": 2023,
+  "cover": "assets/covers/webp/27_2.webp",
+  "cover_fallback": "assets/covers/jpg/27_2.jpg",
+  "pdf": "assets/issues/pdfs/27_2.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/27/2",
+  "article_count": 28,
+  "contents": [
+   {
+    "title": "Ammonia as a Renewable Energy Source",
+    "authors": [
+     "Angeni Lieben"
+    ],
+    "url": "https://escholarship.org/uc/item/7b05g1zp",
+    "pdf": "https://escholarship.org/content/qt7b05g1zp/qt7b05g1zp.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Beyond Boundaries: The Future of Medical Therapeutics in Unraveling Undruggable Proteins (Professor Daniel Nomura)",
+    "authors": [
+     "Ana Sofia Brito",
+     "Lara Potgieter",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/8r19v4v0",
+    "pdf": "https://escholarship.org/content/qt8r19v4v0/qt8r19v4v0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Blooming with Possibility: Microalgae as a Biofuel Feedstock",
+    "authors": [
+     "Luyang Zhang"
+    ],
+    "url": "https://escholarship.org/uc/item/4q68x149",
+    "pdf": "https://escholarship.org/content/qt4q68x149/qt4q68x149.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Breaking into the Blood-Brain Barrier (Professor Daniela Kaufer)",
+    "authors": [
+     "Sania Choudhary",
+     "Miriam Goodwin",
+     "Jordan Shellow",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/0g1323cz",
+    "pdf": "https://escholarship.org/content/qt0g1323cz/qt0g1323cz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Crochet Contagion",
+    "authors": [
+     "Anya Prasad"
+    ],
+    "url": "https://escholarship.org/uc/item/5m6107gw",
+    "pdf": "https://escholarship.org/content/qt5m6107gw/qt5m6107gw.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Editor's Note",
+    "authors": [
+     "Rebecca Hayoung Park",
+     "Ananya Krishnapura",
+     "Aarthi Muthukumar"
+    ],
+    "url": "https://escholarship.org/uc/item/6tp9v8zb",
+    "pdf": "https://escholarship.org/content/qt6tp9v8zb/qt6tp9v8zb.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Growing a Mind with Statistical Inference",
+    "authors": [
+     "Anjuli Niyogi"
+    ],
+    "url": "https://escholarship.org/uc/item/5n24n2g0",
+    "pdf": "https://escholarship.org/content/qt5n24n2g0/qt5n24n2g0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Hearing the Invisible: On the Frontier of Gravitational Wave Astronomy",
+    "authors": [
+     "Ellie Mak"
+    ],
+    "url": "https://escholarship.org/uc/item/05p0j2fp",
+    "pdf": "https://escholarship.org/content/qt05p0j2fp/qt05p0j2fp.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "MicroCycling: Realizing the Potential of Lanthanide Metabolism (Dr. Norma Cecilia Martinez-Gomez)",
+    "authors": [
+     "Ann Palayur",
+     "Jackie Pennington",
+     "Allisun Wiltshire"
+    ],
+    "url": "https://escholarship.org/uc/item/1vz9c5rq",
+    "pdf": "https://escholarship.org/content/qt1vz9c5rq/qt1vz9c5rq.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Mutation",
+    "authors": [
+     "Irena Sun"
+    ],
+    "url": "https://escholarship.org/uc/item/97n0q1nd",
+    "pdf": "https://escholarship.org/content/qt97n0q1nd/qt97n0q1nd.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Optimization of Mounting Methods for Tension-Compression Testing of Murine Intervertebral Disc Joints",
+    "authors": [
+     "Joanna E. Veres",
+     "Shiyin Lim",
+     "Grace D. O’Connell"
+    ],
+    "url": "https://escholarship.org/uc/item/6mq2k8bm",
+    "pdf": "https://escholarship.org/content/qt6mq2k8bm/qt6mq2k8bm.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Out For Blood: Biotechnology to Eradicate Horseshoe Crab Bleeding",
+    "authors": [
+     "Gracie Vennewitz"
+    ],
+    "url": "https://escholarship.org/uc/item/14t4b5v4",
+    "pdf": "https://escholarship.org/content/qt14t4b5v4/qt14t4b5v4.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "POTENTIAL",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Stephanie Jue"
+    ],
+    "url": "https://escholarship.org/uc/item/9z22175p",
+    "pdf": "https://escholarship.org/content/qt9z22175p/qt9z22175p.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Pure Intentions",
+    "authors": [
+     "Sania Choudhary"
+    ],
+    "url": "https://escholarship.org/uc/item/38w4t671",
+    "pdf": "https://escholarship.org/content/qt38w4t671/qt38w4t671.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Reject Bird, Embrace Dinosaur: How Ratites Lost the Ability to Fly, Four Times",
+    "authors": [
+     "Michael Xiong"
+    ],
+    "url": "https://escholarship.org/uc/item/5mt2r447",
+    "pdf": "https://escholarship.org/content/qt5mt2r447/qt5mt2r447.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Reproductive Biology of Endangered Thespesia populnea in Comparison to its Common Relative Hibiscus tiliaceus",
+    "authors": [
+     "Tina Li"
+    ],
+    "url": "https://escholarship.org/uc/item/8zd3703t",
+    "pdf": "https://escholarship.org/content/qt8zd3703t/qt8zd3703t.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Searching for the “Buy Button” of the Brain: The Neurobiology of Decision-Making",
+    "authors": [
+     "Anjali Sadarangani"
+    ],
+    "url": "https://escholarship.org/uc/item/1rr9f57h",
+    "pdf": "https://escholarship.org/content/qt1rr9f57h/qt1rr9f57h.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Shining a Light on Laser Plasma Accelerators: Compact, Efficient Accelerators of the Future (Dr. Lieselotte Obst-Huebl)",
+    "authors": [
+     "Catherine Tan",
+     "Malia Wilson",
+     "Allisun Wiltshire"
+    ],
+    "url": "https://escholarship.org/uc/item/0237x6gw",
+    "pdf": "https://escholarship.org/content/qt0237x6gw/qt0237x6gw.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Sink or Source: Turning Greenhouse Gases into Renewable Energy",
+    "authors": [
+     "Abby Wilber"
+    ],
+    "url": "https://escholarship.org/uc/item/71v0187g",
+    "pdf": "https://escholarship.org/content/qt71v0187g/qt71v0187g.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Sleep Deprivation: Its Neural Circuits and Influence on Memory",
+    "authors": [
+     "Jane Li"
+    ],
+    "url": "https://escholarship.org/uc/item/7q45r1gk",
+    "pdf": "https://escholarship.org/content/qt7q45r1gk/qt7q45r1gk.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Superbloom",
+    "authors": [
+     "Aashi Parikh"
+    ],
+    "url": "https://escholarship.org/uc/item/6bf0w8rn",
+    "pdf": "https://escholarship.org/content/qt6bf0w8rn/qt6bf0w8rn.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Superconductors and Spintronics: The Future of Hyper-Efficient Data Storage and Transport (Professor James Analytis)",
+    "authors": [
+     "Tanya Sanghal",
+     "Baani Sabharwal",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/8cq3j1rm",
+    "pdf": "https://escholarship.org/content/qt8cq3j1rm/qt8cq3j1rm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Dedication to Beautiful Structures (Dr. Omar Yaghi)",
+    "authors": [
+     "Aljawharah Alrasheed",
+     "Leilani Hernandez",
+     "Allisun Wiltshire"
+    ],
+    "url": "https://escholarship.org/uc/item/31v4z1sv",
+    "pdf": "https://escholarship.org/content/qt31v4z1sv/qt31v4z1sv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Effectiveness of Music Therapy in Treating Dementia",
+    "authors": [
+     "Annalise Steinmann"
+    ],
+    "url": "https://escholarship.org/uc/item/51s1432g",
+    "pdf": "https://escholarship.org/content/qt51s1432g/qt51s1432g.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Power of Bilingualism on Cognitive Development and Integrity",
+    "authors": [
+     "Aashi Parikh"
+    ],
+    "url": "https://escholarship.org/uc/item/49v7d3pq",
+    "pdf": "https://escholarship.org/content/qt49v7d3pq/qt49v7d3pq.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Twenties",
+    "authors": [
+     "Priya Kallu"
+    ],
+    "url": "https://escholarship.org/uc/item/47f594qz",
+    "pdf": "https://escholarship.org/content/qt47f594qz/qt47f594qz.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Viral Visions and Floral Fusions",
+    "authors": [
+     "Taiz Salazar"
+    ],
+    "url": "https://escholarship.org/uc/item/2cm8p85p",
+    "pdf": "https://escholarship.org/content/qt2cm8p85p/qt2cm8p85p.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Voyager: Venturing Outside the Solar System",
+    "authors": [
+     "Shreya Ramesh"
+    ],
+    "url": "https://escholarship.org/uc/item/2w52b1x3",
+    "pdf": "https://escholarship.org/content/qt2w52b1x3/qt2w52b1x3.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Back Cover",
+    "authors": [
+     "Rebecca Hayoung Park"
+    ],
+    "url": "https://escholarship.org/uc/item/7f1069g0",
+    "pdf": "https://escholarship.org/content/qt7f1069g0/qt7f1069g0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/70q480wq",
+    "pdf": "https://escholarship.org/content/qt70q480wq/qt70q480wq.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 27,
+  "issue": 1,
+  "title": "Signal",
+  "note": null,
+  "semester": "Fall",
+  "year": 2022,
+  "cover": "assets/covers/webp/27_1.webp",
+  "cover_fallback": "assets/covers/jpg/27_1.jpg",
+  "pdf": "assets/issues/pdfs/27_1.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/27/1",
+  "article_count": 22,
+  "contents": [
+   {
+    "title": "ASOs: An Emerging Therapeutic for COVID-19 And Future Pandemics (Dr. Anders Näär)",
+    "authors": [
+     "Miriam Goodwin",
+     "Hannah Van Mullem",
+     "Luyang Zhang",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/499205th",
+    "pdf": "https://escholarship.org/content/qt499205th/qt499205th.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Breaths of Death: How Smoking Leads to Lung Cancer",
+    "authors": [
+     "Merve Ozdemir"
+    ],
+    "url": "https://escholarship.org/uc/item/74w3z425",
+    "pdf": "https://escholarship.org/content/qt74w3z425/qt74w3z425.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Correlation Between Diet and Acne?",
+    "authors": [
+     "Medha Madhav"
+    ],
+    "url": "https://escholarship.org/uc/item/1dz783p1",
+    "pdf": "https://escholarship.org/content/qt1dz783p1/qt1dz783p1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Editor's Note",
+    "authors": [
+     "Ananya Krishnapura",
+     "Rebecca Hayoung Park"
+    ],
+    "url": "https://escholarship.org/uc/item/6s53j3c8",
+    "pdf": "https://escholarship.org/content/qt6s53j3c8/qt6s53j3c8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Horizontal Gene Transfer: A Genetic Choreography of Function and Composition",
+    "authors": [
+     "Rebecca Ferreira Alves"
+    ],
+    "url": "https://escholarship.org/uc/item/00f8q48z",
+    "pdf": "https://escholarship.org/content/qt00f8q48z/qt00f8q48z.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Molecular Mechanisms of Dermal Aging and Anti-Aging Strategies",
+    "authors": [
+     "Jane Li"
+    ],
+    "url": "https://escholarship.org/uc/item/3w63c03v",
+    "pdf": "https://escholarship.org/content/qt3w63c03v/qt3w63c03v.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Morphology Influences Climbing Ability of the Adult Tropical Gobiid Stiphodon elegans on Moorea, French Polynesia",
+    "authors": [
+     "Phoebe Gross",
+     "Stephanie Carlson"
+    ],
+    "url": "https://escholarship.org/uc/item/237506pb",
+    "pdf": "https://escholarship.org/content/qt237506pb/qt237506pb.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Nuclear Fusion: A Conceptual Perspective and Research Implications",
+    "authors": [
+     "Corey Dodson"
+    ],
+    "url": "https://escholarship.org/uc/item/0pq4b43t",
+    "pdf": "https://escholarship.org/content/qt0pq4b43t/qt0pq4b43t.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Oxygen Consumption Rates Between Skeletal Muscle Cells Derived from Young and Old Human Donors Elucidate Mitochondrial Dysfunction",
+    "authors": [
+     "Lindsay (Na Yeon) Park",
+     "José Arevalo",
+     "George Brooks",
+     "Polina Lishko"
+    ],
+    "url": "https://escholarship.org/uc/item/1fj2t7js",
+    "pdf": "https://escholarship.org/content/qt1fj2t7js/qt1fj2t7js.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Photocatalysis: A Reflection of Nature",
+    "authors": [
+     "Melody Li"
+    ],
+    "url": "https://escholarship.org/uc/item/7x70b85p",
+    "pdf": "https://escholarship.org/content/qt7x70b85p/qt7x70b85p.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Rebuilding Neurons: Neurogenesis in Regenerative Medicine",
+    "authors": [
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/7fd0v2pd",
+    "pdf": "https://escholarship.org/content/qt7fd0v2pd/qt7fd0v2pd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "REM’s Window Into the Dream World (Dr. Massimo Scanziani and Dr. Yuta Senzai)",
+    "authors": [
+     "Leilani Hernandez",
+     "Baani Sabharwal",
+     "Allisun Wiltshire"
+    ],
+    "url": "https://escholarship.org/uc/item/9mn3v3x6",
+    "pdf": "https://escholarship.org/content/qt9mn3v3x6/qt9mn3v3x6.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "SIGNAL",
+    "authors": [
+     "Aarthi Muthukumar",
+     "Stephanie Jue"
+    ],
+    "url": "https://escholarship.org/uc/item/4w79b38p",
+    "pdf": "https://escholarship.org/content/qt4w79b38p/qt4w79b38p.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Skywave: How Radio Communication Requires Breaking the Speed of Light",
+    "authors": [
+     "Michael Xiong"
+    ],
+    "url": "https://escholarship.org/uc/item/99b9z6h8",
+    "pdf": "https://escholarship.org/content/qt99b9z6h8/qt99b9z6h8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Special thanks to our donors",
+    "authors": [
+     "Rebecca Hayoung Park"
+    ],
+    "url": "https://escholarship.org/uc/item/3g77t0h8",
+    "pdf": "https://escholarship.org/content/qt3g77t0h8/qt3g77t0h8.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Stem Cell Research: A Brief History and Implications",
+    "authors": [
+     "Aashi Parikh"
+    ],
+    "url": "https://escholarship.org/uc/item/31k5j3fx",
+    "pdf": "https://escholarship.org/content/qt31k5j3fx/qt31k5j3fx.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Tackling Language Learning: One Model that Rules (Dr. Steven Piantadosi)",
+    "authors": [
+     "Grace Guan",
+     "Anjuli Niyogi",
+     "Ann Palayur",
+     "Allisun Wiltshire"
+    ],
+    "url": "https://escholarship.org/uc/item/02w063b4",
+    "pdf": "https://escholarship.org/content/qt02w063b4/qt02w063b4.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Christmas Tree Worm (Spirobranchus giganteus) as a Potential Bioindicator of Coral Reef Health",
+    "authors": [
+     "Gabriella Petrocelly"
+    ],
+    "url": "https://escholarship.org/uc/item/305555sk",
+    "pdf": "https://escholarship.org/content/qt305555sk/qt305555sk.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Power of Decentralized Power: What we can learn from successful renewable energy models",
+    "authors": [
+     "Abby Wilber"
+    ],
+    "url": "https://escholarship.org/uc/item/0fw0p8w7",
+    "pdf": "https://escholarship.org/content/qt0fw0p8w7/qt0fw0p8w7.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Signals of Subtypes: How AI Creates Personalized Cancer Treatment (Dr. Hang Chang)",
+    "authors": [
+     "Tanya Sanghal",
+     "Allisun Wiltshire",
+     "Auto Yu"
+    ],
+    "url": "https://escholarship.org/uc/item/7v33f3gv",
+    "pdf": "https://escholarship.org/content/qt7v33f3gv/qt7v33f3gv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Unfolding Alzheimer’s: The Accumulation of Amyloid and Tau within the Brain (Dr. William Jagust)",
+    "authors": [
+     "Sania Choudhary",
+     "Jordan Shellow",
+     "Andrew Delaney"
+    ],
+    "url": "https://escholarship.org/uc/item/9cz7n6ns",
+    "pdf": "https://escholarship.org/content/qt9cz7n6ns/qt9cz7n6ns.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Words of a Fungi, Fungi’s Communicative Connections",
+    "authors": [
+     "Lara Potgieter"
+    ],
+    "url": "https://escholarship.org/uc/item/6zh6v2xn",
+    "pdf": "https://escholarship.org/content/qt6zh6v2xn/qt6zh6v2xn.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Back Cover",
+    "authors": [
+     "Rebecca Hayoung Park"
+    ],
+    "url": "https://escholarship.org/uc/item/7n6552k8",
+    "pdf": "https://escholarship.org/content/qt7n6552k8/qt7n6552k8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Rebecca Hayoung Park",
+     "Aarthi Muthukumar"
+    ],
+    "url": "https://escholarship.org/uc/item/7283524g",
+    "pdf": "https://escholarship.org/content/qt7283524g/qt7283524g.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 26,
+  "issue": 2,
+  "title": "Flux",
+  "note": null,
+  "semester": "Spring",
+  "year": 2022,
+  "cover": "assets/covers/webp/26_2.webp",
+  "cover_fallback": "assets/covers/jpg/26_2.jpg",
+  "pdf": "assets/issues/pdfs/26_2.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/26/2",
+  "article_count": 20,
+  "contents": [
+   {
+    "title": "Alzheimer’s Disease and the Neurobiology of Long-Term Memory Formation",
+    "authors": [
+     "Varun Upadhyay"
+    ],
+    "url": "https://escholarship.org/uc/item/5nb772qb",
+    "pdf": "https://escholarship.org/content/qt5nb772qb/qt5nb772qb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Antibiotic Resistance: A Silent Pandemic",
+    "authors": [
+     "Merve Ozdemir"
+    ],
+    "url": "https://escholarship.org/uc/item/4rh9x6h9",
+    "pdf": "https://escholarship.org/content/qt4rh9x6h9/qt4rh9x6h9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Corrupted Clocks: How Parasites Utilize the Circadian Rhythm (Dr. Filipa Rijo-Ferreira)",
+    "authors": [
+     "Caroline Kim",
+     "Anjuli Niyogi",
+     "Michael Xiong",
+     "Esther Lim"
+    ],
+    "url": "https://escholarship.org/uc/item/1mt122bv",
+    "pdf": "https://escholarship.org/content/qt1mt122bv/qt1mt122bv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Do Memes Behave Like Viruses?",
+    "authors": [
+     "Pierre Letellier"
+    ],
+    "url": "https://escholarship.org/uc/item/2h47x6jw",
+    "pdf": "https://escholarship.org/content/qt2h47x6jw/qt2h47x6jw.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Editor's Note",
+    "authors": [
+     "Melanie Russo"
+    ],
+    "url": "https://escholarship.org/uc/item/31p4c30g",
+    "pdf": "https://escholarship.org/content/qt31p4c30g/qt31p4c30g.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Epidemiological Analysis of Acute Flaccid Paralysis (AFP) Surveillance in Conflict-Affected Syria",
+    "authors": [
+     "Raneem Rayes",
+     "Rohini J. Haar",
+     "Naser AlMhawish"
+    ],
+    "url": "https://escholarship.org/uc/item/2fp2t8fz",
+    "pdf": "https://escholarship.org/content/qt2fp2t8fz/qt2fp2t8fz.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Meditation and the Brain",
+    "authors": [
+     "Anna Castello"
+    ],
+    "url": "https://escholarship.org/uc/item/83r0g9k4",
+    "pdf": "https://escholarship.org/content/qt83r0g9k4/qt83r0g9k4.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Neoantigens: The Future of Personalized Cancer",
+    "authors": [
+     "Cassidy Biellak"
+    ],
+    "url": "https://escholarship.org/uc/item/3805n77t",
+    "pdf": "https://escholarship.org/content/qt3805n77t/qt3805n77t.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "On the Sunny Side of Science",
+    "authors": [
+     "Noah Bussell"
+    ],
+    "url": "https://escholarship.org/uc/item/9vj0p6b5",
+    "pdf": "https://escholarship.org/content/qt9vj0p6b5/qt9vj0p6b5.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Prognostic Potential of Extracellular Vesicles: Noninvasive Monitoring of Chemotherapeutic Resistance Development",
+    "authors": [
+     "Jennifer C. Hall",
+     "Thomas R. Carey",
+     "Lydia L. Sohn"
+    ],
+    "url": "https://escholarship.org/uc/item/4kb9p30h",
+    "pdf": "https://escholarship.org/content/qt4kb9p30h/qt4kb9p30h.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Reactivating Regeneration: The Power of Neural Crest Cells in Repairing Damaged Tissues (Dr. Megan Martik)",
+    "authors": [
+     "Lexie Ewer",
+     "Grace Guan",
+     "Luke Lyons",
+     "Esther Lim"
+    ],
+    "url": "https://escholarship.org/uc/item/1b35c2xr",
+    "pdf": "https://escholarship.org/content/qt1b35c2xr/qt1b35c2xr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Renewable Energy Economics: Understanding the Costs and Capacity of Green Energy in the United States",
+    "authors": [
+     "Megan J. Mehta",
+     "Abrar Rahman"
+    ],
+    "url": "https://escholarship.org/uc/item/8032f137",
+    "pdf": "https://escholarship.org/content/qt8032f137/qt8032f137.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Science and Society: A Novel Approach to Decision-Making",
+    "authors": [
+     "Gunay Kiran",
+     "Carolyn Qian",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/7d485625",
+    "pdf": "https://escholarship.org/content/qt7d485625/qt7d485625.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Beautiful Biology of an Evolutionary Arms Race (Dr. Kimberly Seed)",
+    "authors": [
+     "Andrew Delaney",
+     "Laurentia Tjang",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/05t258ct",
+    "pdf": "https://escholarship.org/content/qt05t258ct/qt05t258ct.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Decline of Mental Health: An Overlooked Consequence of the Pandemic",
+    "authors": [
+     "Andrew Delaney",
+     "Michael Xiong",
+     "Ananya Krishnapura",
+     "Esther Lim"
+    ],
+    "url": "https://escholarship.org/uc/item/5677m33s",
+    "pdf": "https://escholarship.org/content/qt5677m33s/qt5677m33s.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Underappreciated Value of Awe",
+    "authors": [
+     "Leighton Pu"
+    ],
+    "url": "https://escholarship.org/uc/item/3kf5h42d",
+    "pdf": "https://escholarship.org/content/qt3kf5h42d/qt3kf5h42d.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Uncovering the New Mysteries of Our Universe: The Origins of the James Webb Space Telescope",
+    "authors": [
+     "Shreya Ramesh"
+    ],
+    "url": "https://escholarship.org/uc/item/2179g9dd",
+    "pdf": "https://escholarship.org/content/qt2179g9dd/qt2179g9dd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Using Deep Reinforcement Learning to Peer Into the Unconquerable Mind: How Do Animals Learn to Track Odor Trails?",
+    "authors": [
+     "Anisha Iyer"
+    ],
+    "url": "https://escholarship.org/uc/item/4hb179kc",
+    "pdf": "https://escholarship.org/content/qt4hb179kc/qt4hb179kc.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Water & the People: A Relationship in Flux (Dr. David Sedlak)",
+    "authors": [
+     "Alexandra Du",
+     "Allisun Wiltshire",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/9r05330t",
+    "pdf": "https://escholarship.org/content/qt9r05330t/qt9r05330t.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "What Determines Coffee Aroma and Flavor?",
+    "authors": [
+     "Jane Li"
+    ],
+    "url": "https://escholarship.org/uc/item/1256f94x",
+    "pdf": "https://escholarship.org/content/qt1256f94x/qt1256f94x.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Back Cover",
+    "authors": [
+     "Melanie Russo"
+    ],
+    "url": "https://escholarship.org/uc/item/1dz355d2",
+    "pdf": "https://escholarship.org/content/qt1dz355d2/qt1dz355d2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Cover",
+    "authors": [
+     "Melanie Russo"
+    ],
+    "url": "https://escholarship.org/uc/item/75b5719w",
+    "pdf": "https://escholarship.org/content/qt75b5719w/qt75b5719w.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Melanie Russo"
+    ],
+    "url": "https://escholarship.org/uc/item/9588449h",
+    "pdf": "https://escholarship.org/content/qt9588449h/qt9588449h.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 26,
+  "issue": 1,
+  "title": "Origins",
+  "note": "25th anniversary edition",
+  "semester": "Fall",
+  "year": 2021,
+  "cover": "assets/covers/webp/26_1.webp",
+  "cover_fallback": "assets/covers/jpg/26_1.jpg",
+  "pdf": "assets/issues/pdfs/26_1.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/26/1",
+  "article_count": 20,
+  "contents": [
+   {
+    "title": "Blazing a New Trail: Wildfire Suppression in California",
+    "authors": [
+     "Luyang Zhang"
+    ],
+    "url": "https://escholarship.org/uc/item/5jw6136w",
+    "pdf": "https://escholarship.org/content/qt5jw6136w/qt5jw6136w.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Burning Questions with a Forestry Expert (Interview with Dr. Brandon Collins)",
+    "authors": [
+     "Grace Guan",
+     "Allisun Wiltshire",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/1np607x3",
+    "pdf": "https://escholarship.org/content/qt1np607x3/qt1np607x3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Cultured Meat: Growing Meat in the Lab",
+    "authors": [
+     "Jane Li"
+    ],
+    "url": "https://escholarship.org/uc/item/8jm1f62m",
+    "pdf": "https://escholarship.org/content/qt8jm1f62m/qt8jm1f62m.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Dark Energy, Robots, and Intergalactic Cartography",
+    "authors": [
+     "Ibrahim Abouelfettouh"
+    ],
+    "url": "https://escholarship.org/uc/item/6qt5b8f4",
+    "pdf": "https://escholarship.org/content/qt6qt5b8f4/qt6qt5b8f4.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Dual Imaging: a New Frontier in MRI (Interview with Dr. Ashok Ajoy)",
+    "authors": [
+     "Andrew Delaney",
+     "Lexie Ewer",
+     "Esther Lim"
+    ],
+    "url": "https://escholarship.org/uc/item/6mt327qh",
+    "pdf": "https://escholarship.org/content/qt6mt327qh/qt6mt327qh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Editor's Note",
+    "authors": [
+     "Elettra Preosti",
+     "Melanie Russo"
+    ],
+    "url": "https://escholarship.org/uc/item/0p1852t8",
+    "pdf": "https://escholarship.org/content/qt0p1852t8/qt0p1852t8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Engineering Logevity and the Reversibility of Aging (Interview with Dr. Irina Conboy)",
+    "authors": [
+     "Qiankun Li",
+     "Michael Xiong",
+     "Esther Lim"
+    ],
+    "url": "https://escholarship.org/uc/item/44j0x8qb",
+    "pdf": "https://escholarship.org/content/qt44j0x8qb/qt44j0x8qb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Examining the Role of Availability Heuristic in Climate Crisis Belief",
+    "authors": [
+     "Gunay Kiran"
+    ],
+    "url": "https://escholarship.org/uc/item/74m0k7cp",
+    "pdf": "https://escholarship.org/content/qt74m0k7cp/qt74m0k7cp.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Finding Meaning in Sound: Auditory Perception and Adaptation (Interview with Dr. Frederic Theunissen))",
+    "authors": [
+     "Caroline Kim",
+     "Kira Sterling",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/38m1t89s",
+    "pdf": "https://escholarship.org/content/qt38m1t89s/qt38m1t89s.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Forging Stars: The Technology Behind Fusion Power",
+    "authors": [
+     "Marley Ottman"
+    ],
+    "url": "https://escholarship.org/uc/item/9j34t5pk",
+    "pdf": "https://escholarship.org/content/qt9j34t5pk/qt9j34t5pk.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Innovating Unprecedented Treatments for Celiac Disease (Interview with Dr. Detlef Schuppan)",
+    "authors": [
+     "Marina Ilyas",
+     "Jacob Martin",
+     "Esther Lim"
+    ],
+    "url": "https://escholarship.org/uc/item/56r9w1k8",
+    "pdf": "https://escholarship.org/content/qt56r9w1k8/qt56r9w1k8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "It’s Lights Out and Away We Go",
+    "authors": [
+     "Siddhant Vasudevan"
+    ],
+    "url": "https://escholarship.org/uc/item/33q7r0m0",
+    "pdf": "https://escholarship.org/content/qt33q7r0m0/qt33q7r0m0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Let’s Take a Trip into Mental Health",
+    "authors": [
+     "Anna Castello"
+    ],
+    "url": "https://escholarship.org/uc/item/3w5335hm",
+    "pdf": "https://escholarship.org/content/qt3w5335hm/qt3w5335hm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Provisional Truths: The History of Physics and the Nature of Science",
+    "authors": [
+     "Jonathan Hale"
+    ],
+    "url": "https://escholarship.org/uc/item/9m5690v2",
+    "pdf": "https://escholarship.org/content/qt9m5690v2/qt9m5690v2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Rewriting Textbooks with Single-Particle Tracking Microscopy (Interview with Dr. Robert Tjian)",
+    "authors": [
+     "Elizabeth Chen",
+     "Laurentia Tjang",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/9f67c6m1",
+    "pdf": "https://escholarship.org/content/qt9f67c6m1/qt9f67c6m1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Effect of Conflict on Healthcare Workers in Syria: Results of a Qualitative Survey",
+    "authors": [
+     "Sarah Abdelrahman",
+     "Rohini Haar"
+    ],
+    "url": "https://escholarship.org/uc/item/4j07n9r9",
+    "pdf": "https://escholarship.org/content/qt4j07n9r9/qt4j07n9r9.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Origins of the Berkeley Scientific Journal",
+    "authors": [
+     "Elizabeth Chen",
+     "Ananya Krishnapura",
+     "Jonathan Kuo",
+     "Esther Lim",
+     "Laurentia Tjang",
+     "Allisun Wiltshire",
+     "Michael Xiong"
+    ],
+    "url": "https://escholarship.org/uc/item/6tp0t8d9",
+    "pdf": "https://escholarship.org/content/qt6tp0t8d9/qt6tp0t8d9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Sunset of Twilight Sleep",
+    "authors": [
+     "Jonathan Kuo"
+    ],
+    "url": "https://escholarship.org/uc/item/0931f557",
+    "pdf": "https://escholarship.org/content/qt0931f557/qt0931f557.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Where is Everyone? The Search for Life in the Vast Unknown",
+    "authors": [
+     "Shreya Ramesh"
+    ],
+    "url": "https://escholarship.org/uc/item/2gs5564c",
+    "pdf": "https://escholarship.org/content/qt2gs5564c/qt2gs5564c.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Wildfire Significance within the San Francisco Bay Area’s Air Quality",
+    "authors": [
+     "Scott Hashimoto",
+     "Rohith A Moolakatt",
+     "Amit Sant",
+     "Emma Centeno",
+     "Ava Currie",
+     "Joyce Wang",
+     "Grace Huang"
+    ],
+    "url": "https://escholarship.org/uc/item/7r88d6v7",
+    "pdf": "https://escholarship.org/content/qt7r88d6v7/qt7r88d6v7.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Cover",
+    "authors": [
+     "Stephanie Jue",
+     "Aarthi Muthukumar"
+    ],
+    "url": "https://escholarship.org/uc/item/4477958m",
+    "pdf": "https://escholarship.org/content/qt4477958m/qt4477958m.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Melanie Russo"
+    ],
+    "url": "https://escholarship.org/uc/item/8832019d",
+    "pdf": "https://escholarship.org/content/qt8832019d/qt8832019d.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 25,
+  "issue": 2,
+  "title": "Emergence",
+  "note": null,
+  "semester": "Spring",
+  "year": 2021,
+  "cover": "assets/covers/webp/25_2.webp",
+  "cover_fallback": "assets/covers/jpg/25_2.jpg",
+  "pdf": "assets/issues/pdfs/25_2.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/25/2",
+  "article_count": 19,
+  "contents": [
+   {
+    "title": "A Deep Dive into Modeling and Mechanisms",
+    "authors": [
+     "Bryan Hsu",
+     "Timothy Jang",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/1vw1g37z",
+    "pdf": "https://escholarship.org/content/qt1vw1g37z/qt1vw1g37z.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Anthology of Violet in Science",
+    "authors": [
+     "Jessica Jen"
+    ],
+    "url": "https://escholarship.org/uc/item/08d8j7s2",
+    "pdf": "https://escholarship.org/content/qt08d8j7s2/qt08d8j7s2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Assembloids: The Model of the Future",
+    "authors": [
+     "Anna Castello"
+    ],
+    "url": "https://escholarship.org/uc/item/43p6z7q6",
+    "pdf": "https://escholarship.org/content/qt43p6z7q6/qt43p6z7q6.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Avians to Airplanes: Biomimicry in Flight and Wing Design",
+    "authors": [
+     "Natalie Slosar"
+    ],
+    "url": "https://escholarship.org/uc/item/98p4d07v",
+    "pdf": "https://escholarship.org/content/qt98p4d07v/qt98p4d07v.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Blank Page",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/5sz5h655",
+    "pdf": "https://escholarship.org/content/qt5sz5h655/qt5sz5h655.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Bringing Philosophy into Scientific Research",
+    "authors": [
+     "Marley Ottoman"
+    ],
+    "url": "https://escholarship.org/uc/item/2010h5qv",
+    "pdf": "https://escholarship.org/content/qt2010h5qv/qt2010h5qv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "COVID-19 Year in Review: Insights from UC Berkeley’s Infectious Disease Experts",
+    "authors": [
+     "Liane Albarghouthi",
+     "Lexie Ewer",
+     "Timothy Jang",
+     "Esther Lim",
+     "Emily Matcham",
+     "Rebecca Park",
+     "Kaitlyn Wang",
+     "Allisun Wiltshire",
+     "Sabrina Wu"
+    ],
+    "url": "https://escholarship.org/uc/item/2b59v4qz",
+    "pdf": "https://escholarship.org/content/qt2b59v4qz/qt2b59v4qz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Crossing the Blood Brain Barrier to Treat Glioblastoma Multiforme",
+    "authors": [
+     "Anisha Iyer"
+    ],
+    "url": "https://escholarship.org/uc/item/6jb0g7wz",
+    "pdf": "https://escholarship.org/content/qt6jb0g7wz/qt6jb0g7wz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Data Analysis for Formula 1",
+    "authors": [
+     "Elettra Preosti"
+    ],
+    "url": "https://escholarship.org/uc/item/1514g4p5",
+    "pdf": "https://escholarship.org/content/qt1514g4p5/qt1514g4p5.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Developing a New Choice: The Unraveling of Reproductive Mysteries",
+    "authors": [
+     "Lexie Ewer",
+     "Esther Lim",
+     "Allisun Wiltshire",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/0zd110cv",
+    "pdf": "https://escholarship.org/content/qt0zd110cv/qt0zd110cv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Environmental Design: Solar Envelopes and Workplace Evaluation",
+    "authors": [
+     "Hosea Chen",
+     "Rebecca Park",
+     "Sabrina Wu",
+     "Elettra Preosti"
+    ],
+    "url": "https://escholarship.org/uc/item/6sx565s0",
+    "pdf": "https://escholarship.org/content/qt6sx565s0/qt6sx565s0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Microscopic Astronauts: Engineering Bacteria to Aid Human Space Travel",
+    "authors": [
+     "Anderson Lee"
+    ],
+    "url": "https://escholarship.org/uc/item/0739k15j",
+    "pdf": "https://escholarship.org/content/qt0739k15j/qt0739k15j.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Potential Relationships Between NAFLD Fibrosis Score and Graft Status in Liver Transplant Patients",
+    "authors": [
+     "Haaris Kadri",
+     "Raja R Narayan",
+     "Sunnie Y Wong",
+     "Marc L Melcher"
+    ],
+    "url": "https://escholarship.org/uc/item/9xh6w79d",
+    "pdf": "https://escholarship.org/content/qt9xh6w79d/qt9xh6w79d.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Reimagining Autonomous Underwater Vehicle Charging Stations with Wave Energy",
+    "authors": [
+     "X Sun",
+     "Bruce Deng",
+     "Jerry Zhang",
+     "Michael Kelly",
+     "Reza Alam",
+     "Simo Makiharju"
+    ],
+    "url": "https://escholarship.org/uc/item/7hs535wq",
+    "pdf": "https://escholarship.org/content/qt7hs535wq/qt7hs535wq.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Seeking Serendipity",
+    "authors": [
+     "Emily Pearlman"
+    ],
+    "url": "https://escholarship.org/uc/item/46v0p9pt",
+    "pdf": "https://escholarship.org/content/qt46v0p9pt/qt46v0p9pt.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Testing the Theory of General Relativity at the Galactic Center",
+    "authors": [
+     "Sabrina Wu",
+     "Yi Zhu",
+     "Elettra Preosti"
+    ],
+    "url": "https://escholarship.org/uc/item/7810p33v",
+    "pdf": "https://escholarship.org/content/qt7810p33v/qt7810p33v.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Evolution of Beauty",
+    "authors": [
+     "Lilian Eloyan"
+    ],
+    "url": "https://escholarship.org/uc/item/7qm265w4",
+    "pdf": "https://escholarship.org/content/qt7qm265w4/qt7qm265w4.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Function and Future of CRISPR Genome Editing",
+    "authors": [
+     "Liane Albarghouthi",
+     "Emily Matcham",
+     "Kaitlyn Wang",
+     "Ananya Krishnapura",
+     "Elettra Preosti"
+    ],
+    "url": "https://escholarship.org/uc/item/39m5s5vh",
+    "pdf": "https://escholarship.org/content/qt39m5s5vh/qt39m5s5vh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "To Live or Not to Live: Defining Life Outside Biological Systems",
+    "authors": [
+     "Nachiket Girish"
+    ],
+    "url": "https://escholarship.org/uc/item/7pz279c2",
+    "pdf": "https://escholarship.org/content/qt7pz279c2/qt7pz279c2.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Back Cover",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/1zv0x2hk",
+    "pdf": "https://escholarship.org/content/qt1zv0x2hk/qt1zv0x2hk.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Cover",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/7s55s0c2",
+    "pdf": "https://escholarship.org/content/qt7s55s0c2/qt7s55s0c2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Editorial Note",
+    "authors": [
+     "Jonathan Kuo",
+     "Rosa Lee"
+    ],
+    "url": "https://escholarship.org/uc/item/325212tb",
+    "pdf": "https://escholarship.org/content/qt325212tb/qt325212tb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/99w7h61n",
+    "pdf": "https://escholarship.org/content/qt99w7h61n/qt99w7h61n.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 25,
+  "issue": 1,
+  "title": "Bonds",
+  "note": null,
+  "semester": "Fall",
+  "year": 2020,
+  "cover": "assets/covers/webp/25_1.webp",
+  "cover_fallback": "assets/covers/jpg/25_1.jpg",
+  "pdf": "assets/issues/pdfs/25_1.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/25/1",
+  "article_count": 14,
+  "contents": [
+   {
+    "title": "Applications of Materials Science: From Modeling to Medical Use",
+    "authors": [
+     "Esther Lim",
+     "Alexander Peterson",
+     "Sabrina Wu",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/3t9558hv",
+    "pdf": "https://escholarship.org/content/qt3t9558hv/qt3t9558hv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Beyond the Racetrack: The Perfect Formula for a Ventilator",
+    "authors": [
+     "Elettra Preosti"
+    ],
+    "url": "https://escholarship.org/uc/item/1mz5c9s8",
+    "pdf": "https://escholarship.org/content/qt1mz5c9s8/qt1mz5c9s8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Coral Cover and Algae Growth Along a Water Quality Gradient in Moorea, French Polynesia",
+    "authors": [
+     "Savannah Sturla"
+    ],
+    "url": "https://escholarship.org/uc/item/58g7k2br",
+    "pdf": "https://escholarship.org/content/qt58g7k2br/qt58g7k2br.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Darwin: Chimp or Chump?",
+    "authors": [
+     "Lilian Eloyan"
+    ],
+    "url": "https://escholarship.org/uc/item/7fh5m0kd",
+    "pdf": "https://escholarship.org/content/qt7fh5m0kd/qt7fh5m0kd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Exploring Cancer Metastasis Outside the Genome",
+    "authors": [
+     "Timothy Jang",
+     "Ananya Krishnapura"
+    ],
+    "url": "https://escholarship.org/uc/item/66x0d43t",
+    "pdf": "https://escholarship.org/content/qt66x0d43t/qt66x0d43t.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Machine Learning and Design Optimization for Molecular Biology and Beyond",
+    "authors": [
+     "Bryan Hsu",
+     "Natasha Raut",
+     "Kaitlyn Wang",
+     "Elettra Preosti"
+    ],
+    "url": "https://escholarship.org/uc/item/3p69w239",
+    "pdf": "https://escholarship.org/content/qt3p69w239/qt3p69w239.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Microrobots: Bridging the Neuronal Gap, One Micron at a Time",
+    "authors": [
+     "Natalie Slosar"
+    ],
+    "url": "https://escholarship.org/uc/item/0wd841xm",
+    "pdf": "https://escholarship.org/content/qt0wd841xm/qt0wd841xm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "mRNA: The Next Frontier in Vaccine Science",
+    "authors": [
+     "Nachiket Girish"
+    ],
+    "url": "https://escholarship.org/uc/item/3bz923cn",
+    "pdf": "https://escholarship.org/content/qt3bz923cn/qt3bz923cn.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Plastic: It's What's For Dinner",
+    "authors": [
+     "Emily Pearlman"
+    ],
+    "url": "https://escholarship.org/uc/item/4c62f6wg",
+    "pdf": "https://escholarship.org/content/qt4c62f6wg/qt4c62f6wg.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Quantifying Within-Day Abstract Skill Learning and Exploring its Neural Correlates",
+    "authors": [
+     "Gabrielle Shvartsman"
+    ],
+    "url": "https://escholarship.org/uc/item/79m4r2p1",
+    "pdf": "https://escholarship.org/content/qt79m4r2p1/qt79m4r2p1.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Schizophrenia Through The Years",
+    "authors": [
+     "Anisha Iyer"
+    ],
+    "url": "https://escholarship.org/uc/item/7f991041",
+    "pdf": "https://escholarship.org/content/qt7f991041/qt7f991041.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The 'King of Poisons' Journeys Underground in Search of Water",
+    "authors": [
+     "Jessica Jen"
+    ],
+    "url": "https://escholarship.org/uc/item/4042963q",
+    "pdf": "https://escholarship.org/content/qt4042963q/qt4042963q.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Unlocking Peto's Paradox",
+    "authors": [
+     "Chris Zhan"
+    ],
+    "url": "https://escholarship.org/uc/item/1fj293bk",
+    "pdf": "https://escholarship.org/content/qt1fj293bk/qt1fj293bk.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Why are we here? A Journey Into the Quantum Universe",
+    "authors": [
+     "Amar Shah",
+     "Michelle Yang",
+     "Elettra Preosti"
+    ],
+    "url": "https://escholarship.org/uc/item/6bt2t9nx",
+    "pdf": "https://escholarship.org/content/qt6bt2t9nx/qt6bt2t9nx.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Cover",
+    "authors": [
+     "UCB BSJ"
+    ],
+    "url": "https://escholarship.org/uc/item/0w4569gf",
+    "pdf": "https://escholarship.org/content/qt0w4569gf/qt0w4569gf.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Editorial Note",
+    "authors": [
+     "Rosa Lee"
+    ],
+    "url": "https://escholarship.org/uc/item/3521n6rd",
+    "pdf": "https://escholarship.org/content/qt3521n6rd/qt3521n6rd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "UCB BSJ"
+    ],
+    "url": "https://escholarship.org/uc/item/4n42s37v",
+    "pdf": "https://escholarship.org/content/qt4n42s37v/qt4n42s37v.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 24,
+  "issue": 2,
+  "title": "Intersections",
+  "note": null,
+  "semester": "Spring",
+  "year": 2020,
+  "cover": "assets/covers/webp/24_2.webp",
+  "cover_fallback": "assets/covers/jpg/24_2.jpg",
+  "pdf": "assets/issues/pdfs/24_2.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/24/2",
+  "article_count": 13,
+  "contents": [
+   {
+    "title": "Carbon Nanotube Forests: The Next Step in Energy Storage?",
+    "authors": [
+     "Sharon Binoy",
+     "Ananya Krishnapura",
+     "Esther Lim",
+     "Elettra Preosti",
+     "Melanie Russo",
+     "Rosa Lee"
+    ],
+    "url": "https://escholarship.org/uc/item/6bh6n37z",
+    "pdf": "https://escholarship.org/content/qt6bh6n37z/qt6bh6n37z.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "COVID-19: Insights from UC Berkeley's Infectious Disease Experts",
+    "authors": [
+     "Sharon Binoy",
+     "Ananya Krishnapura",
+     "Esther Lim",
+     "Elettra Preosti",
+     "Melanie Russo",
+     "Michael Xiong",
+     "Katheryn Zhou",
+     "Matthew Colbert",
+     "Rosa Lee"
+    ],
+    "url": "https://escholarship.org/uc/item/14h8d93x",
+    "pdf": "https://escholarship.org/content/qt14h8d93x/qt14h8d93x.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "CRISPR Crops: The Future of Agriculture",
+    "authors": [
+     "Emily Pearlman"
+    ],
+    "url": "https://escholarship.org/uc/item/71x2b3m0",
+    "pdf": "https://escholarship.org/content/qt71x2b3m0/qt71x2b3m0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Globalizing Iodine through Public Health",
+    "authors": [
+     "Jessica Jen"
+    ],
+    "url": "https://escholarship.org/uc/item/7bh8q243",
+    "pdf": "https://escholarship.org/content/qt7bh8q243/qt7bh8q243.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "How to Win: Optimizing Overcooked",
+    "authors": [
+     "Nick Nolan"
+    ],
+    "url": "https://escholarship.org/uc/item/4sq3h354",
+    "pdf": "https://escholarship.org/content/qt4sq3h354/qt4sq3h354.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Labeling Tumors with Quantum Dots: The Fascinating World of Nanocrystals and Quantum Dots",
+    "authors": [
+     "Nachiket Girish"
+    ],
+    "url": "https://escholarship.org/uc/item/9w10w6hp",
+    "pdf": "https://escholarship.org/content/qt9w10w6hp/qt9w10w6hp.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Marine Snow: The Largest Snowfall on Earth",
+    "authors": [
+     "Lilian Eloyan"
+    ],
+    "url": "https://escholarship.org/uc/item/5gz6310z",
+    "pdf": "https://escholarship.org/content/qt5gz6310z/qt5gz6310z.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Monitoring Biodiversity and Water Pollution via High-Throughput eDNA Metabarcoding",
+    "authors": [
+     "Jason Chang"
+    ],
+    "url": "https://escholarship.org/uc/item/4cc7z15r",
+    "pdf": "https://escholarship.org/content/qt4cc7z15r/qt4cc7z15r.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Human Brain and the Evolution of Language",
+    "authors": [
+     "Elettra Preosti",
+     "Melanie Russo",
+     "Katie Sanko",
+     "Katheryn Zhou",
+     "Matthew Colbert"
+    ],
+    "url": "https://escholarship.org/uc/item/34b8m4dj",
+    "pdf": "https://escholarship.org/content/qt34b8m4dj/qt34b8m4dj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Rise and Demise of Software",
+    "authors": [
+     "Candy Xu"
+    ],
+    "url": "https://escholarship.org/uc/item/5k72m9s5",
+    "pdf": "https://escholarship.org/content/qt5k72m9s5/qt5k72m9s5.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Toward a Synthetically Regenerative World",
+    "authors": [
+     "Mina Nakatani"
+    ],
+    "url": "https://escholarship.org/uc/item/4sj2n1mm",
+    "pdf": "https://escholarship.org/content/qt4sj2n1mm/qt4sj2n1mm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Understanding Human Cognition: The Cognitive Neuroscience of Motor Learning",
+    "authors": [
+     "Sharon Binoy",
+     "Ananya Krishnapura",
+     "Esther Lim",
+     "Michael Xiong",
+     "Rosa Lee"
+    ],
+    "url": "https://escholarship.org/uc/item/17n5r42w",
+    "pdf": "https://escholarship.org/content/qt17n5r42w/qt17n5r42w.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Urbanization Determines the Abundance of Disease Vector Mosquitoes in Moorea, French Polynesia",
+    "authors": [
+     "Jason Mark B. Soriano"
+    ],
+    "url": "https://escholarship.org/uc/item/34n8x5xx",
+    "pdf": "https://escholarship.org/content/qt34n8x5xx/qt34n8x5xx.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Cover",
+    "authors": [
+     "UCB BSJ"
+    ],
+    "url": "https://escholarship.org/uc/item/6pq8m3j9",
+    "pdf": "https://escholarship.org/content/qt6pq8m3j9/qt6pq8m3j9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Editorial Note",
+    "authors": [
+     "Elena Slobodyanyuk"
+    ],
+    "url": "https://escholarship.org/uc/item/49d514qq",
+    "pdf": "https://escholarship.org/content/qt49d514qq/qt49d514qq.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "UCB BSJ"
+    ],
+    "url": "https://escholarship.org/uc/item/4c3622tw",
+    "pdf": "https://escholarship.org/content/qt4c3622tw/qt4c3622tw.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 24,
+  "issue": 1,
+  "title": "Glitch",
+  "note": null,
+  "semester": "Fall",
+  "year": 2019,
+  "cover": "assets/covers/webp/24_1.webp",
+  "cover_fallback": "assets/covers/jpg/24_1.jpg",
+  "pdf": "assets/issues/pdfs/24_1.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/24/1",
+  "article_count": 12,
+  "contents": [
+   {
+    "title": "A Quantum Mechanical Approach to Understanding DNA Mutations",
+    "authors": [
+     "Michelle Yang"
+    ],
+    "url": "https://escholarship.org/uc/item/17s1n6g3",
+    "pdf": "https://escholarship.org/content/qt17s1n6g3/qt17s1n6g3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Breaking into Blockchain",
+    "authors": [
+     "Candy Xu"
+    ],
+    "url": "https://escholarship.org/uc/item/8ft0j427",
+    "pdf": "https://escholarship.org/content/qt8ft0j427/qt8ft0j427.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "\"Corrupted Blood\" and Public Health",
+    "authors": [
+     "Nachiket Girish"
+    ],
+    "url": "https://escholarship.org/uc/item/4qj303gp",
+    "pdf": "https://escholarship.org/content/qt4qj303gp/qt4qj303gp.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Dark Matter: Discovering a Glitch in the Universe",
+    "authors": [
+     "Mina Nakatani"
+    ],
+    "url": "https://escholarship.org/uc/item/2qn5p0rj",
+    "pdf": "https://escholarship.org/content/qt2qn5p0rj/qt2qn5p0rj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Drought and the Microbiome: Advancements in Agriculture",
+    "authors": [
+     "Shevya Awasthi",
+     "Doyel Das",
+     "Emily Harari",
+     "Ananya Krishnapura",
+     "Erika Zhang",
+     "Rosa Lee"
+    ],
+    "url": "https://escholarship.org/uc/item/1n50054q",
+    "pdf": "https://escholarship.org/content/qt1n50054q/qt1n50054q.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Emotional Contagion: How We Mimic the Emotions of Those Similar to Us",
+    "authors": [
+     "Zoe Franklin"
+    ],
+    "url": "https://escholarship.org/uc/item/18j8t99b",
+    "pdf": "https://escholarship.org/content/qt18j8t99b/qt18j8t99b.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Factors that Limit Establishment of Stony Corals",
+    "authors": [
+     "Michelle C. Temby"
+    ],
+    "url": "https://escholarship.org/uc/item/9kw1925t",
+    "pdf": "https://escholarship.org/content/qt9kw1925t/qt9kw1925t.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Genetic Circuitry and the Future of Engineering",
+    "authors": [
+     "Nick Nolan"
+    ],
+    "url": "https://escholarship.org/uc/item/4zh4568z",
+    "pdf": "https://escholarship.org/content/qt4zh4568z/qt4zh4568z.pdf",
+    "peer_reviewed": false
+   },
+   {
     "title": "Glitch",
-    "semester": "Fall",
-    "year": 2019,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/24/1",
-    "issuu_url": "https://issuu.com/berkeleyscientific1/docs/glitch_forpublication"
-  },
-  {
-    "volume": 24,
-    "issue": 2,
-    "title": "Intersections",
-    "semester": "Spring",
-    "year": 2020,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/24/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 25,
-    "issue": 1,
-    "title": "Bonds",
-    "semester": "Fall",
-    "year": 2021,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/25/1",
-    "issuu_url": "https://issuu.com/berkeleyscientific1/docs/bonds_final_wsupp"
-  },
-  {
-    "volume": 25,
-    "issue": 2,
-    "title": "Emergence",
-    "semester": "Spring",
-    "year": 2021,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/25/2",
-    "issuu_url": "https://issuu.com/berkeleyscientific1/docs/emergence-final"
-  },
-  {
-    "volume": 26,
-    "issue": 1,
-    "title": "Origins (25th Anniversary Edition)",
-    "semester": null,
-    "year": 2021,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/26/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 26,
-    "issue": 2,
-    "title": "Flux",
-    "semester": null,
-    "year": 2022,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/26/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 27,
-    "issue": 1,
-    "title": "Signal",
-    "semester": null,
-    "year": 2022,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/27/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 27,
-    "issue": 2,
-    "title": "Potential",
-    "semester": null,
-    "year": 2023,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/27/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 28,
-    "issue": 1,
-    "title": "Magnitude",
-    "semester": null,
-    "year": 2023,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/28/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 28,
-    "issue": 2,
-    "title": "Anomaly",
-    "semester": null,
-    "year": 2024,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/28/2",
-    "issuu_url": null
-  },
-  {
-    "volume": 29,
-    "issue": 1,
-    "title": "Pulse",
-    "semester": null,
-    "year": 2024,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/29/1",
-    "issuu_url": null
-  },
-  {
-    "volume": 29,
-    "issue": 2,
-    "title": "Chimera",
-    "semester": null,
-    "year": 2025,
-    "escholarship_url": "https://escholarship.org/uc/our_bsj/29/2",
-    "issuu_url": null
-  }
+    "authors": [
+     "UCB BSJ"
+    ],
+    "url": "https://escholarship.org/uc/item/0853w8s5",
+    "pdf": "https://escholarship.org/content/qt0853w8s5/qt0853w8s5.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Insect Phylogenetics: A Guided Tour of Insect Evolution",
+    "authors": [
+     "Elettra Preosti",
+     "Melanie Russo",
+     "Katie Sanko",
+     "Michael Xiong",
+     "Katheryn Zhou",
+     "Matthew Colbert"
+    ],
+    "url": "https://escholarship.org/uc/item/5nj9c5bj",
+    "pdf": "https://escholarship.org/content/qt5nj9c5bj/qt5nj9c5bj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Pain Versus Itch: The Role of S1P",
+    "authors": [
+     "Shevya Awasthi",
+     "Doyel Das",
+     "Emily Harari",
+     "Ananya Krishnapura",
+     "Michael Xiong",
+     "Rosa Lee"
+    ],
+    "url": "https://escholarship.org/uc/item/5pq1j960",
+    "pdf": "https://escholarship.org/content/qt5pq1j960/qt5pq1j960.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Regrowing Ourselves: Possibilities of Regenerative Medicine",
+    "authors": [
+     "Jessica Jen"
+    ],
+    "url": "https://escholarship.org/uc/item/4zs8t9w3",
+    "pdf": "https://escholarship.org/content/qt4zs8t9w3/qt4zs8t9w3.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Editorial Note",
+    "authors": [
+     "Elena Slobodyanyuk"
+    ],
+    "url": "https://escholarship.org/uc/item/45n866cp",
+    "pdf": "https://escholarship.org/content/qt45n866cp/qt45n866cp.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "UCB BSJ"
+    ],
+    "url": "https://escholarship.org/uc/item/9kk0656c",
+    "pdf": "https://escholarship.org/content/qt9kk0656c/qt9kk0656c.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 23,
+  "issue": 2,
+  "title": "Perspectives",
+  "note": null,
+  "semester": "Spring",
+  "year": 2019,
+  "cover": "assets/covers/webp/23_2.webp",
+  "cover_fallback": "assets/covers/jpg/23_2.jpg",
+  "pdf": "assets/issues/pdfs/23_2.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/23/2",
+  "article_count": 15,
+  "contents": [
+   {
+    "title": "Bioengineering Technology with a Social Responsibility",
+    "authors": [
+     "Matthew Colbert",
+     "Cassidy Hardin",
+     "Michelle Lee",
+     "Rosa Lee",
+     "Melanie Russo",
+     "Nikhil Chari"
+    ],
+    "url": "https://escholarship.org/uc/item/5hx99724",
+    "pdf": "https://escholarship.org/content/qt5hx99724/qt5hx99724.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Biological Insights into Single-Molecule Imaging",
+    "authors": [
+     "Doyel Das",
+     "Emily Harari",
+     "Elettra Preosti",
+     "Saumi Shokraee",
+     "Elena Slobodyanyuk"
+    ],
+    "url": "https://escholarship.org/uc/item/9fz1j2hk",
+    "pdf": "https://escholarship.org/content/qt9fz1j2hk/qt9fz1j2hk.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Bird Health in California’s Central Coast: Interactions Between Agricultural Land Use and Avian Life History",
+    "authors": [
+     "Victoria Marie Glynn"
+    ],
+    "url": "https://escholarship.org/uc/item/4sf483vj",
+    "pdf": "https://escholarship.org/content/qt4sf483vj/qt4sf483vj.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Bridging Science and Buddhism: Toward an Expanded Understanding of Mind",
+    "authors": [
+     "Shevya Awasthi",
+     "Doyel Das",
+     "Cassidy Hardin",
+     "Rosa Lee",
+     "Melanie Russo",
+     "Elena Slobodyanyuk"
+    ],
+    "url": "https://escholarship.org/uc/item/50s565ch",
+    "pdf": "https://escholarship.org/content/qt50s565ch/qt50s565ch.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Bringing a New Perspective to Gene Regulation",
+    "authors": [
+     "Matthew Colbert",
+     "Emily Harari",
+     "Michelle Lee",
+     "Elettra Preosti",
+     "Saumi Shokraee",
+     "Nikhil Chari"
+    ],
+    "url": "https://escholarship.org/uc/item/8dv1s98z",
+    "pdf": "https://escholarship.org/content/qt8dv1s98z/qt8dv1s98z.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Clinical Oracle: Machine Learning in Medicine",
+    "authors": [
+     "Saahil Chadha"
+    ],
+    "url": "https://escholarship.org/uc/item/1kt5029r",
+    "pdf": "https://escholarship.org/content/qt1kt5029r/qt1kt5029r.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Drug Use and Policy: A Cross-Discipline Dialogue",
+    "authors": [
+     "Shevya Awasthi",
+     "Matthew Colbert",
+     "Doyel Das",
+     "Emily Harari",
+     "Cassidy Hardin",
+     "Rosa Lee",
+     "Michelle Lee",
+     "Elettra Preosti",
+     "Melanie Russo",
+     "Saumi Shokraee"
+    ],
+    "url": "https://escholarship.org/uc/item/55z0t0bj",
+    "pdf": "https://escholarship.org/content/qt55z0t0bj/qt55z0t0bj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Insights from the JGI User Meeting: Using Genomics to Tackle Environmental Problems",
+    "authors": [
+     "Emily Harari",
+     "Matthew Colbert",
+     "Nikhil Chari"
+    ],
+    "url": "https://escholarship.org/uc/item/92b490h8",
+    "pdf": "https://escholarship.org/content/qt92b490h8/qt92b490h8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Introducing an Anti-Terminator Paralog Gene to Induce Production of Natural Products in Clostridium Species",
+    "authors": [
+     "Alexander Leung"
+    ],
+    "url": "https://escholarship.org/uc/item/2vp44226",
+    "pdf": "https://escholarship.org/content/qt2vp44226/qt2vp44226.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "On the Brink of Disconnection",
+    "authors": [
+     "Candy Xu"
+    ],
+    "url": "https://escholarship.org/uc/item/2d256733",
+    "pdf": "https://escholarship.org/content/qt2d256733/qt2d256733.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Organoids: The Future of Medicine",
+    "authors": [
+     "Jonathan Kuo"
+    ],
+    "url": "https://escholarship.org/uc/item/5323s7ms",
+    "pdf": "https://escholarship.org/content/qt5323s7ms/qt5323s7ms.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Renewable Energy Goals in the Face of Climate Change",
+    "authors": [
+     "Matthew Lundy"
+    ],
+    "url": "https://escholarship.org/uc/item/8r384363",
+    "pdf": "https://escholarship.org/content/qt8r384363/qt8r384363.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Satellite Imagery Combats Eco-Destructive Activity in the Amazon",
+    "authors": [
+     "Shane Puthuparambil"
+    ],
+    "url": "https://escholarship.org/uc/item/71b9f980",
+    "pdf": "https://escholarship.org/content/qt71b9f980/qt71b9f980.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Symmetry Breaking and Asymmetry in the Universe",
+    "authors": [
+     "Nachiket Girish"
+    ],
+    "url": "https://escholarship.org/uc/item/36h0v160",
+    "pdf": "https://escholarship.org/content/qt36h0v160/qt36h0v160.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Thinking Smaller: The Future of Two-Dimensional Materials",
+    "authors": [
+     "Mina Nakatani"
+    ],
+    "url": "https://escholarship.org/uc/item/6ms6x87r",
+    "pdf": "https://escholarship.org/content/qt6ms6x87r/qt6ms6x87r.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Editorial Note",
+    "authors": [
+     "Aarohi Bhargava-Shah"
+    ],
+    "url": "https://escholarship.org/uc/item/42c6q34b",
+    "pdf": "https://escholarship.org/content/qt42c6q34b/qt42c6q34b.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/8hd8k17d",
+    "pdf": "https://escholarship.org/content/qt8hd8k17d/qt8hd8k17d.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 23,
+  "issue": 1,
+  "title": "Crisis",
+  "note": null,
+  "semester": "Fall",
+  "year": 2018,
+  "cover": "assets/covers/webp/23_1.webp",
+  "cover_fallback": "assets/covers/jpg/23_1.jpg",
+  "pdf": "assets/issues/pdfs/23_1.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/23/1",
+  "article_count": 13,
+  "contents": [
+   {
+    "title": "Bridging the Gap Between the Fossil Record and the Modern Day",
+    "authors": [
+     "Cassidy Hardin",
+     "Akash Kulgod",
+     "Michelle Lee",
+     "Stuti Raizada",
+     "Nikhil Chari"
+    ],
+    "url": "https://escholarship.org/uc/item/6hx705dh",
+    "pdf": "https://escholarship.org/content/qt6hx705dh/qt6hx705dh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Climate Change and the Nuclear Option",
+    "authors": [
+     "Matt Lundy"
+    ],
+    "url": "https://escholarship.org/uc/item/5zc3m8h7",
+    "pdf": "https://escholarship.org/content/qt5zc3m8h7/qt5zc3m8h7.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Crisis",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/15h1877k",
+    "pdf": "https://escholarship.org/content/qt15h1877k/qt15h1877k.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "How Supersymmetry Held a Mirror to Fundamental Physics",
+    "authors": [
+     "Nachiket Girish"
+    ],
+    "url": "https://escholarship.org/uc/item/8991k2mx",
+    "pdf": "https://escholarship.org/content/qt8991k2mx/qt8991k2mx.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Measuring the Unknown Forces that Drive Neutron Star Mergers",
+    "authors": [
+     "Cassidy Hardin",
+     "Michelle Lee",
+     "Kaela Seiersen"
+    ],
+    "url": "https://escholarship.org/uc/item/4p1157j2",
+    "pdf": "https://escholarship.org/content/qt4p1157j2/qt4p1157j2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Moments of Mania: Emotion-Related Impulsivity and Bipolar Disorder",
+    "authors": [
+     "Shevya Awasthi",
+     "Matthew Colbert",
+     "Doyel Das",
+     "Melanie Russo",
+     "Kaela Seiersen",
+     "Elena Slobodyanyuk"
+    ],
+    "url": "https://escholarship.org/uc/item/0501j5q0",
+    "pdf": "https://escholarship.org/content/qt0501j5q0/qt0501j5q0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Mycotoxins in Developing Countries: The Silent Killer",
+    "authors": [
+     "Andrea He"
+    ],
+    "url": "https://escholarship.org/uc/item/3jw9j7jg",
+    "pdf": "https://escholarship.org/content/qt3jw9j7jg/qt3jw9j7jg.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Opiate Addiction and its Confounding Crisis",
+    "authors": [
+     "Ashley Joshi"
+    ],
+    "url": "https://escholarship.org/uc/item/1t62x63j",
+    "pdf": "https://escholarship.org/content/qt1t62x63j/qt1t62x63j.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Science from the Bottom Up: Mosquito-Borne Diseases in Nicaragua",
+    "authors": [
+     "Matthew Colbert",
+     "Cassidy Hardin",
+     "Melanie Russo",
+     "Kaela Seiersen",
+     "Nikhil Chari"
+    ],
+    "url": "https://escholarship.org/uc/item/1kw7861t",
+    "pdf": "https://escholarship.org/content/qt1kw7861t/qt1kw7861t.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Belo Monte Dam: Greatest \"Natural\" Disaster of Our Generation?",
+    "authors": [
+     "Shane Puthuparambil"
+    ],
+    "url": "https://escholarship.org/uc/item/6x27d4hr",
+    "pdf": "https://escholarship.org/content/qt6x27d4hr/qt6x27d4hr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Biological Carbon Pump: Climate Change Warrior",
+    "authors": [
+     "Madalyn Miles"
+    ],
+    "url": "https://escholarship.org/uc/item/7cg4n7p8",
+    "pdf": "https://escholarship.org/content/qt7cg4n7p8/qt7cg4n7p8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Crisis and Convenience of Synthetic Plastics",
+    "authors": [
+     "Mina Nakatani"
+    ],
+    "url": "https://escholarship.org/uc/item/8cw4x181",
+    "pdf": "https://escholarship.org/content/qt8cw4x181/qt8cw4x181.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Science of Science Rhetoric",
+    "authors": [
+     "Jonathan Kuo"
+    ],
+    "url": "https://escholarship.org/uc/item/1vn0318r",
+    "pdf": "https://escholarship.org/content/qt1vn0318r/qt1vn0318r.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Editorial Note",
+    "authors": [
+     "Aarohi Bhargava-Shah"
+    ],
+    "url": "https://escholarship.org/uc/item/8mz5j4nm",
+    "pdf": "https://escholarship.org/content/qt8mz5j4nm/qt8mz5j4nm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/6q75m70w",
+    "pdf": "https://escholarship.org/content/qt6q75m70w/qt6q75m70w.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 22,
+  "issue": 2,
+  "title": "Next Generation",
+  "note": null,
+  "semester": "Spring",
+  "year": 2018,
+  "cover": "assets/covers/webp/22_2.webp",
+  "cover_fallback": "assets/covers/jpg/22_2.jpg",
+  "pdf": "assets/issues/pdfs/22_2.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/22/2",
+  "article_count": 17,
+  "contents": [
+   {
+    "title": "Berkeley Science Journal: Spring 2018, Next Generation",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/4nf477fn",
+    "pdf": "https://escholarship.org/content/qt4nf477fn/qt4nf477fn.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "BSJ",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/42c529pv",
+    "pdf": "https://escholarship.org/content/qt42c529pv/qt42c529pv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "CANCER DRUGS: TARGETING UNDRUGGABLE PROTEINS",
+    "authors": [
+     "YANA PETRI"
+    ],
+    "url": "https://escholarship.org/uc/item/9ck0k25d",
+    "pdf": "https://escholarship.org/content/qt9ck0k25d/qt9ck0k25d.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "CROSSING THE SYNAPTIC CLEFT: TREATING AUTISM SPECTRUM DISORDER",
+    "authors": [
+     "SANIKA GANESH"
+    ],
+    "url": "https://escholarship.org/uc/item/0cw2738v",
+    "pdf": "https://escholarship.org/content/qt0cw2738v/qt0cw2738v.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "DRAWING THE LINE BETWEEN PREDATORS AND LIVESTOCK",
+    "authors": [
+     "LARA VOLSKI"
+    ],
+    "url": "https://escholarship.org/uc/item/8wr8h4rd",
+    "pdf": "https://escholarship.org/content/qt8wr8h4rd/qt8wr8h4rd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "DRUG DELIVERY: STEPS TOWARD REPLACING THE PILL",
+    "authors": [
+     "SHIVALI BAVEJA"
+    ],
+    "url": "https://escholarship.org/uc/item/0px8c4f8",
+    "pdf": "https://escholarship.org/content/qt0px8c4f8/qt0px8c4f8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "EXPLAINING PATTERNS IN ECOLOGY: CLIMATE MANIPULATION AND MATHEMATICAL MODELING",
+    "authors": [
+     "Nikhil Chari",
+     "Rosa Lee",
+     "Moe Mijjum",
+     "Phillip De Lorimier",
+     "Sona Trika",
+     "Elena Slobodyanyuk"
+    ],
+    "url": "https://escholarship.org/uc/item/8gv5n09v",
+    "pdf": "https://escholarship.org/content/qt8gv5n09v/qt8gv5n09v.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "GOING PUBLIC WITH PERSONAL GENETICS",
+    "authors": [
+     "MARIE BALFOUR"
+    ],
+    "url": "https://escholarship.org/uc/item/69c1n45z",
+    "pdf": "https://escholarship.org/content/qt69c1n45z/qt69c1n45z.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "NANOMEDICINE AND ITS VARIOUS APPLICATIONS",
+    "authors": [
+     "NICOLE XU"
+    ],
+    "url": "https://escholarship.org/uc/item/52t4b9zd",
+    "pdf": "https://escholarship.org/content/qt52t4b9zd/qt52t4b9zd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "POWERING THE FUTURE WITH HYDROGEN FUEL CELLS",
+    "authors": [
+     "MINA NAKATANI"
+    ],
+    "url": "https://escholarship.org/uc/item/54n915pj",
+    "pdf": "https://escholarship.org/content/qt54n915pj/qt54n915pj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Shifting Power Dynamics: The #MeToo Movement",
+    "authors": [
+     "Arjun Chandran",
+     "Michelle Lee",
+     "Melanie Russo",
+     "Yana Petri",
+     "Cassidy Hardin"
+    ],
+    "url": "https://escholarship.org/uc/item/5rx2z7h9",
+    "pdf": "https://escholarship.org/content/qt5rx2z7h9/qt5rx2z7h9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "TACKLING COMPLEX DISEASES WITH EPISTASIS",
+    "authors": [
+     "KARA JIA"
+    ],
+    "url": "https://escholarship.org/uc/item/2d626981",
+    "pdf": "https://escholarship.org/content/qt2d626981/qt2d626981.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "THE FUTURE OF PRIVACY AND CYBERSECURITY",
+    "authors": [
+     "JENNIFER ZENG"
+    ],
+    "url": "https://escholarship.org/uc/item/2ps501md",
+    "pdf": "https://escholarship.org/content/qt2ps501md/qt2ps501md.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "THE FUTURE OF WORK",
+    "authors": [
+     "MACY CHANGE"
+    ],
+    "url": "https://escholarship.org/uc/item/80s9t49p",
+    "pdf": "https://escholarship.org/content/qt80s9t49p/qt80s9t49p.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Mysterious Loss of the Third Molar in the New World Monkey Family Callitrichidae and its Relationship to Phyletic Dwarfism",
+    "authors": [
+     "JEFFREY COLEMAN"
+    ],
+    "url": "https://escholarship.org/uc/item/7522b3xw",
+    "pdf": "https://escholarship.org/content/qt7522b3xw/qt7522b3xw.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Road to the Red Planet",
+    "authors": [
+     "MATT LUNDY"
+    ],
+    "url": "https://escholarship.org/uc/item/3kh6m7t1",
+    "pdf": "https://escholarship.org/content/qt3kh6m7t1/qt3kh6m7t1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "TIPS ON SCIENCE CAREERS: YOUR GRADUATE STUDENT INSTRUCTORS SHARE WISDOM",
+    "authors": [
+     "Arjun Chandran",
+     "Rosa Lee",
+     "Michelle Lee",
+     "Nikhil Chari",
+     "Phillip de Lorimier",
+     "Moe Mijjum",
+     "Melanie Russo",
+     "Sona Trika"
+    ],
+    "url": "https://escholarship.org/uc/item/2xj5d1fx",
+    "pdf": "https://escholarship.org/content/qt2xj5d1fx/qt2xj5d1fx.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": []
+ },
+ {
+  "volume": 22,
+  "issue": 1,
+  "title": "Order & Disorder",
+  "note": null,
+  "semester": "Fall",
+  "year": 2017,
+  "cover": "assets/covers/webp/22_1.webp",
+  "cover_fallback": "assets/covers/jpg/22_1.jpg",
+  "pdf": "assets/issues/pdfs/22_1.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/22/1",
+  "article_count": 11,
+  "contents": [
+   {
+    "title": "Alex Filippenko",
+    "authors": [
+     "Alex Filippenko"
+    ],
+    "url": "https://escholarship.org/uc/item/87q3z3n0",
+    "pdf": "https://escholarship.org/content/qt87q3z3n0/qt87q3z3n0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Ann Kring",
+    "authors": [
+     "Ann Kring"
+    ],
+    "url": "https://escholarship.org/uc/item/6fd0n920",
+    "pdf": "https://escholarship.org/content/qt6fd0n920/qt6fd0n920.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Beyond the Looking Glass: Cancer Immunotherapy Advances Due to Infectious Disease Research",
+    "authors": [
+     "Danielle Kline"
+    ],
+    "url": "https://escholarship.org/uc/item/5rj5x487",
+    "pdf": "https://escholarship.org/content/qt5rj5x487/qt5rj5x487.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Decoding the Neural Coding Problem",
+    "authors": [
+     "Sanika Ganesh"
+    ],
+    "url": "https://escholarship.org/uc/item/9j2082cq",
+    "pdf": "https://escholarship.org/content/qt9j2082cq/qt9j2082cq.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Eva Nogales",
+    "authors": [
+     "Eva Nogales"
+    ],
+    "url": "https://escholarship.org/uc/item/5xj5j7mm",
+    "pdf": "https://escholarship.org/content/qt5xj5j7mm/qt5xj5j7mm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Fingerprinting the Brain: The Development of Psychiatric Disorders in Adolescents",
+    "authors": [
+     "Sheila Noon"
+    ],
+    "url": "https://escholarship.org/uc/item/5v27g093",
+    "pdf": "https://escholarship.org/content/qt5v27g093/qt5v27g093.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Formulating Cures with Fragments of LIfe",
+    "authors": [
+     "Shivali Baveja"
+    ],
+    "url": "https://escholarship.org/uc/item/40v3c018",
+    "pdf": "https://escholarship.org/content/qt40v3c018/qt40v3c018.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Fusion: The Path to Limitless Energy",
+    "authors": [
+     "Matt Lundy"
+    ],
+    "url": "https://escholarship.org/uc/item/55n4320g",
+    "pdf": "https://escholarship.org/content/qt55n4320g/qt55n4320g.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Ming Hsu",
+    "authors": [
+     "Ming Hsu"
+    ],
+    "url": "https://escholarship.org/uc/item/2h35f74t",
+    "pdf": "https://escholarship.org/content/qt2h35f74t/qt2h35f74t.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Order & Disorder",
+    "authors": [
+     "Michelle Verghese"
+    ],
+    "url": "https://escholarship.org/uc/item/09w9404h",
+    "pdf": "https://escholarship.org/content/qt09w9404h/qt09w9404h.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Restoring the Broken Prairie",
+    "authors": [
+     "Andreana Chou"
+    ],
+    "url": "https://escholarship.org/uc/item/0tg257s2",
+    "pdf": "https://escholarship.org/content/qt0tg257s2/qt0tg257s2.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "N/A N/A"
+    ],
+    "url": "https://escholarship.org/uc/item/91v246fx",
+    "pdf": "https://escholarship.org/content/qt91v246fx/qt91v246fx.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 21,
+  "issue": 2,
+  "title": null,
+  "note": null,
+  "semester": "Spring",
+  "year": 2017,
+  "cover": "assets/covers/webp/21_2.webp",
+  "cover_fallback": "assets/covers/jpg/21_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/21/2",
+  "article_count": 8,
+  "contents": [
+   {
+    "title": "Behind the Chemistry of Human Activity Affecting the Earth's Atmosphere",
+    "authors": [
+     "Heliya Izadpanah",
+     "Kara Jia",
+     "Georgia Kirn",
+     "Tiffany Nguyen",
+     "Ismael Ostolaza"
+    ],
+    "url": "https://escholarship.org/uc/item/8ft9j9w1",
+    "pdf": "https://escholarship.org/content/qt8ft9j9w1/qt8ft9j9w1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Drawing the Line in Genomics with CRISPR Technology",
+    "authors": [
+     "Michelle Verghese"
+    ],
+    "url": "https://escholarship.org/uc/item/99k8d4sz",
+    "pdf": "https://escholarship.org/content/qt99k8d4sz/qt99k8d4sz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Dynamical Systems: Assistive Robots and Autonomous Cars",
+    "authors": [
+     "Isabel Craig"
+    ],
+    "url": "https://escholarship.org/uc/item/1hq115j2",
+    "pdf": "https://escholarship.org/content/qt1hq115j2/qt1hq115j2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Hijacking the Brain",
+    "authors": [
+     "Yizhen Zhang"
+    ],
+    "url": "https://escholarship.org/uc/item/9s39q9cj",
+    "pdf": "https://escholarship.org/content/qt9s39q9cj/qt9s39q9cj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Neurotransmitter Imaging and Plant Nanobionics",
+    "authors": [
+     "Catrin Bailey",
+     "Isabel Craig",
+     "Nikhil Chari",
+     "Yana Petri",
+     "Elena Slobodyanyuk"
+    ],
+    "url": "https://escholarship.org/uc/item/84v899kn",
+    "pdf": "https://escholarship.org/content/qt84v899kn/qt84v899kn.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Power in Networks",
+    "authors": [
+     "Nini Liu"
+    ],
+    "url": "https://escholarship.org/uc/item/2kb1m2x3",
+    "pdf": "https://escholarship.org/content/qt2kb1m2x3/qt2kb1m2x3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Psychological Mechanisms of Self-Control",
+    "authors": [
+     "Fariha Rahman"
+    ],
+    "url": "https://escholarship.org/uc/item/4nn7k02q",
+    "pdf": "https://escholarship.org/content/qt4nn7k02q/qt4nn7k02q.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Quality and Value Monitoring of Acute-Care Hospitals",
+    "authors": [
+     "Grace Deng"
+    ],
+    "url": "https://escholarship.org/uc/item/85p6s6pr",
+    "pdf": "https://escholarship.org/content/qt85p6s6pr/qt85p6s6pr.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Editorial Note",
+    "authors": [
+     "Harshika Chowdhary",
+     "Alexander Powers"
+    ],
+    "url": "https://escholarship.org/uc/item/4wc9x86h",
+    "pdf": "https://escholarship.org/content/qt4wc9x86h/qt4wc9x86h.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Berkeley, Berkeley Scientific Journal University of California"
+    ],
+    "url": "https://escholarship.org/uc/item/6017239s",
+    "pdf": "https://escholarship.org/content/qt6017239s/qt6017239s.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 21,
+  "issue": 1,
+  "title": "Chronos",
+  "note": null,
+  "semester": "Fall",
+  "year": 2016,
+  "cover": "assets/covers/webp/21_1.webp",
+  "cover_fallback": "assets/covers/jpg/21_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/21/1",
+  "article_count": 21,
+  "contents": [
+   {
+    "title": "A New Perspective on Time: Interview with Professor Richard Muller",
+    "authors": [
+     "Catrin Bailey",
+     "Daniel Yoon",
+     "Jordan Wong",
+     "Sasinan Sangteerasintop",
+     "Yu Luo",
+     "Lauren Zhu",
+     "Vidyun Bais",
+     "Georgia Kirn"
+    ],
+    "url": "https://escholarship.org/uc/item/2pf439v0",
+    "pdf": "https://escholarship.org/content/qt2pf439v0/qt2pf439v0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Aging and Immortality",
+    "authors": [
+     "Daniel Jiao"
+    ],
+    "url": "https://escholarship.org/uc/item/64k6x6s4",
+    "pdf": "https://escholarship.org/content/qt64k6x6s4/qt64k6x6s4.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Altered Perceptions: How Various Substances Influence Our Perception of Time",
+    "authors": [
+     "Aaya Abdelshafy"
+    ],
+    "url": "https://escholarship.org/uc/item/32g3w0rn",
+    "pdf": "https://escholarship.org/content/qt32g3w0rn/qt32g3w0rn.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Anthocyanin and Glucosinolate Nutrients",
+    "authors": [
+     "Akshara Sree Challa",
+     "Jnana Aditya Challa"
+    ],
+    "url": "https://escholarship.org/uc/item/4088r4gp",
+    "pdf": "https://escholarship.org/content/qt4088r4gp/qt4088r4gp.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Antibiotics: From Modern Medicine to Global Risk",
+    "authors": [
+     "Yizhen Zhang"
+    ],
+    "url": "https://escholarship.org/uc/item/4mw6f48c",
+    "pdf": "https://escholarship.org/content/qt4mw6f48c/qt4mw6f48c.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Bidirectional Cross-Modal Influence on Emotion Ratings of Auditory and Visual Stimuli",
+    "authors": [
+     "Harrison James Ramsay"
+    ],
+    "url": "https://escholarship.org/uc/item/5hp3s2dv",
+    "pdf": "https://escholarship.org/content/qt5hp3s2dv/qt5hp3s2dv.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Chronos",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/6xf3n34h",
+    "pdf": "https://escholarship.org/content/qt6xf3n34h/qt6xf3n34h.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Detecting Signaling Roles of Transition Metals: Interview with Professor Christopher Chang",
+    "authors": [
+     "Jiarui Liu",
+     "Yu Luo",
+     "Yana Petri",
+     "Sasinan Sangteerasintop",
+     "Jordan Wong",
+     "Soohan Woo",
+     "Laura Zhu"
+    ],
+    "url": "https://escholarship.org/uc/item/1g49b2fn",
+    "pdf": "https://escholarship.org/content/qt1g49b2fn/qt1g49b2fn.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Editors' Note",
+    "authors": [
+     "Harshika Chowdhary",
+     "Alexander Scott Powers"
+    ],
+    "url": "https://escholarship.org/uc/item/4m6202gw",
+    "pdf": "https://escholarship.org/content/qt4m6202gw/qt4m6202gw.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Food Insecurity and Global Warming: A Time-Sensitive Issue",
+    "authors": [
+     "Naomi Sales"
+    ],
+    "url": "https://escholarship.org/uc/item/0xf4m8fs",
+    "pdf": "https://escholarship.org/content/qt0xf4m8fs/qt0xf4m8fs.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Fourier Transform Infrared Analysis of Surface Ion Traps",
+    "authors": [
+     "William Tokumaru",
+     "Ishan Talukdar",
+     "Harmut Haeffner"
+    ],
+    "url": "https://escholarship.org/uc/item/0q08m6wn",
+    "pdf": "https://escholarship.org/content/qt0q08m6wn/qt0q08m6wn.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "From One Life to Another- The Stress That Defies Time",
+    "authors": [
+     "Leandra Padayachee"
+    ],
+    "url": "https://escholarship.org/uc/item/8pg6t6t3",
+    "pdf": "https://escholarship.org/content/qt8pg6t6t3/qt8pg6t6t3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Frozen in Time",
+    "authors": [
+     "Phuong Tran"
+    ],
+    "url": "https://escholarship.org/uc/item/8rh8n3w6",
+    "pdf": "https://escholarship.org/content/qt8rh8n3w6/qt8rh8n3w6.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Intelligence Over Time: Intelligence in Corvids and Apes",
+    "authors": [
+     "Katie Sanko"
+    ],
+    "url": "https://escholarship.org/uc/item/3vd346jm",
+    "pdf": "https://escholarship.org/content/qt3vd346jm/qt3vd346jm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Looking into the Past",
+    "authors": [
+     "Moonsuk Jang"
+    ],
+    "url": "https://escholarship.org/uc/item/1f17t2nn",
+    "pdf": "https://escholarship.org/content/qt1f17t2nn/qt1f17t2nn.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Fresh New Future of Preservatives",
+    "authors": [
+     "Diana Nguyen"
+    ],
+    "url": "https://escholarship.org/uc/item/49d41795",
+    "pdf": "https://escholarship.org/content/qt49d41795/qt49d41795.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Future of Bacteria Cleaning Our Plastic Waste",
+    "authors": [
+     "Allison Chan"
+    ],
+    "url": "https://escholarship.org/uc/item/7xb0c7hr",
+    "pdf": "https://escholarship.org/content/qt7xb0c7hr/qt7xb0c7hr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Future of Medicine: 3D-Printed Organs",
+    "authors": [
+     "Julia Peng"
+    ],
+    "url": "https://escholarship.org/uc/item/5g53600j",
+    "pdf": "https://escholarship.org/content/qt5g53600j/qt5g53600j.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Mechanics of Timekeeping",
+    "authors": [
+     "Katherine Liu"
+    ],
+    "url": "https://escholarship.org/uc/item/7fs3p0sj",
+    "pdf": "https://escholarship.org/content/qt7fs3p0sj/qt7fs3p0sj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Role of Aden-Associated Viruses",
+    "authors": [
+     "Catrin Bailey",
+     "Yana Petri",
+     "Elena Slobodyanyuk",
+     "Jordan Wong",
+     "Tianshu Zhao",
+     "Daniel Yoon"
+    ],
+    "url": "https://escholarship.org/uc/item/1kt045d5",
+    "pdf": "https://escholarship.org/content/qt1kt045d5/qt1kt045d5.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Zika: The Formidable Speed of Viral Spread",
+    "authors": [
+     "Michelle Verghese"
+    ],
+    "url": "https://escholarship.org/uc/item/95c9d6f5",
+    "pdf": "https://escholarship.org/content/qt95c9d6f5/qt95c9d6f5.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "BSJ UCB"
+    ],
+    "url": "https://escholarship.org/uc/item/33p4n8bs",
+    "pdf": "https://escholarship.org/content/qt33p4n8bs/qt33p4n8bs.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 20,
+  "issue": 1,
+  "title": "Symmetry",
+  "note": null,
+  "semester": "Fall",
+  "year": 2015,
+  "cover": "assets/covers/webp/20_1.webp",
+  "cover_fallback": "assets/covers/jpg/20_1.jpg",
+  "pdf": "assets/issues/pdfs/20_1.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/20/1",
+  "article_count": 11,
+  "contents": [
+   {
+    "title": "An Interview with Professor Gian Garriga on Asymmetric Cell Divisions: Distinct Fates of Daughter Cells",
+    "authors": [
+     "Manraj Gill",
+     "Tiffany Nguyen",
+     "Georgia Kirn"
+    ],
+    "url": "https://escholarship.org/uc/item/4fb4g723",
+    "pdf": "https://escholarship.org/content/qt4fb4g723/qt4fb4g723.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Interview with Professor Kenneth Raymond on Supramolecular Chemistry: Symmetry Based Cluster Formation",
+    "authors": [
+     "Manraj Gill",
+     "Yana Petri",
+     "Tiffany Nguyen",
+     "Sabrina Berger"
+    ],
+    "url": "https://escholarship.org/uc/item/655288q0",
+    "pdf": "https://escholarship.org/content/qt655288q0/qt655288q0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Blog Highlights",
+    "authors": [
+     "Alexander Reynaldi",
+     "Kara Turner"
+    ],
+    "url": "https://escholarship.org/uc/item/2nc8c2v1",
+    "pdf": "https://escholarship.org/content/qt2nc8c2v1/qt2nc8c2v1.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Computing the Cure to Cancer",
+    "authors": [
+     "Kirk Mallett"
+    ],
+    "url": "https://escholarship.org/uc/item/7kt743x9",
+    "pdf": "https://escholarship.org/content/qt7kt743x9/qt7kt743x9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Enhancement of Ferroelectrics: Strain-engineered Ferroelectric Thin Films",
+    "authors": [
+     "Hongling Lu"
+    ],
+    "url": "https://escholarship.org/uc/item/7ns02212",
+    "pdf": "https://escholarship.org/content/qt7ns02212/qt7ns02212.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Extracting Information: Characterizing neuronal cell types in the GPh by their activity profile.",
+    "authors": [
+     "Danxun Li",
+     "Marcus Stephenson-Jones",
+     "Bo Li"
+    ],
+    "url": "https://escholarship.org/uc/item/8xc747cv",
+    "pdf": "https://escholarship.org/content/qt8xc747cv/qt8xc747cv.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Interview with Professor Hitoshi Murayama: Supersymmetry",
+    "authors": [
+     "Sabrina Berger",
+     "Juwon Kim",
+     "Yana Petri",
+     "Kevin Nuckolls"
+    ],
+    "url": "https://escholarship.org/uc/item/78p2p4x4",
+    "pdf": "https://escholarship.org/content/qt78p2p4x4/qt78p2p4x4.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "It’s All Just Smoke & Mirrors",
+    "authors": [
+     "Liza Raffi"
+    ],
+    "url": "https://escholarship.org/uc/item/8cj1h659",
+    "pdf": "https://escholarship.org/content/qt8cj1h659/qt8cj1h659.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Origin of Chirality in the Universe",
+    "authors": [
+     "Shivaani Gandhi"
+    ],
+    "url": "https://escholarship.org/uc/item/1zv8h2hz",
+    "pdf": "https://escholarship.org/content/qt1zv8h2hz/qt1zv8h2hz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Symmetric Proliferation: An Examination of the Fractal Geometry of Tumors",
+    "authors": [
+     "Rachel Lew"
+    ],
+    "url": "https://escholarship.org/uc/item/7hz02556",
+    "pdf": "https://escholarship.org/content/qt7hz02556/qt7hz02556.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Symmetry and Visual Appeal",
+    "authors": [
+     "Shirley Shao"
+    ],
+    "url": "https://escholarship.org/uc/item/3bx6w8x4",
+    "pdf": "https://escholarship.org/content/qt3bx6w8x4/qt3bx6w8x4.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Cover",
+    "authors": [
+     "Jacob Ongaro",
+     "Abigail Landers"
+    ],
+    "url": "https://escholarship.org/uc/item/1rk3007w",
+    "pdf": "https://escholarship.org/content/qt1rk3007w/qt1rk3007w.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Jacob Ongaro",
+     "Abigail Landers"
+    ],
+    "url": "https://escholarship.org/uc/item/9hg9b9cx",
+    "pdf": "https://escholarship.org/content/qt9hg9b9cx/qt9hg9b9cx.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 19,
+  "issue": 2,
+  "title": "Waste",
+  "note": null,
+  "semester": "Spring",
+  "year": 2015,
+  "cover": "assets/covers/webp/19_2.webp",
+  "cover_fallback": "assets/covers/jpg/19_2.jpg",
+  "pdf": "assets/issues/pdfs/19_2.pdf",
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/19/2",
+  "article_count": 13,
+  "contents": [
+   {
+    "title": "A Joint Interview with Professor Joonhong Ahn and Professor Cathryn Carson on Nuclear Waste Management: a Technical and Social Problem",
+    "authors": [
+     "Harshika Chowdhary",
+     "Manraj Gill",
+     "Juwon Kim",
+     "Philippa McGuinness",
+     "Daniel Miller",
+     "Kevin Nuckolls"
+    ],
+    "url": "https://escholarship.org/uc/item/0gz1n967",
+    "pdf": "https://escholarship.org/content/qt0gz1n967/qt0gz1n967.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Afternoon with Professor Hermanowicz: Exploring Sustainability and Water Filtration",
+    "authors": [
+     "Luis Castro",
+     "Harshika Chowdhary",
+     "Manraj Gill",
+     "Juwon Kim",
+     "Phillipa McGuinness",
+     "Kevin Nuckolls",
+     "Saavan Patel"
+    ],
+    "url": "https://escholarship.org/uc/item/883492pm",
+    "pdf": "https://escholarship.org/content/qt883492pm/qt883492pm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Interview with Professor Alexandra von Meier on an Efficient Electric Grid: Improving Visibility and Integrating Renewable Sources",
+    "authors": [
+     "Harshika Chowdhary",
+     "Manraj Gill",
+     "Philippa McGuinness",
+     "Daniel Miller",
+     "Saavan Patel"
+    ],
+    "url": "https://escholarship.org/uc/item/7m9869gz",
+    "pdf": "https://escholarship.org/content/qt7m9869gz/qt7m9869gz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Dangers of Space Debris",
+    "authors": [
+     "Botao Peng"
+    ],
+    "url": "https://escholarship.org/uc/item/6zr3h467",
+    "pdf": "https://escholarship.org/content/qt6zr3h467/qt6zr3h467.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Data Fragmentation",
+    "authors": [
+     "Nisha Balabhadra"
+    ],
+    "url": "https://escholarship.org/uc/item/29v7d1q7",
+    "pdf": "https://escholarship.org/content/qt29v7d1q7/qt29v7d1q7.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Eating Disorders: Body Wasting Away",
+    "authors": [
+     "Shirley Shao"
+    ],
+    "url": "https://escholarship.org/uc/item/42s0721f",
+    "pdf": "https://escholarship.org/content/qt42s0721f/qt42s0721f.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Junk DNA",
+    "authors": [
+     "Neel Jani"
+    ],
+    "url": "https://escholarship.org/uc/item/82d1833m",
+    "pdf": "https://escholarship.org/content/qt82d1833m/qt82d1833m.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Life in the Milky Way: A Galactic Garbage Can",
+    "authors": [
+     "James Pettingell"
+    ],
+    "url": "https://escholarship.org/uc/item/4d67t6zg",
+    "pdf": "https://escholarship.org/content/qt4d67t6zg/qt4d67t6zg.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Nuclear Waste: Forever Contaminated?",
+    "authors": [
+     "Andrew Wang"
+    ],
+    "url": "https://escholarship.org/uc/item/876797sd",
+    "pdf": "https://escholarship.org/content/qt876797sd/qt876797sd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Something for Nothing: Solid-Oxide Fuel Cells",
+    "authors": [
+     "Karthik Gururangan"
+    ],
+    "url": "https://escholarship.org/uc/item/79d4z3mr",
+    "pdf": "https://escholarship.org/content/qt79d4z3mr/qt79d4z3mr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Telomeres Hold the Key to Understanding Aging and Cancer",
+    "authors": [
+     "Shruti Koti"
+    ],
+    "url": "https://escholarship.org/uc/item/7x40h2w3",
+    "pdf": "https://escholarship.org/content/qt7x40h2w3/qt7x40h2w3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Tiny but Toxic: How Industrial Waste Infiltrates the Body",
+    "authors": [
+     "Rachel Lew"
+    ],
+    "url": "https://escholarship.org/uc/item/1s30h908",
+    "pdf": "https://escholarship.org/content/qt1s30h908/qt1s30h908.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Transpiration Effects and Inquilines in a Lepidopteran Stem Gall",
+    "authors": [
+     "Olivia Cope"
+    ],
+    "url": "https://escholarship.org/uc/item/5cr7g18n",
+    "pdf": "https://escholarship.org/content/qt5cr7g18n/qt5cr7g18n.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Cover",
+    "authors": [
+     "Cheng Li",
+     "Jingting Wu"
+    ],
+    "url": "https://escholarship.org/uc/item/1b53r9qj",
+    "pdf": "https://escholarship.org/content/qt1b53r9qj/qt1b53r9qj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Cheng Li",
+     "Jingting Wu"
+    ],
+    "url": "https://escholarship.org/uc/item/3cd0x1fm",
+    "pdf": "https://escholarship.org/content/qt3cd0x1fm/qt3cd0x1fm.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 19,
+  "issue": 1,
+  "title": "Extremes",
+  "note": null,
+  "semester": "Fall",
+  "year": 2014,
+  "cover": "assets/covers/webp/19_1.webp",
+  "cover_fallback": "assets/covers/jpg/19_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/19/1",
+  "article_count": 15,
+  "contents": [
+   {
+    "title": "Abandoned Planet",
+    "authors": [
+     "Nisha Balabhadra"
+    ],
+    "url": "https://escholarship.org/uc/item/8p88v7f3",
+    "pdf": "https://escholarship.org/content/qt8p88v7f3/qt8p88v7f3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Interview with Dr. Kirn: The Three-way Battle between the Tumor, the Immune System and the Oncolytic Virus",
+    "authors": [
+     "Harshika Chowdhary",
+     "Selene Clay",
+     "Manraj Gill",
+     "Erin Kaya",
+     "Georgia Kirn"
+    ],
+    "url": "https://escholarship.org/uc/item/08m4t2jz",
+    "pdf": "https://escholarship.org/content/qt08m4t2jz/qt08m4t2jz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Interview with Professor Dudley: From Fearless Flyers to Alcoholic Apes: A Discussion on Extremes",
+    "authors": [
+     "Harshika Chowdhary",
+     "Selene Clay",
+     "Manraj Gill",
+     "Erin Kaya"
+    ],
+    "url": "https://escholarship.org/uc/item/6tq306t1",
+    "pdf": "https://escholarship.org/content/qt6tq306t1/qt6tq306t1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Interview with Professor Eliot Quataert: The Formation of Black Holes",
+    "authors": [
+     "Manraj Gill",
+     "Georgia Kirn",
+     "Kevin Nuckolls",
+     "Saavan Patel"
+    ],
+    "url": "https://escholarship.org/uc/item/2rf12732",
+    "pdf": "https://escholarship.org/content/qt2rf12732/qt2rf12732.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Interview with Professor Siddiqi: Quantum Scale Measurements",
+    "authors": [
+     "Manraj Gill",
+     "Kevin Nuckolls",
+     "Saavan Patel"
+    ],
+    "url": "https://escholarship.org/uc/item/7xp5h2zf",
+    "pdf": "https://escholarship.org/content/qt7xp5h2zf/qt7xp5h2zf.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Decelluarization and Reseeding of Porcine Colon with Human CaCo-2 Cells for Whole-Scale Organ Engineering Applications",
+    "authors": [
+     "Julie Haduong",
+     "Rahul Nayak",
+     "Yumi Suh",
+     "Vinay Viswanadham"
+    ],
+    "url": "https://escholarship.org/uc/item/3b0743s3",
+    "pdf": "https://escholarship.org/content/qt3b0743s3/qt3b0743s3.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Extremes",
+    "authors": [
+     "Cheng Li",
+     "Jingting Wu"
+    ],
+    "url": "https://escholarship.org/uc/item/9p03c5z1",
+    "pdf": "https://escholarship.org/content/qt9p03c5z1/qt9p03c5z1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Fear: A Blessing and Curse",
+    "authors": [
+     "Shruti Koti"
+    ],
+    "url": "https://escholarship.org/uc/item/9cp6x7nd",
+    "pdf": "https://escholarship.org/content/qt9cp6x7nd/qt9cp6x7nd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Gamma Ray Bursts",
+    "authors": [
+     "Bennett Stahl"
+    ],
+    "url": "https://escholarship.org/uc/item/6br3d8zp",
+    "pdf": "https://escholarship.org/content/qt6br3d8zp/qt6br3d8zp.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Gut Microbiota: Little Things Making a Big Difference",
+    "authors": [
+     "Eiman Kazi"
+    ],
+    "url": "https://escholarship.org/uc/item/0wk9483c",
+    "pdf": "https://escholarship.org/content/qt0wk9483c/qt0wk9483c.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "High-Energy Plasma Fusion",
+    "authors": [
+     "Karthik Guruangan"
+    ],
+    "url": "https://escholarship.org/uc/item/56m9c8j3",
+    "pdf": "https://escholarship.org/content/qt56m9c8j3/qt56m9c8j3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Longevity with Dignity",
+    "authors": [
+     "Rachel Lew"
+    ],
+    "url": "https://escholarship.org/uc/item/2n4987xm",
+    "pdf": "https://escholarship.org/content/qt2n4987xm/qt2n4987xm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Simple Shape Learning of the Two Stomatopod Species: Haptosquilla trispinosa and Pseudosquilla ciliata",
+    "authors": [
+     "Kristen Chen",
+     "Roy Caldwell"
+    ],
+    "url": "https://escholarship.org/uc/item/39x1f12j",
+    "pdf": "https://escholarship.org/content/qt39x1f12j/qt39x1f12j.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Dangers of Sleep Deprivation",
+    "authors": [
+     "Nithya Lingampalli"
+    ],
+    "url": "https://escholarship.org/uc/item/3rm0w4bb",
+    "pdf": "https://escholarship.org/content/qt3rm0w4bb/qt3rm0w4bb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Science of Cryogenics",
+    "authors": [
+     "Nick Catrini"
+    ],
+    "url": "https://escholarship.org/uc/item/7089f729",
+    "pdf": "https://escholarship.org/content/qt7089f729/qt7089f729.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Cheng Li",
+     "Jingting Wu"
+    ],
+    "url": "https://escholarship.org/uc/item/95g6v7bb",
+    "pdf": "https://escholarship.org/content/qt95g6v7bb/qt95g6v7bb.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 18,
+  "issue": 2,
+  "title": "Synthetics",
+  "note": null,
+  "semester": "Spring",
+  "year": 2014,
+  "cover": "assets/covers/webp/18_2.webp",
+  "cover_fallback": "assets/covers/jpg/18_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/18/2",
+  "article_count": 11,
+  "contents": [
+   {
+    "title": "An Interview with Professor Jan Rabaey: Neural Prosthetics and Their Future Applications",
+    "authors": [
+     "Kuntal Chowdhary",
+     "Jingyan Wang",
+     "Saavan Patel",
+     "Shruti Koti"
+    ],
+    "url": "https://escholarship.org/uc/item/3hm816zr",
+    "pdf": "https://escholarship.org/content/qt3hm816zr/qt3hm816zr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Applications of Magnetoelectric Materials for Solid-State Devices",
+    "authors": [
+     "Karthik Gururangan"
+    ],
+    "url": "https://escholarship.org/uc/item/0tp3q8mf",
+    "pdf": "https://escholarship.org/content/qt0tp3q8mf/qt0tp3q8mf.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Bright Ideas in Solar Energy",
+    "authors": [
+     "Jo Melville"
+    ],
+    "url": "https://escholarship.org/uc/item/3zc6w8c2",
+    "pdf": "https://escholarship.org/content/qt3zc6w8c2/qt3zc6w8c2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Copper Catalyzed Oceanic Methyl Halide Production",
+    "authors": [
+     "Jae Yun Robin Kim",
+     "Robert Rhew"
+    ],
+    "url": "https://escholarship.org/uc/item/3fd989mn",
+    "pdf": "https://escholarship.org/content/qt3fd989mn/qt3fd989mn.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "DNA: Building Blocks of Nanotechnology",
+    "authors": [
+     "Alexander Powers"
+    ],
+    "url": "https://escholarship.org/uc/item/3jj458tz",
+    "pdf": "https://escholarship.org/content/qt3jj458tz/qt3jj458tz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Fabricating Nano-Scale Devices: Block Copolymers and their Applications",
+    "authors": [
+     "Aditya Limaye"
+    ],
+    "url": "https://escholarship.org/uc/item/8318n7q0",
+    "pdf": "https://escholarship.org/content/qt8318n7q0/qt8318n7q0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Lab on a Microchip and Microfluidic Technologies: Toxology and Drug Development",
+    "authors": [
+     "Ann Heslin"
+    ],
+    "url": "https://escholarship.org/uc/item/8518b8t8",
+    "pdf": "https://escholarship.org/content/qt8518b8t8/qt8518b8t8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Manufactured Memories",
+    "authors": [
+     "Jessica Robbins"
+    ],
+    "url": "https://escholarship.org/uc/item/1jm7m8dh",
+    "pdf": "https://escholarship.org/content/qt1jm7m8dh/qt1jm7m8dh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Phylogenetic Diversity and Endemism: Metrics for Identifying Critical Regions of Conifer Conservation in Australia",
+    "authors": [
+     "Annasophie C. Lee",
+     "Brent Mishler"
+    ],
+    "url": "https://escholarship.org/uc/item/6dd8f67t",
+    "pdf": "https://escholarship.org/content/qt6dd8f67t/qt6dd8f67t.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Synthetics",
+    "authors": [
+     "Alexis Bowen",
+     "Spring Chau"
+    ],
+    "url": "https://escholarship.org/uc/item/0w48x7bj",
+    "pdf": "https://escholarship.org/content/qt0w48x7bj/qt0w48x7bj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Total Heart Transplant: A Modern Overview",
+    "authors": [
+     "Nithya Lingampalli"
+    ],
+    "url": "https://escholarship.org/uc/item/41x6b7t8",
+    "pdf": "https://escholarship.org/content/qt41x6b7t8/qt41x6b7t8.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Lucy Zhang",
+     "Spring Chau"
+    ],
+    "url": "https://escholarship.org/uc/item/6w1846s3",
+    "pdf": "https://escholarship.org/content/qt6w1846s3/qt6w1846s3.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 18,
+  "issue": 1,
+  "title": "Stress",
+  "note": null,
+  "semester": "Fall",
+  "year": 2013,
+  "cover": "assets/covers/webp/18_1.webp",
+  "cover_fallback": "assets/covers/jpg/18_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/18/1",
+  "article_count": 18,
+  "contents": [
+   {
+    "title": "A Discussion on an Integrative Society with Professor Amani Nuru-Jeter",
+    "authors": [
+     "Kuntal Chowdhary",
+     "Joshua Hernandez",
+     "Jessica Evaristo",
+     "Jingyan Wang",
+     "Ali Palla",
+     "Harshika Chowdhary",
+     "Mariko Nakamura",
+     "Kaitlyn Kraybill-Voth",
+     "Rhea Misra"
+    ],
+    "url": "https://escholarship.org/uc/item/9wc8t49x",
+    "pdf": "https://escholarship.org/content/qt9wc8t49x/qt9wc8t49x.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Afternoon with Professor George Bentley",
+    "authors": [
+     "Kuntal Chowdhary",
+     "Harshika Chowdhary",
+     "Manraj Gill",
+     "Atiriya Hari",
+     "Rhea Misra",
+     "Jess Evaristo",
+     "Ali Palla"
+    ],
+    "url": "https://escholarship.org/uc/item/3379c3m8",
+    "pdf": "https://escholarship.org/content/qt3379c3m8/qt3379c3m8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Interview with Professor Michael Shapira",
+    "authors": [
+     "Kuntal Chowdhary",
+     "Manraj Gill",
+     "Mariko Nakamura",
+     "Kaitlyn Kraybill-Voth",
+     "Atiriya Hari",
+     "Ali Palla"
+    ],
+    "url": "https://escholarship.org/uc/item/48c3n1sm",
+    "pdf": "https://escholarship.org/content/qt48c3n1sm/qt48c3n1sm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Building a Bridge for the Future with Professor Abolhassan Astaneh-Asl",
+    "authors": [
+     "Ali Palla",
+     "Kuntal Chowdhary",
+     "Jingyan Wang",
+     "Joshua Hernandez",
+     "Kaitlyn Kraybill-Voth",
+     "Mariko Nakamura",
+     "Jessica Evaristo"
+    ],
+    "url": "https://escholarship.org/uc/item/1bw0g2qq",
+    "pdf": "https://escholarship.org/content/qt1bw0g2qq/qt1bw0g2qq.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Cancer Due to Prolonged Inflammation",
+    "authors": [
+     "Nithya Lingampalli"
+    ],
+    "url": "https://escholarship.org/uc/item/57x5t1wv",
+    "pdf": "https://escholarship.org/content/qt57x5t1wv/qt57x5t1wv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Carbon Nanotubes: Bearing Stress Like Never Before",
+    "authors": [
+     "Aditya Limaye"
+    ],
+    "url": "https://escholarship.org/uc/item/4359v0pb",
+    "pdf": "https://escholarship.org/content/qt4359v0pb/qt4359v0pb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Earthquakes Induced by Stress",
+    "authors": [
+     "Harjit Singh"
+    ],
+    "url": "https://escholarship.org/uc/item/3br5k87m",
+    "pdf": "https://escholarship.org/content/qt3br5k87m/qt3br5k87m.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Effects of Cortisol on Physical and Psychological Aspects of the Body and Effective Ways by Which One Can Reduce Stress",
+    "authors": [
+     "Preethi Kandhalu"
+    ],
+    "url": "https://escholarship.org/uc/item/3xz8m7vb",
+    "pdf": "https://escholarship.org/content/qt3xz8m7vb/qt3xz8m7vb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Evolution of the Phosphatase Gene Family Across Nematode Worms and Flies",
+    "authors": [
+     "Paulina Tsai",
+     "Melissa A. Wilson Sayres"
+    ],
+    "url": "https://escholarship.org/uc/item/2sb4992b",
+    "pdf": "https://escholarship.org/content/qt2sb4992b/qt2sb4992b.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Fracking: An Industry Under Pressure",
+    "authors": [
+     "Jo Melville"
+    ],
+    "url": "https://escholarship.org/uc/item/24s9936j",
+    "pdf": "https://escholarship.org/content/qt24s9936j/qt24s9936j.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Managing the Weed-Shaped Hole: Improving Nitrogen Uptake and Preventing Re-invasion in Urban Riparian Restoration",
+    "authors": [
+     "Nathan Bickart"
+    ],
+    "url": "https://escholarship.org/uc/item/3mz000m3",
+    "pdf": "https://escholarship.org/content/qt3mz000m3/qt3mz000m3.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Optimizing Stress",
+    "authors": [
+     "Abigail Chaver"
+    ],
+    "url": "https://escholarship.org/uc/item/71x8m0rr",
+    "pdf": "https://escholarship.org/content/qt71x8m0rr/qt71x8m0rr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Poverty & Stress",
+    "authors": [
+     "Neel Jani"
+    ],
+    "url": "https://escholarship.org/uc/item/2tj3d0w8",
+    "pdf": "https://escholarship.org/content/qt2tj3d0w8/qt2tj3d0w8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Spider Silk: Sronger than Steel? Nature's Supermaterial",
+    "authors": [
+     "Alexander Powers"
+    ],
+    "url": "https://escholarship.org/uc/item/2r16q1p5",
+    "pdf": "https://escholarship.org/content/qt2r16q1p5/qt2r16q1p5.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Stress",
+    "authors": [
+     "Hadrien Picq"
+    ],
+    "url": "https://escholarship.org/uc/item/3q4901p1",
+    "pdf": "https://escholarship.org/content/qt3q4901p1/qt3q4901p1.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Experimental Effects of Stress on Fertility",
+    "authors": [
+     "Jenna Koopman"
+    ],
+    "url": "https://escholarship.org/uc/item/3jd5x2xk",
+    "pdf": "https://escholarship.org/content/qt3jd5x2xk/qt3jd5x2xk.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Language of Science: What ideas do we stress?",
+    "authors": [
+     "Jahlela Hasle"
+    ],
+    "url": "https://escholarship.org/uc/item/7wk6s61f",
+    "pdf": "https://escholarship.org/content/qt7wk6s61f/qt7wk6s61f.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Potential for Abuse: Addiction",
+    "authors": [
+     "Ramandeep Dhillon"
+    ],
+    "url": "https://escholarship.org/uc/item/05v656g8",
+    "pdf": "https://escholarship.org/content/qt05v656g8/qt05v656g8.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Hadrien Picq"
+    ],
+    "url": "https://escholarship.org/uc/item/32w4n6sp",
+    "pdf": "https://escholarship.org/content/qt32w4n6sp/qt32w4n6sp.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 17,
+  "issue": 2,
+  "title": "Death and Dying",
+  "note": null,
+  "semester": "Spring",
+  "year": 2013,
+  "cover": "assets/covers/webp/17_2.webp",
+  "cover_fallback": "assets/covers/jpg/17_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/17/2",
+  "article_count": 12,
+  "contents": [
+   {
+    "title": "Activity Patterns of Golden Eagles in San Benito County, CA",
+    "authors": [
+     "Taichi Natake"
+    ],
+    "url": "https://escholarship.org/uc/item/6441z901",
+    "pdf": "https://escholarship.org/content/qt6441z901/qt6441z901.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Berkeley Scientific Journal, Volume 17, Issue 2, Death and Dying",
+    "authors": [
+     "Lucy Zhang",
+     "Spring Chau"
+    ],
+    "url": "https://escholarship.org/uc/item/9xm0x443",
+    "pdf": "https://escholarship.org/content/qt9xm0x443/qt9xm0x443.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Collision Course: The Threat and Effects of an Asteroid Impact",
+    "authors": [
+     "Sharath Reddy"
+    ],
+    "url": "https://escholarship.org/uc/item/68q7q2f4",
+    "pdf": "https://escholarship.org/content/qt68q7q2f4/qt68q7q2f4.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Professor Alexei Filippenko",
+    "authors": [
+     "Prashant Bhat",
+     "Kuntal Chowdhary",
+     "Jingyan Wang",
+     "Ali Palla"
+    ],
+    "url": "https://escholarship.org/uc/item/33b960fr",
+    "pdf": "https://escholarship.org/content/qt33b960fr/qt33b960fr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Professor Kathleen Collins",
+    "authors": [
+     "Prashant Bhat",
+     "Kuntal Chowdhary",
+     "Jingyang Wang",
+     "Ali Palla"
+    ],
+    "url": "https://escholarship.org/uc/item/3nk853sc",
+    "pdf": "https://escholarship.org/content/qt3nk853sc/qt3nk853sc.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Orientation-Dependent Neuronal Degradation Resulting from Axonal Stain Experienced in Football-Realistic Acceleration",
+    "authors": [
+     "Evan Lyall",
+     "Spencer Scott",
+     "Jason Silver",
+     "Samantha Smiley"
+    ],
+    "url": "https://escholarship.org/uc/item/4kp2g2f6",
+    "pdf": "https://escholarship.org/content/qt4kp2g2f6/qt4kp2g2f6.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Radiocarbon Dating: Applications of Accelerator Mass Spectrometry",
+    "authors": [
+     "Sean Purcell"
+    ],
+    "url": "https://escholarship.org/uc/item/52s156rh",
+    "pdf": "https://escholarship.org/content/qt52s156rh/qt52s156rh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Decline and Death of Nuclear Power",
+    "authors": [
+     "Jonathan Melville"
+    ],
+    "url": "https://escholarship.org/uc/item/07q8z16d",
+    "pdf": "https://escholarship.org/content/qt07q8z16d/qt07q8z16d.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Economic and Clinical Implications of Antibiotic Resistance",
+    "authors": [
+     "Rohini Behl"
+    ],
+    "url": "https://escholarship.org/uc/item/1gq315kb",
+    "pdf": "https://escholarship.org/content/qt1gq315kb/qt1gq315kb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The STEP between life and death:",
+    "authors": [
+     "Alvin Huang"
+    ],
+    "url": "https://escholarship.org/uc/item/6d06m8zf",
+    "pdf": "https://escholarship.org/content/qt6d06m8zf/qt6d06m8zf.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Technology of Sustaining Life",
+    "authors": [
+     "Jing Chen"
+    ],
+    "url": "https://escholarship.org/uc/item/0c29860h",
+    "pdf": "https://escholarship.org/content/qt0c29860h/qt0c29860h.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Water Intoxication",
+    "authors": [
+     "Nithya Lingampalli"
+    ],
+    "url": "https://escholarship.org/uc/item/438611v2",
+    "pdf": "https://escholarship.org/content/qt438611v2/qt438611v2.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Julian Zhu"
+    ],
+    "url": "https://escholarship.org/uc/item/3bs3j21s",
+    "pdf": "https://escholarship.org/content/qt3bs3j21s/qt3bs3j21s.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 17,
+  "issue": 1,
+  "title": "Science of Color",
+  "note": null,
+  "semester": "Fall",
+  "year": 2012,
+  "cover": "assets/covers/webp/17_1.webp",
+  "cover_fallback": "assets/covers/jpg/17_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/17/1",
+  "article_count": 8,
+  "contents": [
+   {
+    "title": "An Ethical Analysis of Color Blindness and Its Implications in the Workplace",
+    "authors": [
+     "Chris Shishido"
+    ],
+    "url": "https://escholarship.org/uc/item/50s1x46q",
+    "pdf": "https://escholarship.org/content/qt50s1x46q/qt50s1x46q.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "An Interview with Professor Roy Caldwell",
+    "authors": [
+     "Kuntal Chowdhary",
+     "Prashant Bhat",
+     "Jared Rosen",
+     "Ida Naughton",
+     "Jingyan Wang"
+    ],
+    "url": "https://escholarship.org/uc/item/7k3535wb",
+    "pdf": "https://escholarship.org/content/qt7k3535wb/qt7k3535wb.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Berkeley Scientific Journal, Volume 17, Issue 1, Science of Color",
+    "authors": [
+     "Matt Miranda",
+     "Victoria Nguyen"
+    ],
+    "url": "https://escholarship.org/uc/item/9kk3d9c9",
+    "pdf": "https://escholarship.org/content/qt9kk3d9c9/qt9kk3d9c9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Light as a Healing Mechanism",
+    "authors": [
+     "Nithya Lingampalli"
+    ],
+    "url": "https://escholarship.org/uc/item/23763260",
+    "pdf": "https://escholarship.org/content/qt23763260/qt23763260.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "On the Applications of Cyclotomic Fields in Introductory Number Theory",
+    "authors": [
+     "Kabalan Gaspard"
+    ],
+    "url": "https://escholarship.org/uc/item/49c0561x",
+    "pdf": "https://escholarship.org/content/qt49c0561x/qt49c0561x.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Starlight's Story: What can the light we see in the night sky tell us about the universe?",
+    "authors": [
+     "Griffen Rodgers"
+    ],
+    "url": "https://escholarship.org/uc/item/4000x96x",
+    "pdf": "https://escholarship.org/content/qt4000x96x/qt4000x96x.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Tasting the Rainbow: One Dye at a Time",
+    "authors": [
+     "Alvin Huang"
+    ],
+    "url": "https://escholarship.org/uc/item/73v1h7vc",
+    "pdf": "https://escholarship.org/content/qt73v1h7vc/qt73v1h7vc.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Use of Color in Marketing: Colors and their Physiological and Psychological Implications",
+    "authors": [
+     "Tommy Shi"
+    ],
+    "url": "https://escholarship.org/uc/item/67v2q6g3",
+    "pdf": "https://escholarship.org/content/qt67v2q6g3/qt67v2q6g3.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Victoria Nguyen",
+     "Matt Miranda"
+    ],
+    "url": "https://escholarship.org/uc/item/3rw5509s",
+    "pdf": "https://escholarship.org/content/qt3rw5509s/qt3rw5509s.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 16,
+  "issue": 2,
+  "title": "Save or Destroy",
+  "note": null,
+  "semester": "Spring",
+  "year": 2012,
+  "cover": "assets/covers/webp/16_2.webp",
+  "cover_fallback": "assets/covers/jpg/16_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/16/2",
+  "article_count": 17,
+  "contents": [
+   {
+    "title": "Algerian Ivy Removal Techniques along a Riparian Zone in Berkeley, California",
+    "authors": [
+     "Lindsey Sanders"
+    ],
+    "url": "https://escholarship.org/uc/item/3gq0v2sq",
+    "pdf": "https://escholarship.org/content/qt3gq0v2sq/qt3gq0v2sq.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Artificial General Intelligence and the Future of the Human Race",
+    "authors": [
+     "Bryon Pavlacka"
+    ],
+    "url": "https://escholarship.org/uc/item/3mj1744v",
+    "pdf": "https://escholarship.org/content/qt3mj1744v/qt3mj1744v.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Berkeley Scientific Journal, Volume 16, Issue 2, Save or Destroy",
+    "authors": [
+     "Matt Miranda",
+     "Victoria Nguyen"
+    ],
+    "url": "https://escholarship.org/uc/item/89t1g6md",
+    "pdf": "https://escholarship.org/content/qt89t1g6md/qt89t1g6md.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Cancer Therapies: A Bane and a Boon",
+    "authors": [
+     "Sushrita Neogi"
+    ],
+    "url": "https://escholarship.org/uc/item/4tm796wc",
+    "pdf": "https://escholarship.org/content/qt4tm796wc/qt4tm796wc.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Fire: A Constructive Prescription",
+    "authors": [
+     "Michael Sadighian"
+    ],
+    "url": "https://escholarship.org/uc/item/4xc824h6",
+    "pdf": "https://escholarship.org/content/qt4xc824h6/qt4xc824h6.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Grey Matters: How controversial and drastic neurosurgeries have contributed to our knowledge of the brain",
+    "authors": [
+     "Tanu Patel"
+    ],
+    "url": "https://escholarship.org/uc/item/0mt2w8m0",
+    "pdf": "https://escholarship.org/content/qt0mt2w8m0/qt0mt2w8m0.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Identification of Burseraceae trees from Peru: a comparison of the nuclear DNA marker ITS and the plastid DNA marker rbcL for DNA barcoding",
+    "authors": [
+     "Elias Elbogen"
+    ],
+    "url": "https://escholarship.org/uc/item/2g9393hq",
+    "pdf": "https://escholarship.org/content/qt2g9393hq/qt2g9393hq.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Interview with BSJ Staff Advisor Leah Carroll: BSJ Throughout the Years",
+    "authors": [
+     "Kapil Gururangan",
+     "Sushrita Neogi",
+     "Prashant Bhat",
+     "Jared Rosen",
+     "Jingyan Wang"
+    ],
+    "url": "https://escholarship.org/uc/item/2r01w4wm",
+    "pdf": "https://escholarship.org/content/qt2r01w4wm/qt2r01w4wm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Professor Caroline Kane",
+    "authors": [
+     "Kapil Gururangan",
+     "Sushrita Neogi",
+     "Prashant Bhat",
+     "Jared Rosen",
+     "Jingyan Wang"
+    ],
+    "url": "https://escholarship.org/uc/item/7kw872kg",
+    "pdf": "https://escholarship.org/content/qt7kw872kg/qt7kw872kg.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Robert Knight and Brian Pasley: Brain-Machine Interfaces: Neural Prosthetics and Patient Care",
+    "authors": [
+     "Kapil Gururangan",
+     "Jingyan Wang",
+     "Prashant Bhat",
+     "Sushrita Neogi",
+     "Jared Rosen"
+    ],
+    "url": "https://escholarship.org/uc/item/8q6654gh",
+    "pdf": "https://escholarship.org/content/qt8q6654gh/qt8q6654gh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Overlooked? The Growing Threat of Desertification",
+    "authors": [
+     "Julian Zhu"
+    ],
+    "url": "https://escholarship.org/uc/item/9n89k3g3",
+    "pdf": "https://escholarship.org/content/qt9n89k3g3/qt9n89k3g3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Peripheral benzodiazepine receptor protein expression in cells treated with alcohol and cytokines; a study on alcoholism",
+    "authors": [
+     "Mingmei Niu",
+     "Peter Syapin"
+    ],
+    "url": "https://escholarship.org/uc/item/3g32089d",
+    "pdf": "https://escholarship.org/content/qt3g32089d/qt3g32089d.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Pharmacogenomics: A Balancing Act",
+    "authors": [
+     "Lindsay Forbes"
+    ],
+    "url": "https://escholarship.org/uc/item/10b5112p",
+    "pdf": "https://escholarship.org/content/qt10b5112p/qt10b5112p.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Physics for Freedom: Opening the Cosmos for Those Inside",
+    "authors": [
+     "Alexandra Latshaw"
+    ],
+    "url": "https://escholarship.org/uc/item/8fr970bn",
+    "pdf": "https://escholarship.org/content/qt8fr970bn/qt8fr970bn.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Planet of the Machines",
+    "authors": [
+     "Tara Landers"
+    ],
+    "url": "https://escholarship.org/uc/item/5n86w1m9",
+    "pdf": "https://escholarship.org/content/qt5n86w1m9/qt5n86w1m9.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Temporal and Spatial Dependence of Adaptation on Ganglion Cells",
+    "authors": [
+     "Aakash Amin",
+     "Reza Moazzezi",
+     "Frank Werblin"
+    ],
+    "url": "https://escholarship.org/uc/item/21n2w7z1",
+    "pdf": "https://escholarship.org/content/qt21n2w7z1/qt21n2w7z1.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The \"Backwards\" March of Evolution: The Destruction of Self to Ensure the Future",
+    "authors": [
+     "Wesley Wong"
+    ],
+    "url": "https://escholarship.org/uc/item/04f4b0m9",
+    "pdf": "https://escholarship.org/content/qt04f4b0m9/qt04f4b0m9.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Victoria Nguyen",
+     "Matt Miranda"
+    ],
+    "url": "https://escholarship.org/uc/item/9bs963g2",
+    "pdf": "https://escholarship.org/content/qt9bs963g2/qt9bs963g2.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 16,
+  "issue": 1,
+  "title": "The Science of Food",
+  "note": null,
+  "semester": "Fall",
+  "year": 2011,
+  "cover": "assets/covers/webp/16_1.webp",
+  "cover_fallback": "assets/covers/jpg/16_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/16/1",
+  "article_count": 11,
+  "contents": [
+   {
+    "title": "A Background on Vitamin A: Have you got what it takes?",
+    "authors": [
+     "Sushrita Neogi"
+    ],
+    "url": "https://escholarship.org/uc/item/1s13g4d2",
+    "pdf": "https://escholarship.org/content/qt1s13g4d2/qt1s13g4d2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Anti-Oxidants, Omega-3 Fatty Acids, and Cognitive Decline with Aging",
+    "authors": [
+     "Tanu Ashok Patel"
+    ],
+    "url": "https://escholarship.org/uc/item/7s55s7tx",
+    "pdf": "https://escholarship.org/content/qt7s55s7tx/qt7s55s7tx.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Bees in the Balance",
+    "authors": [
+     "Jessica Robbins"
+    ],
+    "url": "https://escholarship.org/uc/item/8pp7r3bj",
+    "pdf": "https://escholarship.org/content/qt8pp7r3bj/qt8pp7r3bj.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Berkeley Scientific Journal, Volume 16, Issue 1, Science of Food",
+    "authors": [
+     "Matt Miranda",
+     "Victoria Nyugen"
+    ],
+    "url": "https://escholarship.org/uc/item/1bw4m63z",
+    "pdf": "https://escholarship.org/content/qt1bw4m63z/qt1bw4m63z.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Professor Matt Francis",
+    "authors": [
+     "Kapil Gururangan",
+     "Joanne Dai",
+     "Prashant Bhat",
+     "Sushrita Neogi",
+     "Jingyan Wang",
+     "Jared Rosen"
+    ],
+    "url": "https://escholarship.org/uc/item/2sr546rd",
+    "pdf": "https://escholarship.org/content/qt2sr546rd/qt2sr546rd.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Sharon Fleming",
+    "authors": [
+     "Kapil Gururangan",
+     "Jared Rosen",
+     "Joanne Dai",
+     "Sushrita Neogi",
+     "Manali Sawant",
+     "Prashant Bhat",
+     "Jingyan Wang"
+    ],
+    "url": "https://escholarship.org/uc/item/4pn054km",
+    "pdf": "https://escholarship.org/content/qt4pn054km/qt4pn054km.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Making the Most of Fish Farms",
+    "authors": [
+     "Julian Zhu"
+    ],
+    "url": "https://escholarship.org/uc/item/4tg3k740",
+    "pdf": "https://escholarship.org/content/qt4tg3k740/qt4tg3k740.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Semantic Representation in the Mirror Neuron System",
+    "authors": [
+     "Josiah Leong",
+     "Richard Ivry"
+    ],
+    "url": "https://escholarship.org/uc/item/3hb134q3",
+    "pdf": "https://escholarship.org/content/qt3hb134q3/qt3hb134q3.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Solar Power as a Source of Noise-free Power for Research",
+    "authors": [
+     "Akshita Dutta",
+     "Irinel Chorescu"
+    ],
+    "url": "https://escholarship.org/uc/item/4wd0d750",
+    "pdf": "https://escholarship.org/content/qt4wd0d750/qt4wd0d750.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Garcia Effect: A Tailored Taste for Survival",
+    "authors": [
+     "Chang Liu"
+    ],
+    "url": "https://escholarship.org/uc/item/2br2k4rv",
+    "pdf": "https://escholarship.org/content/qt2br2k4rv/qt2br2k4rv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "What Makes Beers Different From Each Other?",
+    "authors": [
+     "Jared Rosen"
+    ],
+    "url": "https://escholarship.org/uc/item/5rw8x3p9",
+    "pdf": "https://escholarship.org/content/qt5rw8x3p9/qt5rw8x3p9.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Matt Miranda",
+     "Victoria Nguyen"
+    ],
+    "url": "https://escholarship.org/uc/item/11j117pk",
+    "pdf": "https://escholarship.org/content/qt11j117pk/qt11j117pk.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 15,
+  "issue": 2,
+  "title": "Science Fiction",
+  "note": null,
+  "semester": "Spring",
+  "year": 2009,
+  "cover": "assets/covers/webp/15_2.webp",
+  "cover_fallback": "assets/covers/jpg/15_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/15/2",
+  "article_count": 7,
+  "contents": [
+   {
+    "title": "Berkeley Scientific Journal, Volume 15 Issue2, Science Fiction",
+    "authors": [
+     "Anthoy Chen"
+    ],
+    "url": "https://escholarship.org/uc/item/0j07k5cn",
+    "pdf": "https://escholarship.org/content/qt0j07k5cn/qt0j07k5cn.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Effects of Consuming Dietary Fructose versus Glucose on de novo Lipogenesis in Overweight and Obese Human Subjects",
+    "authors": [
+     "Patrick Lam"
+    ],
+    "url": "https://escholarship.org/uc/item/7vv7z7zw",
+    "pdf": "https://escholarship.org/content/qt7vv7z7zw/qt7vv7z7zw.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Interview with Joel Fajans",
+    "authors": [
+     "Kapil Gururangan",
+     "Elaine Owen",
+     "David Ding"
+    ],
+    "url": "https://escholarship.org/uc/item/4w0693f3",
+    "pdf": "https://escholarship.org/content/qt4w0693f3/qt4w0693f3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Michel Maharbiz",
+    "authors": [
+     "Kapil Gururangan",
+     "Elaine Owen"
+    ],
+    "url": "https://escholarship.org/uc/item/04q975tg",
+    "pdf": "https://escholarship.org/content/qt04q975tg/qt04q975tg.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Michel Maharbiz",
+    "authors": [
+     "Kapil Gururangan",
+     "Elaine Owen"
+    ],
+    "url": "https://escholarship.org/uc/item/0md2j8k8",
+    "pdf": "https://escholarship.org/content/qt0md2j8k8/qt0md2j8k8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Monkey Business: Emotion and Consciousness in Primates",
+    "authors": [
+     "Manisha Rai"
+    ],
+    "url": "https://escholarship.org/uc/item/12f6x031",
+    "pdf": "https://escholarship.org/content/qt12f6x031/qt12f6x031.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Sustaining Sherman Island: A Water Management and Agricultural Diversification System",
+    "authors": [
+     "Richard Fischer"
+    ],
+    "url": "https://escholarship.org/uc/item/3tk650qh",
+    "pdf": "https://escholarship.org/content/qt3tk650qh/qt3tk650qh.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Matt Miranda"
+    ],
+    "url": "https://escholarship.org/uc/item/09k223dx",
+    "pdf": "https://escholarship.org/content/qt09k223dx/qt09k223dx.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 15,
+  "issue": 1,
+  "title": "Emotions and Thought",
+  "note": null,
+  "semester": null,
+  "year": 2009,
+  "cover": "assets/covers/webp/15_1.webp",
+  "cover_fallback": "assets/covers/jpg/15_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/15/1",
+  "article_count": 9,
+  "contents": [
+   {
+    "title": "Emotion as a Psychological State",
+    "authors": [
+     "Robert Levenson",
+     "Kapil Gururangan",
+     "Jennifer Cherone",
+     "Stefano Iantorno",
+     "Felicia Linn",
+     "Joanne Dai",
+     "Jared Rosen",
+     "Jingyan Wang"
+    ],
+    "url": "https://escholarship.org/uc/item/5182t4nr",
+    "pdf": "https://escholarship.org/content/qt5182t4nr/qt5182t4nr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Emotions and Consumer Behavior",
+    "authors": [
+     "Eduardo Andrade",
+     "Kapil Gururangan",
+     "Stefano Iantorno",
+     "Harvey Feng",
+     "Jennifer Cherone",
+     "Manali Sawant",
+     "Sushrita Neogi",
+     "Prashant Bhat",
+     "Alan Lukus"
+    ],
+    "url": "https://escholarship.org/uc/item/2cz389fx",
+    "pdf": "https://escholarship.org/content/qt2cz389fx/qt2cz389fx.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Erasing Memories: A Solution for Emotional Trauma?",
+    "authors": [
+     "Emily Low"
+    ],
+    "url": "https://escholarship.org/uc/item/2h20g0nm",
+    "pdf": "https://escholarship.org/content/qt2h20g0nm/qt2h20g0nm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Savant Syndrome: Growth of Empathy and Creativity",
+    "authors": [
+     "Kapil Gururangan"
+    ],
+    "url": "https://escholarship.org/uc/item/3c9157k2",
+    "pdf": "https://escholarship.org/content/qt3c9157k2/qt3c9157k2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Science of Emotions and Thought",
+    "authors": [
+     "Manali Sawant"
+    ],
+    "url": "https://escholarship.org/uc/item/0s72j6mh",
+    "pdf": "https://escholarship.org/content/qt0s72j6mh/qt0s72j6mh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Sea Urchins on the Move: Distribution Change of Echinometra in Mo’orea French Polynesia",
+    "authors": [
+     "Maria D. Zizka"
+    ],
+    "url": "https://escholarship.org/uc/item/6gp0s5mz",
+    "pdf": "https://escholarship.org/content/qt6gp0s5mz/qt6gp0s5mz.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Technology: the cause of negative neurological changes or an extension of oneself?",
+    "authors": [
+     "Jessica Robbins"
+    ],
+    "url": "https://escholarship.org/uc/item/13m6779n",
+    "pdf": "https://escholarship.org/content/qt13m6779n/qt13m6779n.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "The Science of Emotion and Thought",
+    "authors": [
+     "Yu Jin",
+     "Matt Miranda"
+    ],
+    "url": "https://escholarship.org/uc/item/64c9j2b7",
+    "pdf": "https://escholarship.org/content/qt64c9j2b7/qt64c9j2b7.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "To Be or Not To Be",
+    "authors": [
+     "Aakash Amin"
+    ],
+    "url": "https://escholarship.org/uc/item/2dv0t85q",
+    "pdf": "https://escholarship.org/content/qt2dv0t85q/qt2dv0t85q.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Matt Miranda"
+    ],
+    "url": "https://escholarship.org/uc/item/9gt046jj",
+    "pdf": "https://escholarship.org/content/qt9gt046jj/qt9gt046jj.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 14,
+  "issue": 2,
+  "title": "Accidents: Serendipity in Science",
+  "note": null,
+  "semester": "Spring",
+  "year": 2011,
+  "cover": "assets/covers/webp/14_2.webp",
+  "cover_fallback": "assets/covers/jpg/14_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/14/2",
+  "article_count": 13,
+  "contents": [
+   {
+    "title": "Accidental Hospital Deaths",
+    "authors": [
+     "Prashant Bhat"
+    ],
+    "url": "https://escholarship.org/uc/item/8h46j2qc",
+    "pdf": "https://escholarship.org/content/qt8h46j2qc/qt8h46j2qc.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Accidents: Serendipity in Science",
+    "authors": [
+     "Anthony Chen"
+    ],
+    "url": "https://escholarship.org/uc/item/5xb5n8dz",
+    "pdf": "https://escholarship.org/content/qt5xb5n8dz/qt5xb5n8dz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Accidents: Serendipity in Science",
+    "authors": [
+     "Matt Miranda"
+    ],
+    "url": "https://escholarship.org/uc/item/0t04c8fh",
+    "pdf": null,
+    "peer_reviewed": false
+   },
+   {
+    "title": "Acquired Savantism: The Genesis of Accidental Genius",
+    "authors": [
+     "Kapil Gururangan"
+    ],
+    "url": "https://escholarship.org/uc/item/8nt665v8",
+    "pdf": "https://escholarship.org/content/qt8nt665v8/qt8nt665v8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Aspartame: History of the Artificial Sweetener",
+    "authors": [
+     "Manali Sawant"
+    ],
+    "url": "https://escholarship.org/uc/item/8r30s9hf",
+    "pdf": "https://escholarship.org/content/qt8r30s9hf/qt8r30s9hf.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "How Mauve Cured Syphilis",
+    "authors": [
+     "Aakash Amin"
+    ],
+    "url": "https://escholarship.org/uc/item/3wc4t404",
+    "pdf": "https://escholarship.org/content/qt3wc4t404/qt3wc4t404.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Hurricane Katrina: An Environmental Perspective",
+    "authors": [
+     "Jessica Robbins"
+    ],
+    "url": "https://escholarship.org/uc/item/1721j8cr",
+    "pdf": "https://escholarship.org/content/qt1721j8cr/qt1721j8cr.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Achilles Speliotopoulos",
+    "authors": [
+     "Kapil Gururangan"
+    ],
+    "url": "https://escholarship.org/uc/item/4120w4wv",
+    "pdf": "https://escholarship.org/content/qt4120w4wv/qt4120w4wv.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Interview with Jeffrey Long",
+    "authors": [
+     "Kapil Gururangan",
+     "Elaine Owen",
+     "Manisha Rai",
+     "Prashant Bhat"
+    ],
+    "url": "https://escholarship.org/uc/item/5b57j8dh",
+    "pdf": "https://escholarship.org/content/qt5b57j8dh/qt5b57j8dh.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Magnetic Bacteria: A Future in Industry and Medicine",
+    "authors": [
+     "Emily Low"
+    ],
+    "url": "https://escholarship.org/uc/item/1n3575xm",
+    "pdf": "https://escholarship.org/content/qt1n3575xm/qt1n3575xm.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Mirror Neurons: Recognition, Interaction, Understanding",
+    "authors": [
+     "Tanu Patel"
+    ],
+    "url": "https://escholarship.org/uc/item/6kv8t54t",
+    "pdf": "https://escholarship.org/content/qt6kv8t54t/qt6kv8t54t.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Pollination by Native Bee Communities in Berkeley, California",
+    "authors": [
+     "Kevin Welzel"
+    ],
+    "url": "https://escholarship.org/uc/item/90m7f314",
+    "pdf": "https://escholarship.org/content/qt90m7f314/qt90m7f314.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Video Games: A Site for Sore Eyes",
+    "authors": [
+     "Sahar Mozaffari"
+    ],
+    "url": "https://escholarship.org/uc/item/2v6025xt",
+    "pdf": "https://escholarship.org/content/qt2v6025xt/qt2v6025xt.pdf",
+    "peer_reviewed": false
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table of Contents",
+    "authors": [
+     "Matt Miranda"
+    ],
+    "url": "https://escholarship.org/uc/item/7kp40285",
+    "pdf": "https://escholarship.org/content/qt7kp40285/qt7kp40285.pdf",
+    "peer_reviewed": false
+   }
+  ]
+ },
+ {
+  "volume": 14,
+  "issue": 1,
+  "title": "Infectious Disease",
+  "note": null,
+  "semester": "Fall",
+  "year": 2010,
+  "cover": "assets/covers/webp/14_1.webp",
+  "cover_fallback": "assets/covers/jpg/14_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/14/1",
+  "article_count": 10,
+  "contents": [
+   {
+    "title": "A Sick World: Microscopic Considerations in Disease Propagation",
+    "authors": [
+     "Tyler Lutz"
+    ],
+    "url": "https://escholarship.org/uc/item/0m83p45r",
+    "pdf": "https://escholarship.org/content/qt0m83p45r/qt0m83p45r.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Accidents: Serendipity in Science",
+    "authors": [
+     "Anthony Chen"
+    ],
+    "url": "https://escholarship.org/uc/item/8184c1m2",
+    "pdf": "https://escholarship.org/content/qt8184c1m2/qt8184c1m2.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Associations among Plankton Abundance, Water Quality And Sediment Quality In The San Francisco Bay: Nitrogen And Phosphorus",
+    "authors": [
+     "Monica Moritsch"
+    ],
+    "url": "https://escholarship.org/uc/item/1zf0t4tr",
+    "pdf": "https://escholarship.org/content/qt1zf0t4tr/qt1zf0t4tr.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Can A Virus Cause Cancer: A Look Into The History And Significance Of Oncoviruses",
+    "authors": [
+     "Niema Rwazavian"
+    ],
+    "url": "https://escholarship.org/uc/item/6c57612p",
+    "pdf": "https://escholarship.org/content/qt6c57612p/qt6c57612p.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Chronic Fatigue Syndrome As An Agent of Infectious Disease: A Review of Etiological Agents",
+    "authors": [
+     "Amy Hassenberg"
+    ],
+    "url": "https://escholarship.org/uc/item/0kq3s3c2",
+    "pdf": "https://escholarship.org/content/qt0kq3s3c2/qt0kq3s3c2.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Interview With Dr. Lee Riley",
+    "authors": [
+     "Michael R Moses",
+     "Alex Gagnon"
+    ],
+    "url": "https://escholarship.org/uc/item/3fq6s55f",
+    "pdf": "https://escholarship.org/content/qt3fq6s55f/qt3fq6s55f.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Knowledge, Attitudes, And Practice Towards Epilepsy: Survey Of Chinese And Vietnamese College Students In The U.S.",
+    "authors": [
+     "Kenny Chung"
+    ],
+    "url": "https://escholarship.org/uc/item/2bp6n47c",
+    "pdf": "https://escholarship.org/content/qt2bp6n47c/qt2bp6n47c.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Medieval Scourge Finds Modern Victims: A Retrospective of the Bubonic Plague And Its Presence In Contemporary Society",
+    "authors": [
+     "Khushbu Aggarwal"
+    ],
+    "url": "https://escholarship.org/uc/item/5gn0t3dd",
+    "pdf": "https://escholarship.org/content/qt5gn0t3dd/qt5gn0t3dd.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Plague Histeria: A Historical Perspective Of The Neurological Component Of Infectious Disease",
+    "authors": [
+     "Monica Arnell"
+    ],
+    "url": "https://escholarship.org/uc/item/0q12d8sm",
+    "pdf": "https://escholarship.org/content/qt0q12d8sm/qt0q12d8sm.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Virotherapy: Finding New Utility In Nature's Most Dangerous Killers",
+    "authors": [
+     "Andrew Taber",
+     "Alex Cheung"
+    ],
+    "url": "https://escholarship.org/uc/item/1z28t72x",
+    "pdf": "https://escholarship.org/content/qt1z28t72x/qt1z28t72x.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": [
+   {
+    "title": "Table Of Contents",
+    "authors": [],
+    "url": "https://escholarship.org/uc/item/2cf2q55h",
+    "pdf": "https://escholarship.org/content/qt2cf2q55h/qt2cf2q55h.pdf",
+    "peer_reviewed": true
+   }
+  ]
+ },
+ {
+  "volume": 13,
+  "issue": 2,
+  "title": "Economics",
+  "note": null,
+  "semester": "Spring",
+  "year": 2010,
+  "cover": "assets/covers/webp/13_2.webp",
+  "cover_fallback": "assets/covers/jpg/13_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/13/2",
+  "article_count": 8,
+  "contents": [
+   {
+    "title": "Circular Retribution: The Effects of Climate Change on U .S. and Global Economy",
+    "authors": [
+     "Hannes Prescher"
+    ],
+    "url": "https://escholarship.org/uc/item/12h7993n",
+    "pdf": "https://escholarship.org/content/qt12h7993n/qt12h7993n.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Economics: Contents",
+    "authors": [
+     "Jessen V Bredeson"
+    ],
+    "url": "https://escholarship.org/uc/item/26g0b1zn",
+    "pdf": "https://escholarship.org/content/qt26g0b1zn/qt26g0b1zn.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Economics: Research Contents",
+    "authors": [
+     "Jessen V Bredeson"
+    ],
+    "url": "https://escholarship.org/uc/item/1j32m19p",
+    "pdf": "https://escholarship.org/content/qt1j32m19p/qt1j32m19p.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Interview With Ikhlaq Sidhu",
+    "authors": [
+     "Alex Gagnon",
+     "Jennifer Cherone",
+     "Felicia Linn",
+     "Stephano Iantorno"
+    ],
+    "url": "https://escholarship.org/uc/item/5sj694m8",
+    "pdf": "https://escholarship.org/content/qt5sj694m8/qt5sj694m8.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Knowledge, Attitudes, and Practice towards Epilepsy (KAPE) Survey of Chinese and Vietnamese College Students in the U.S.",
+    "authors": [
+     "Kenny Chung"
+    ],
+    "url": "https://escholarship.org/uc/item/9pt2d148",
+    "pdf": "https://escholarship.org/content/qt9pt2d148/qt9pt2d148.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Response of Pancreatic Cancer Cell Lines to the Polyamine Analog, PG-11047",
+    "authors": [
+     "Jennie Weinkle"
+    ],
+    "url": "https://escholarship.org/uc/item/5ck5f8nx",
+    "pdf": "https://escholarship.org/content/qt5ck5f8nx/qt5ck5f8nx.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Aging Brain: Are two pathologies worse than one? White matter hyperintensities, beta-amyloid, and cognition in normal elderly",
+    "authors": [
+     "Susan Onami"
+    ],
+    "url": "https://escholarship.org/uc/item/74d2c80k",
+    "pdf": "https://escholarship.org/content/qt74d2c80k/qt74d2c80k.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Relationship Between Pharmaceutical Companies and Physicians",
+    "authors": [
+     "Khushbu Aggarwal"
+    ],
+    "url": "https://escholarship.org/uc/item/7dh0x4bb",
+    "pdf": "https://escholarship.org/content/qt7dh0x4bb/qt7dh0x4bb.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": []
+ },
+ {
+  "volume": 13,
+  "issue": 1,
+  "title": "Technology & the Human",
+  "note": null,
+  "semester": "Fall",
+  "year": 2009,
+  "cover": "assets/covers/webp/13_1.webp",
+  "cover_fallback": "assets/covers/jpg/13_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/13/1",
+  "article_count": 18,
+  "contents": [
+   {
+    "title": "America's Pesticides",
+    "authors": [
+     "Elton Chan"
+    ],
+    "url": "https://escholarship.org/uc/item/2hs5v953",
+    "pdf": "https://escholarship.org/content/qt2hs5v953/qt2hs5v953.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Brain-Computer Interfaces",
+    "authors": [
+     "Khushbu Aggarwal"
+    ],
+    "url": "https://escholarship.org/uc/item/2fk341zq",
+    "pdf": "https://escholarship.org/content/qt2fk341zq/qt2fk341zq.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Deep Brain Stimulation: A Successor to L-Dopa?",
+    "authors": [
+     "Tren Gu"
+    ],
+    "url": "https://escholarship.org/uc/item/1hc0z8n0",
+    "pdf": "https://escholarship.org/content/qt1hc0z8n0/qt1hc0z8n0.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Diamonds: For Ever Or For Everyone?",
+    "authors": [
+     "Emily Tu"
+    ],
+    "url": "https://escholarship.org/uc/item/8mn5p5jz",
+    "pdf": "https://escholarship.org/content/qt8mn5p5jz/qt8mn5p5jz.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Distance Education Versus The Traditional Classroom",
+    "authors": [
+     "Amy Hassenburg"
+    ],
+    "url": "https://escholarship.org/uc/item/3859m52h",
+    "pdf": "https://escholarship.org/content/qt3859m52h/qt3859m52h.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Ectoparasite Presence, Density, And Unit Load In Relation To Tent-roosting Behavior Of Neotropical Bats",
+    "authors": [
+     "Matthew Stuckey"
+    ],
+    "url": "https://escholarship.org/uc/item/17c836kb",
+    "pdf": "https://escholarship.org/content/qt17c836kb/qt17c836kb.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Evaluating Economizer Use In Data Centers",
+    "authors": [
+     "Benjamin Chu"
+    ],
+    "url": "https://escholarship.org/uc/item/9g3837v1",
+    "pdf": "https://escholarship.org/content/qt9g3837v1/qt9g3837v1.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Evaluating The Effect Of Climate In A Sierran Mixed Conifer Forest",
+    "authors": [
+     "Aimee Sprague"
+    ],
+    "url": "https://escholarship.org/uc/item/3h38z939",
+    "pdf": "https://escholarship.org/content/qt3h38z939/qt3h38z939.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Implantable Devices",
+    "authors": [
+     "Joy Yang"
+    ],
+    "url": "https://escholarship.org/uc/item/9qs1b4kw",
+    "pdf": "https://escholarship.org/content/qt9qs1b4kw/qt9qs1b4kw.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Redefining The Route To A Relationship",
+    "authors": [
+     "Maansi Shah"
+    ],
+    "url": "https://escholarship.org/uc/item/4c07q8tr",
+    "pdf": "https://escholarship.org/content/qt4c07q8tr/qt4c07q8tr.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Run Like The Wind (Or Faster, If You Can)",
+    "authors": [
+     "Melanie Ma"
+    ],
+    "url": "https://escholarship.org/uc/item/6n21k8jn",
+    "pdf": "https://escholarship.org/content/qt6n21k8jn/qt6n21k8jn.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Synaptic Plasticity: Spatio-Temporal Analysis Of Actin Dynamics",
+    "authors": [
+     "Olga Afanasiev"
+    ],
+    "url": "https://escholarship.org/uc/item/1md880vm",
+    "pdf": "https://escholarship.org/content/qt1md880vm/qt1md880vm.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Technology and Human Interaction: Contents",
+    "authors": [
+     "Jessen Bredeson"
+    ],
+    "url": "https://escholarship.org/uc/item/4n54x129",
+    "pdf": "https://escholarship.org/content/qt4n54x129/qt4n54x129.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Technology And Human Interaction: Research Contents",
+    "authors": [
+     "Jessen Bredeson"
+    ],
+    "url": "https://escholarship.org/uc/item/6gp616cd",
+    "pdf": "https://escholarship.org/content/qt6gp616cd/qt6gp616cd.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Technology And The Way We Think",
+    "authors": [
+     "Mia Krstic"
+    ],
+    "url": "https://escholarship.org/uc/item/5f68t4nt",
+    "pdf": "https://escholarship.org/content/qt5f68t4nt/qt5f68t4nt.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Effects Of Sleep On Implicit And Explicit Motor Skill Sequence Learning And Task Integration: A Literature Review And Pilot Study",
+    "authors": [
+     "Babe Kawaii-Bogue"
+    ],
+    "url": "https://escholarship.org/uc/item/1684n24g",
+    "pdf": "https://escholarship.org/content/qt1684n24g/qt1684n24g.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Impact Of Habitat Fragmentation On Bird Community Composition In Monteverde, Costa Rica",
+    "authors": [
+     "Joanna Wu"
+    ],
+    "url": "https://escholarship.org/uc/item/9n9110bb",
+    "pdf": "https://escholarship.org/content/qt9n9110bb/qt9n9110bb.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The New Kids On The Block: Emerging Medical Technologies",
+    "authors": [
+     "Daniel Mangels"
+    ],
+    "url": "https://escholarship.org/uc/item/0qm6v40p",
+    "pdf": "https://escholarship.org/content/qt0qm6v40p/qt0qm6v40p.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": []
+ },
+ {
+  "volume": 12,
+  "issue": 2,
+  "title": "Consciousness and the Mind",
+  "note": null,
+  "semester": "Fall",
+  "year": 2008,
+  "cover": "assets/covers/webp/12_2.webp",
+  "cover_fallback": "assets/covers/jpg/12_2.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/12/2",
+  "article_count": 13,
+  "contents": [
+   {
+    "title": "Dreaming with a Conscious Mind",
+    "authors": [
+     "Daniel Yang"
+    ],
+    "url": "https://escholarship.org/uc/item/5j65h7n6",
+    "pdf": "https://escholarship.org/content/qt5j65h7n6/qt5j65h7n6.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Drugs in College",
+    "authors": [
+     "Joy Yang"
+    ],
+    "url": "https://escholarship.org/uc/item/93w3967z",
+    "pdf": "https://escholarship.org/content/qt93w3967z/qt93w3967z.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Falling Out of Love?",
+    "authors": [
+     "Maansi Shah"
+    ],
+    "url": "https://escholarship.org/uc/item/58v0q3qr",
+    "pdf": "https://escholarship.org/content/qt58v0q3qr/qt58v0q3qr.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Interview with Matthew Walker",
+    "authors": [
+     "Alexander Gagnon",
+     "Tiffany Horne",
+     "Michael Moses",
+     "Stacy Hsueh",
+     "Mio Kitayama",
+     "Barry Ko",
+     "Felicia Linn"
+    ],
+    "url": "https://escholarship.org/uc/item/39s3g0tz",
+    "pdf": "https://escholarship.org/content/qt39s3g0tz/qt39s3g0tz.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Music and the Mind",
+    "authors": [
+     "Meagan Cooney"
+    ],
+    "url": "https://escholarship.org/uc/item/9x34k046",
+    "pdf": "https://escholarship.org/content/qt9x34k046/qt9x34k046.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "\"Ouch!\" The Biological and Psychological Mechanisms of Pain",
+    "authors": [
+     "Khushbu Aggarwal"
+    ],
+    "url": "https://escholarship.org/uc/item/75s6j2gb",
+    "pdf": "https://escholarship.org/content/qt75s6j2gb/qt75s6j2gb.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Social Robots",
+    "authors": [
+     "Hemma Mistry"
+    ],
+    "url": "https://escholarship.org/uc/item/2259k3g6",
+    "pdf": "https://escholarship.org/content/qt2259k3g6/qt2259k3g6.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Some Rules of Good Scientific Writing",
+    "authors": [
+     "Dmitry Budker"
+    ],
+    "url": "https://escholarship.org/uc/item/16876818",
+    "pdf": "https://escholarship.org/content/qt16876818/qt16876818.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Stimulants and Society",
+    "authors": [
+     "Tania Aftandilians"
+    ],
+    "url": "https://escholarship.org/uc/item/1k13k7p1",
+    "pdf": "https://escholarship.org/content/qt1k13k7p1/qt1k13k7p1.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Synaptic Plasticity: Spatio-Temporal Analysis of Actin Dynamics",
+    "authors": [
+     "Olga Kochan"
+    ],
+    "url": "https://escholarship.org/uc/item/57v883nr",
+    "pdf": "https://escholarship.org/content/qt57v883nr/qt57v883nr.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Sandman in a Bottle",
+    "authors": [
+     "Matthew Koh"
+    ],
+    "url": "https://escholarship.org/uc/item/4cp4k12b",
+    "pdf": "https://escholarship.org/content/qt4cp4k12b/qt4cp4k12b.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Science of Happiness",
+    "authors": [
+     "Daniel Mangels"
+    ],
+    "url": "https://escholarship.org/uc/item/9c00g8js",
+    "pdf": "https://escholarship.org/content/qt9c00g8js/qt9c00g8js.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Tick Tock, Internal Clock",
+    "authors": [
+     "Elaine Tu"
+    ],
+    "url": "https://escholarship.org/uc/item/4983t0f9",
+    "pdf": "https://escholarship.org/content/qt4983t0f9/qt4983t0f9.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": []
+ },
+ {
+  "volume": 12,
+  "issue": 1,
+  "title": "Science and War",
+  "note": null,
+  "semester": "Spring",
+  "year": 2008,
+  "cover": "assets/covers/webp/12_1.webp",
+  "cover_fallback": "assets/covers/jpg/12_1.jpg",
+  "pdf": null,
+  "escholarship_url": "https://escholarship.org/uc/our_bsj/12/1",
+  "article_count": 7,
+  "contents": [
+   {
+    "title": "Fighting Against the Invisible: The new weapons against chemical warfare",
+    "authors": [
+     "Leana Nguyen"
+    ],
+    "url": "https://escholarship.org/uc/item/43g9q12g",
+    "pdf": "https://escholarship.org/content/qt43g9q12g/qt43g9q12g.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Interview with Edward C. Morse",
+    "authors": [
+     "Tiffany Horne",
+     "Mike Moses",
+     "Jennifer Yang",
+     "Felicia Linn",
+     "Stacy Hsueh",
+     "Emily Fox"
+    ],
+    "url": "https://escholarship.org/uc/item/383760g3",
+    "pdf": "https://escholarship.org/content/qt383760g3/qt383760g3.pdf",
+    "peer_reviewed": false
+   },
+   {
+    "title": "Legacy of a Bomb: The Manhattan Project’s Impact on the Scientific Community",
+    "authors": [
+     "Jany Huan Gao"
+    ],
+    "url": "https://escholarship.org/uc/item/9vf4d0xj",
+    "pdf": "https://escholarship.org/content/qt9vf4d0xj/qt9vf4d0xj.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Light Wars: The Bright Future of Laser Weapons",
+    "authors": [
+     "Hemma Mistry"
+    ],
+    "url": "https://escholarship.org/uc/item/2v1656tz",
+    "pdf": "https://escholarship.org/content/qt2v1656tz/qt2v1656tz.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Network-centric Warfare and the Globalization of Technology: Transforming simple tools into dangerous weapons",
+    "authors": [
+     "Ann Oh"
+    ],
+    "url": "https://escholarship.org/uc/item/1dn5j7gh",
+    "pdf": "https://escholarship.org/content/qt1dn5j7gh/qt1dn5j7gh.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "The Effects of Viewing Sexual Films on Memory Performance",
+    "authors": [
+     "Emily Tam"
+    ],
+    "url": "https://escholarship.org/uc/item/31z2s6cm",
+    "pdf": "https://escholarship.org/content/qt31z2s6cm/qt31z2s6cm.pdf",
+    "peer_reviewed": true
+   },
+   {
+    "title": "Traumatic Brain Injury: The “Signature Injury” of the Iraq War",
+    "authors": [
+     "Tania Aftandilians"
+    ],
+    "url": "https://escholarship.org/uc/item/9hn8w1p8",
+    "pdf": "https://escholarship.org/content/qt9hn8w1p8/qt9hn8w1p8.pdf",
+    "peer_reviewed": true
+   }
+  ],
+  "front_matter": []
+ }
 ]

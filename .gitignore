@@ -10,3 +10,7 @@ Thumbs.db
 # curated, web-ready assets in /assets instead; do not commit multi-gigabyte
 # archive dumps.
 /old_stuff/
+
+# Raw site backups (large archives kept locally, not in git)
+ocf-backup/
+ocf-site/
