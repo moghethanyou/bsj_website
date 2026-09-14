@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Archive | Berkeley Scientific Journal</title>
   <meta name="description"
-    content="Explore Berkeley Scientific Journal issues and student-written science articles in one archive.">
+    content="Every issue of the Berkeley Scientific Journal since volume 12, with full tables of contents, plus the journal's online articles.">
   <link rel="icon" href="assets/brand/favicons/favicon.ico" sizes="any">
   <link rel="icon" type="image/svg+xml" href="assets/brand/favicons/favicon.svg">
   <link rel="apple-touch-icon" href="assets/brand/favicons/apple-touch-icon.png">
@@ -15,26 +15,27 @@
 
 <body class="archive-page">
 
-  <a class="skip-link" href="#main-content">Skip to archive</a>
+  <a class="skip-link" href="#main-content">Skip to the archive</a>
 
   <header class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="brand">
-        <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
-        <span>Berkeley Scientific Journal<span class="brand-sub">UC Berkeley</span></span>
+        <img src="assets/brand/bsj-seal-badge.svg" alt="">
+        <span>Berkeley Scientific Journal<span class="brand-sub">University of California, Berkeley</span></span>
       </a>
-      <nav aria-label="Primary navigation">
+      <nav aria-label="Primary">
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="leadership.html">Leadership</a></li>
           <li><a href="journals.html" class="active" aria-current="page">Archive</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="leadership.html">Staff</a></li>
+          <li><a href="contact.html">Contact &amp; Submissions</a></li>
         </ul>
       </nav>
       <div class="nav-cta">
-        <a href="journals.html?view=issues" class="btn btn-outline btn-sm">Read the Journal</a>
-        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+        <a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener"
+          class="btn btn-outline btn-sm">eScholarship</a>
+        <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
       </div>
     </div>
   </header>
@@ -43,25 +44,35 @@
     <section class="archive-hero">
       <div class="container archive-hero-grid">
         <div class="archive-hero-copy">
-          <nav class="archive-breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span>Archive</nav>
-          <p class="eyebrow">The complete collection</p>
-          <h1>Three decades of science, curiosity, and student voices.</h1>
-          <p>Read full editions of the Berkeley Scientific Journal or explore individual stories spanning research, features, interviews, and science in society.</p>
+          <nav class="archive-breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span
+              aria-hidden="true">/</span>Archive</nav>
+          <h1>The complete archive.</h1>
+          <p>Every issue from volume 12 onward, with its full table of contents, alongside the articles BSJ has
+            published online. Issues are permanently archived on eScholarship, the University of California's open
+            access repository.</p>
           <dl class="archive-stats">
-            <div><dt>29</dt><dd>Volumes</dd></div>
-            <div><dt>280+</dt><dd>Articles</dd></div>
-            <div><dt>1996</dt><dd>Founded</dd></div>
+            <div>
+              <dt>35</dt>
+              <dd>Issues</dd>
+            </div>
+            <div>
+              <dt>510</dt>
+              <dd>Articles in print</dd>
+            </div>
+            <div>
+              <dt>288</dt>
+              <dd>Articles online</dd>
+            </div>
           </dl>
         </div>
-        <article class="archive-featured-issue">
-          <a class="archive-featured-cover" href="https://escholarship.org/uc/our_bsj/29/2" target="_blank" rel="noopener">
-            <img src="assets/covers/webp/29_2.webp" onerror="this.onerror=null;this.src='assets/covers/jpg/29_2.jpg'" alt="Chimera, Volume 29, Issue 2 cover">
-          </a>
+        <article class="archive-featured-issue" id="featured-issue">
+          <a class="archive-featured-cover" data-issue-cover href="https://escholarship.org/uc/our_bsj"></a>
           <div class="archive-featured-copy">
-            <span>Featured issue</span>
-            <h2>Chimera</h2>
-            <p>Volume 29, Issue 2<br>Spring 2025</p>
-            <a href="https://escholarship.org/uc/our_bsj/29/2" target="_blank" rel="noopener" class="btn btn-gold btn-sm">Read this issue <span aria-hidden="true">↗</span></a>
+            <span>Current issue</span>
+            <h2 data-issue-title></h2>
+            <p data-issue-meta></p>
+            <a data-issue-link href="https://escholarship.org/uc/our_bsj" class="btn btn-outline btn-sm">Read this
+              issue</a>
           </div>
         </article>
       </div>
@@ -70,55 +81,69 @@
     <section class="archive-browser">
       <div class="container">
         <div class="archive-tabs-shell">
-          <div class="archive-tabs" role="tablist" aria-label="Archive collection">
-            <button type="button" role="tab" id="issues-tab" aria-controls="archive-issues" aria-selected="true" tabindex="0" data-view="issues">Full issues</button>
-            <button type="button" role="tab" id="articles-tab" aria-controls="archive-articles" aria-selected="false" tabindex="-1" data-view="articles">Individual articles</button>
+          <div class="archive-tabs" role="tablist" aria-label="Archive">
+            <button type="button" role="tab" id="issues-tab" aria-controls="archive-issues" aria-selected="true"
+              tabindex="0" data-view="issues">Issues</button>
+            <button type="button" role="tab" id="articles-tab" aria-controls="archive-articles" aria-selected="false"
+              tabindex="-1" data-view="articles">Articles</button>
           </div>
         </div>
 
         <section id="archive-issues" class="archive-panel" role="tabpanel" aria-labelledby="issues-tab">
           <div class="archive-panel-heading">
             <div>
-              <p class="archive-panel-kicker">Print &amp; digital editions</p>
-              <h2>Browse full issues</h2>
-              <p>Open complete editions in your browser, or visit the permanent eScholarship record.</p>
+              <p class="archive-panel-kicker">Print and digital editions</p>
+              <h2>Issues</h2>
+              <p>Open the contents of any issue to see its articles and authors. Searching matches issue themes and
+                article titles alike.</p>
             </div>
             <span id="issue-count" class="archive-count" aria-live="polite"></span>
           </div>
           <div class="archive-control-bar">
             <label class="archive-search" for="issue-search">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="m20 20-4-4"></path>
+              </svg>
               <span class="sr-only">Search issues</span>
-              <input type="search" id="issue-search" placeholder="Search title, volume, or year" autocomplete="off">
+              <input type="search" id="issue-search" placeholder="Search issues, articles, or authors"
+                autocomplete="off">
             </label>
             <div class="journal-filters" id="decade-filters" aria-label="Filter issues by decade"></div>
           </div>
           <div class="issue-grid" id="issue-grid" aria-live="polite"></div>
           <div class="archive-empty" id="issue-empty" hidden>
             <h3>No issues found</h3>
-            <p>Try a different title, volume, year, or decade.</p>
+            <p>Try a different theme, volume, year, or author.</p>
           </div>
         </section>
 
         <section id="archive-articles" class="archive-panel" role="tabpanel" aria-labelledby="articles-tab" hidden>
           <div class="archive-panel-heading">
             <div>
-              <p class="archive-panel-kicker">Reporting from Berkeley students</p>
-              <h2>Read individual stories</h2>
-              <p>Search the full online collection by subject, title, author, or year.</p>
+              <p class="archive-panel-kicker">Published online</p>
+              <h2>Articles</h2>
+              <p>Features, interviews, and blog writing published on the BSJ site, searchable by title, author, or
+                subject.</p>
             </div>
             <span id="article-count" class="archive-count" aria-live="polite"></span>
           </div>
           <form id="article-filter-form" class="archive-control-bar article-control-bar" role="search">
             <label class="archive-search" for="article-search">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="m20 20-4-4"></path>
+              </svg>
               <span class="sr-only">Search articles</span>
               <input id="article-search" type="search" placeholder="Search articles and authors" autocomplete="off">
-              <button id="article-clear" class="archive-search-clear" type="button" aria-label="Clear article search" hidden>×</button>
+              <button id="article-clear" class="archive-search-clear" type="button" aria-label="Clear search"
+                hidden>×</button>
             </label>
             <label class="archive-select" for="article-year">
               <span>Year</span>
-              <select id="article-year"><option value="">All years</option></select>
+              <select id="article-year">
+                <option value="">All years</option>
+              </select>
             </label>
             <label class="archive-select" for="article-sort">
               <span>Sort</span>
@@ -129,190 +154,45 @@
               </select>
             </label>
           </form>
-          <div id="article-grid" class="article-grid archive-article-grid" aria-live="polite" aria-busy="true"><p class="article-loading">Loading articles…</p></div>
+          <div id="article-grid" class="article-grid archive-article-grid" aria-live="polite" aria-busy="true">
+            <p class="article-loading">Loading articles…</p>
+          </div>
           <div id="article-empty" class="archive-empty" hidden>
             <h3>No articles found</h3>
-            <p>Try a broader search or choose a different year.</p>
+            <p>Try a broader search or a different year.</p>
             <button id="article-reset" type="button" class="btn btn-outline btn-sm">Clear filters</button>
           </div>
-          <button id="article-more" type="button" class="btn btn-outline article-more" hidden>Load more articles</button>
+          <button id="article-more" type="button" class="btn btn-outline article-more" hidden>Load more</button>
         </section>
       </div>
     </section>
   </main>
-
-  <script>
-    const LOCAL_PDFS = new Set([
-      '19_2', '20_1', '22_1', '22_2', '23_1', '23_2', '24_1', '24_2',
-      '25_1', '25_2', '26_1', '26_2', '27_1', '27_2',
-    ]);
-
-    const ISSUES = [
-      { v: 12, i: 1, title: "Science and War", sem: "Fall", year: 2007, url: "https://escholarship.org/uc/our_bsj/12/1" },
-      { v: 12, i: 2, title: "Consciousness and the Mind", sem: "Spring", year: 2008, url: "https://escholarship.org/uc/our_bsj/12/2" },
-      { v: 13, i: 1, title: "Technology & the Human", sem: "Fall", year: 2008, url: "https://escholarship.org/uc/our_bsj/13/1" },
-      { v: 13, i: 2, title: "Economics", sem: "Spring", year: 2009, url: "https://escholarship.org/uc/our_bsj/13/2" },
-      { v: 14, i: 1, title: "Infectious Disease", sem: "Fall", year: 2009, url: "https://escholarship.org/uc/our_bsj/14/1" },
-      { v: 14, i: 2, title: "Accidents: Serendipity in Science", sem: "Spring", year: 2010, url: "https://escholarship.org/uc/our_bsj/14/2" },
-      { v: 15, i: 1, title: "Emotions and Thought", sem: "Fall", year: 2010, url: "https://escholarship.org/uc/our_bsj/15/1" },
-      { v: 15, i: 2, title: "Science Fiction", sem: "Spring", year: 2011, url: "https://escholarship.org/uc/our_bsj/15/2" },
-      { v: 16, i: 1, title: "The Science of Food", sem: "Fall", year: 2011, url: "https://escholarship.org/uc/our_bsj/16/1" },
-      { v: 16, i: 2, title: "Save or Destroy", sem: "Spring", year: 2012, url: "https://escholarship.org/uc/our_bsj/16/2" },
-      { v: 17, i: 1, title: "Science of Color", sem: "Fall", year: 2012, url: "https://escholarship.org/uc/our_bsj/17/1" },
-      { v: 17, i: 2, title: "Death and Dying", sem: "Spring", year: 2013, url: "https://escholarship.org/uc/our_bsj/17/2" },
-      { v: 18, i: 1, title: "Stress", sem: "Fall", year: 2013, url: "https://escholarship.org/uc/our_bsj/18/1" },
-      { v: 18, i: 2, title: "Synthetics", sem: "Spring", year: 2014, url: "https://escholarship.org/uc/our_bsj/18/2" },
-      { v: 19, i: 1, title: "Extremes", sem: "Fall", year: 2014, url: "https://escholarship.org/uc/our_bsj/19/1" },
-      { v: 19, i: 2, title: "Waste", sem: "Spring", year: 2015, url: "https://escholarship.org/uc/our_bsj/19/2" },
-      { v: 20, i: 1, title: "Symmetry", sem: "Fall", year: 2015, url: "https://escholarship.org/uc/our_bsj/20/1" },
-      { v: 21, i: 1, title: "Chronos", sem: "Fall", year: 2016, url: "https://escholarship.org/uc/our_bsj/21/1" },
-      { v: 21, i: 2, title: "Power and Control", sem: "Spring", year: 2017, url: "https://escholarship.org/uc/our_bsj/21/2" },
-      { v: 22, i: 1, title: "Order & Disorder", sem: "Fall", year: 2017, url: "https://escholarship.org/uc/our_bsj/22/1" },
-      { v: 22, i: 2, title: "Next Generation", sem: "Spring", year: 2018, url: "https://escholarship.org/uc/our_bsj/22/2" },
-      { v: 23, i: 1, title: "Crisis", sem: "Fall", year: 2018, url: "https://escholarship.org/uc/our_bsj/23/1" },
-      { v: 23, i: 2, title: "Perspectives", sem: "Spring", year: 2019, url: "https://escholarship.org/uc/our_bsj/23/2" },
-      { v: 24, i: 1, title: "Glitch", sem: "Fall", year: 2019, url: "https://escholarship.org/uc/our_bsj/24/1" },
-      { v: 24, i: 2, title: "Intersections", sem: "Spring", year: 2020, url: "https://escholarship.org/uc/our_bsj/24/2" },
-      { v: 25, i: 1, title: "Bonds", sem: "Fall", year: 2020, url: "https://escholarship.org/uc/our_bsj/25/1" },
-      { v: 25, i: 2, title: "Emergence", sem: "Spring", year: 2021, url: "https://escholarship.org/uc/our_bsj/25/2" },
-      { v: 26, i: 1, title: "Origins (25th Anniversary Edition)", sem: "Fall", year: 2021, url: "https://escholarship.org/uc/our_bsj/26/1" },
-      { v: 26, i: 2, title: "Flux", sem: "Spring", year: 2022, url: "https://escholarship.org/uc/our_bsj/26/2" },
-      { v: 27, i: 1, title: "Signal", sem: "Fall", year: 2022, url: "https://escholarship.org/uc/our_bsj/27/1" },
-      { v: 27, i: 2, title: "Potential", sem: "Spring", year: 2023, url: "https://escholarship.org/uc/our_bsj/27/2" },
-      { v: 28, i: 1, title: "Magnitude", sem: "Fall", year: 2023, url: "https://escholarship.org/uc/our_bsj/28/1" },
-      { v: 28, i: 2, title: "Anomaly", sem: "Spring", year: 2024, url: "https://escholarship.org/uc/our_bsj/28/2" },
-      { v: 29, i: 1, title: "Pulse", sem: "Fall", year: 2024, url: "https://escholarship.org/uc/our_bsj/29/1" },
-      { v: 29, i: 2, title: "Chimera", sem: "Spring", year: 2025, url: "https://escholarship.org/uc/our_bsj/29/2" },
-    ].map(issue => ({
-      ...issue,
-      cover: `assets/covers/webp/${issue.v}_${issue.i}.webp`,
-      coverFallback: `assets/covers/jpg/${issue.v}_${issue.i}.jpg`,
-      pdf: LOCAL_PDFS.has(`${issue.v}_${issue.i}`) ? `assets/issues/pdfs/${issue.v}_${issue.i}.pdf` : null,
-    })).reverse();
-
-    const grid = document.getElementById('issue-grid');
-    const empty = document.getElementById('issue-empty');
-    const search = document.getElementById('issue-search');
-    const filterBar = document.getElementById('decade-filters');
-    const issueCount = document.getElementById('issue-count');
-
-    function decadeOf(year) {
-      return `${Math.floor(year / 10) * 10}s`;
-    }
-    const decades = ['All issues', ...Array.from(new Set(ISSUES.map(issue => decadeOf(issue.year))))];
-    let activeDecade = 'All issues';
-
-    function render() {
-      const q = search.value.trim().toLowerCase();
-      grid.innerHTML = '';
-      let shown = 0;
-      ISSUES.forEach(issue => {
-        if (activeDecade !== 'All issues' && decadeOf(issue.year) !== activeDecade) return;
-        const label = issue.title || `Volume ${issue.v}, Issue ${issue.i}`;
-        const sem = issue.sem && issue.year ? `${issue.sem} ${issue.year}` : '';
-        const haystack = `${label} ${sem} volume ${issue.v} issue ${issue.i}`.toLowerCase();
-        if (q && haystack.indexOf(q) === -1) return;
-        shown++;
-        const card = document.createElement('article');
-        card.className = 'issue-card';
-        card.innerHTML = `
-          <a class="issue-cover" href="${issue.pdf || issue.url}" target="_blank" rel="noopener" aria-label="Read ${label}">
-            <img src="${issue.cover}" alt="${label} cover" loading="lazy" decoding="async">
-          </a>
-          <div class="issue-meta">
-            <div class="vol">Volume ${issue.v} · Issue ${issue.i}</div>
-            <h3>${label}</h3>
-            <div class="sem">${sem}</div>
-          </div>
-          <div class="issue-links">
-            ${issue.pdf ? `<a href="${issue.pdf}" target="_blank" rel="noopener">Read PDF <span aria-hidden="true">↗</span></a>` : ''}
-            <a href="${issue.url}" target="_blank" rel="noopener">eScholarship <span aria-hidden="true">↗</span></a>
-          </div>`;
-        const cover = card.querySelector('img');
-        cover.addEventListener('error', () => {
-          if (cover.src.endsWith(issue.coverFallback)) return;
-          cover.src = issue.coverFallback;
-        });
-        grid.appendChild(card);
-      });
-      issueCount.textContent = `${shown} ${shown === 1 ? 'issue' : 'issues'}`;
-      empty.hidden = shown !== 0;
-    }
-
-    decades.forEach(d => {
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.textContent = d;
-      btn.setAttribute('aria-pressed', String(d === activeDecade));
-      if (d === activeDecade) btn.classList.add('active');
-      btn.addEventListener('click', () => {
-        activeDecade = d;
-        filterBar.querySelectorAll('button').forEach(b => {
-          b.classList.remove('active');
-          b.setAttribute('aria-pressed', 'false');
-        });
-        btn.classList.add('active');
-        btn.setAttribute('aria-pressed', 'true');
-        render();
-      });
-      filterBar.appendChild(btn);
-    });
-    search.addEventListener('input', render);
-    render();
-
-    const tabs = document.querySelectorAll('.archive-tabs [data-view]');
-    const panels = { issues: document.getElementById('archive-issues'), articles: document.getElementById('archive-articles') };
-    function selectView(view, replace) {
-      const chosen = panels[view] ? view : 'issues';
-      Object.keys(panels).forEach(name => { panels[name].hidden = name !== chosen; });
-      tabs.forEach(tab => {
-        const selected = tab.dataset.view === chosen;
-        tab.setAttribute('aria-selected', String(selected));
-        tab.tabIndex = selected ? 0 : -1;
-      });
-      const url = new URL(window.location.href);
-      if (chosen === 'issues') url.searchParams.delete('view'); else url.searchParams.set('view', chosen);
-      history[replace ? 'replaceState' : 'pushState']({}, '', url);
-    }
-    tabs.forEach(tab => tab.addEventListener('click', () => selectView(tab.dataset.view)));
-    tabs.forEach((tab, index) => tab.addEventListener('keydown', event => {
-      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
-      event.preventDefault();
-      const direction = event.key === 'ArrowRight' ? 1 : -1;
-      const next = tabs[(index + direction + tabs.length) % tabs.length];
-      selectView(next.dataset.view);
-      next.focus();
-    }));
-    window.addEventListener('popstate', () => selectView(new URLSearchParams(window.location.search).get('view'), true));
-    selectView(new URLSearchParams(window.location.search).get('view'), true);
-  </script>
 
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
           <div class="footer-brand">
-            <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
+            <img src="assets/brand/bsj-seal-badge.svg" alt="">
             <span>Berkeley Scientific Journal</span>
           </div>
-          <p>The undergraduate science research journal at UC Berkeley, publishing original research, interviews, and
-            features since 1996.</p>
-        </div>
-        <div>
-          <h5>Explore</h5>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="leadership.html">Leadership</a></li>
-            <li><a href="journals.html">Archive</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+          <p>The undergraduate science journal of the University of California, Berkeley. Published every semester
+            since 1996.</p>
         </div>
         <div>
           <h5>Read</h5>
           <ul>
-            <li><a href="journals.html?view=issues">Full Issues</a></li>
+            <li><a href="journals.html">Full issues</a></li>
             <li><a href="journals.html?view=articles">Articles</a></li>
             <li><a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener">eScholarship</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>About</h5>
+          <ul>
+            <li><a href="about.html">About the journal</a></li>
+            <li><a href="leadership.html">Staff</a></li>
+            <li><a href="contact.html">Submissions</a></li>
           </ul>
         </div>
         <div>
@@ -326,12 +206,9 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© <span id="year"></span> Berkeley Scientific Journal · UC Berkeley</span>
+        <span>© <span id="year"></span> Berkeley Scientific Journal</span>
         <div class="footer-social">
-          <button class="theme-toggle" aria-label="Switch to dark mode"><svg viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" />
-            </svg></button>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
           <span class="footer-divider"></span>
           <a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener" aria-label="Instagram">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
@@ -358,7 +235,46 @@
     </div>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    (function () {
+      var tabs = document.querySelectorAll('.archive-tabs [data-view]');
+      var panels = {
+        issues: document.getElementById('archive-issues'),
+        articles: document.getElementById('archive-articles')
+      };
+
+      function selectView(view, replace) {
+        var chosen = panels[view] ? view : 'issues';
+        Object.keys(panels).forEach(function (name) { panels[name].hidden = name !== chosen; });
+        tabs.forEach(function (tab) {
+          var selected = tab.dataset.view === chosen;
+          tab.setAttribute('aria-selected', String(selected));
+          tab.tabIndex = selected ? 0 : -1;
+        });
+        var url = new URL(window.location.href);
+        if (chosen === 'issues') url.searchParams.delete('view');
+        else url.searchParams.set('view', chosen);
+        history[replace ? 'replaceState' : 'pushState']({}, '', url);
+      }
+
+      tabs.forEach(function (tab, index) {
+        tab.addEventListener('click', function () { selectView(tab.dataset.view); });
+        tab.addEventListener('keydown', function (event) {
+          if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+          event.preventDefault();
+          var next = tabs[(index + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
+          selectView(next.dataset.view);
+          next.focus();
+        });
+      });
+
+      window.addEventListener('popstate', function () {
+        selectView(new URLSearchParams(window.location.search).get('view'), true);
+      });
+      selectView(new URLSearchParams(window.location.search).get('view'), true);
+    })();
+  </script>
+  <script src="assets/js/issues.js"></script>
   <script src="assets/js/articles.js"></script>
   <script src="assets/js/main.js"></script>
 </body>

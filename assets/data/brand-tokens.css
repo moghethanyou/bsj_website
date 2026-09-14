@@ -1,61 +1,78 @@
 /* ==========================================================================
-   Berkeley Scientific Journal (BSJ) Design Tokens
-   Official Brand Palette & Typography Tokens
+   Berkeley Scientific Journal — design tokens
+
+   The palette is built around printed paper rather than a screen: a warm
+   off-white ground, near-black ink, and hairline rules doing the work that
+   drop shadows would otherwise do. Berkeley Blue carries links and
+   institutional marks; California Gold appears only as a rule or a small
+   mark, never as a fill behind text.
    ========================================================================== */
 
 :root {
-  /* Brand Core Colors */
-  --bsj-navy: #0F193F;
-  --bsj-deep-blue: #002B49;
-  --bsj-berkeley-blue: #003262;
-  --bsj-california-gold: #FDB515;
-  --bsj-founders-rock: #3B7EA1;
-  --bsj-medalist: #C4820E;
+  color-scheme: light;
 
-  /* Accent Colors */
-  --bsj-accent-goldengate: #D96B27;
-  --bsj-accent-southhall: #B9D3B6;
-  --bsj-accent-bayfog: #DDD5C7;
+  /* Institutional palette */
+  --bsj-blue: #003262;
+  --bsj-blue-deep: #00203F;
+  --bsj-gold: #FDB515;
+  --bsj-gold-ink: #8A5B00;
+  --bsj-founders: #3B7EA1;
 
-  /* Theme: Light */
-  --bsj-bg: #F8FAFC;
-  --bsj-surface: #FFFFFF;
-  --bsj-surface-elevated: #FFFFFF;
-  --bsj-border: #E2E8F0;
-  --bsj-text: #0F172A;
-  --bsj-text-muted: #64748B;
-  --bsj-primary: #003262;
-  --bsj-primary-hover: #0F193F;
-  --bsj-gold: #C4820E;
-  --bsj-heading: var(--bsj-navy);
+  /* Surfaces */
+  --paper: #FCFBF7;
+  --paper-sunk: #F4F2EA;
+  --surface: #FFFFFF;
+  --surface-sunk: #F7F5EF;
 
-  /* Typography */
-  --bsj-font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
-  --bsj-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --bsj-font-mono: 'JetBrains Mono', Menlo, Monaco, monospace;
+  /* Ink */
+  --ink: #15191F;
+  --ink-soft: #454C57;
+  --ink-muted: #6B7280;
 
-  /* Shadows & Radius */
-  --bsj-radius-sm: 6px;
-  --bsj-radius-md: 12px;
-  --bsj-radius-lg: 20px;
-  --bsj-radius-full: 9999px;
-  --bsj-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --bsj-shadow-md: 0 4px 14px rgba(0, 50, 98, 0.08);
-  --bsj-shadow-lg: 0 10px 30px rgba(0, 50, 98, 0.12);
-  --bsj-shadow-glow: 0 0 25px rgba(253, 181, 21, 0.35);
+  /* Lines */
+  --rule: #DFDBD0;
+  --rule-strong: #C3BDAE;
+  --rule-ink: #15191F;
+
+  /* Interactive */
+  --link: #003262;
+  --link-hover: #00203F;
+  --focus: #003262;
+
+  /* Type */
+  --font-serif: 'Newsreader', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  /* Measure and rhythm */
+  --measure: 68ch;
+  --gutter: clamp(20px, 5vw, 56px);
+  --page: 1240px;
+  --page-narrow: 860px;
 }
 
 [data-theme="dark"] {
-  --bsj-bg: #080D1D;
-  --bsj-surface: #111827;
-  --bsj-surface-elevated: #1F2937;
-  --bsj-border: #1F2937;
-  --bsj-text: #F8FAFC;
-  --bsj-text-muted: #94A3B8;
-  --bsj-primary: #3B7EA1;
-  --bsj-primary-hover: #FDB515;
+  color-scheme: dark;
+
+  --bsj-blue: #8FB8DC;
+  --bsj-blue-deep: #B7D2EA;
   --bsj-gold: #FDB515;
-  --bsj-heading: #F8FAFC;
-  --bsj-shadow-md: 0 4px 14px rgba(0, 0, 0, 0.4);
-  --bsj-shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.6);
+  --bsj-gold-ink: #E8B048;
+  --bsj-founders: #6FA3C4;
+
+  --paper: #101317;
+  --paper-sunk: #15191E;
+  --surface: #171B21;
+  --surface-sunk: #1B2027;
+
+  --ink: #E9E7E1;
+  --ink-soft: #B6BCC5;
+  --ink-muted: #8A929D;
+
+  --rule: #2A3037;
+  --rule-strong: #3C444E;
+  --rule-ink: #4A525C;
+
+  --link: #8FB8DC;
+  --link-hover: #B7D2EA;
+  --focus: #8FB8DC;
 }

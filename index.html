@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Berkeley Scientific Journal | UC Berkeley's Undergraduate Science Journal</title>
+  <title>Berkeley Scientific Journal</title>
   <meta name="description"
-    content="The Berkeley Scientific Journal (BSJ) is UC Berkeley's premier undergraduate science research journal, publishing original research, faculty interviews, and science features since 1996.">
+    content="The Berkeley Scientific Journal is the undergraduate science journal of the University of California, Berkeley. Published every semester since 1996: undergraduate research, faculty interviews, and science features.">
   <link rel="icon" href="assets/brand/favicons/favicon.ico" sizes="any">
   <link rel="icon" type="image/svg+xml" href="assets/brand/favicons/favicon.svg">
   <link rel="apple-touch-icon" href="assets/brand/favicons/apple-touch-icon.png">
@@ -15,185 +15,194 @@
 
 <body>
 
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <header class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="brand">
-        <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
-        <span>Berkeley Scientific Journal<span class="brand-sub">UC Berkeley</span></span>
+        <img src="assets/brand/bsj-seal-badge.svg" alt="">
+        <span>Berkeley Scientific Journal<span class="brand-sub">University of California, Berkeley</span></span>
       </a>
-      <nav aria-label="Primary navigation">
+      <nav aria-label="Primary">
         <ul class="nav-links">
           <li><a href="index.html" class="active" aria-current="page">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="leadership.html">Leadership</a></li>
           <li><a href="journals.html">Archive</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="leadership.html">Staff</a></li>
+          <li><a href="contact.html">Contact &amp; Submissions</a></li>
         </ul>
       </nav>
       <div class="nav-cta">
-        <a href="journals.html?view=issues" class="btn btn-outline btn-sm">Read the Journal</a>
-        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+        <a href="journals.html" class="btn btn-outline btn-sm">Read the journal</a>
+        <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
       </div>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <div class="eyebrow">Est. 1996 · UC Berkeley</div>
-        <h1>Undergraduate science, told with <em>clarity</em> and curiosity.</h1>
-        <p class="lede">The Berkeley Scientific Journal is UC Berkeley's premier undergraduate research publication —
-          showcasing original student research, faculty interviews, and science journalism for nearly three decades.</p>
+  <main id="main-content">
+
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Established 1996 · University of California, Berkeley</p>
+        <h1>Undergraduate science, published in full.</h1>
+        <p class="lede">The Berkeley Scientific Journal publishes independent research by Berkeley undergraduates,
+          interviews with faculty, and features on current issues in science — a new issue every semester for nearly
+          three decades.</p>
         <div class="hero-actions">
-          <a href="journals.html" class="btn btn-primary">Browse Past Issues</a>
-          <a href="about.html" class="btn btn-outline">About BSJ</a>
+          <a href="journals.html" class="btn btn-primary">Browse the archive</a>
+          <a href="contact.html" class="btn btn-outline">Submit your research</a>
         </div>
         <div class="hero-stats">
-          <div><strong>29+</strong><span>Volumes Published</span></div>
-          <div><strong>2×</strong><span>Issues Per Year</span></div>
-          <div><strong>1996</strong><span>Founded</span></div>
+          <div><strong>29</strong><span>Volumes</span></div>
+          <div><strong>35</strong><span>Issues</span></div>
+          <div><strong>510</strong><span>Articles in print</span></div>
+          <div><strong>1996</strong><span>First published</span></div>
         </div>
       </div>
-      <div class="hero-visual reveal">
-        <img src="assets/covers/webp/29_2.webp" onerror="this.onerror=null;this.src='assets/covers/jpg/29_2.jpg'"
-          alt="Chimera — Volume 29, Issue 2 cover">
-        <div class="tag"><span class="dot"></span> Vol. 29, No. 2 — "Chimera" now in print &amp; online</div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section>
-    <div class="container">
-      <div class="section-head center">
-        <div class="eyebrow center">What We Do</div>
-        <h2>Science journalism, by undergraduates, for everyone.</h2>
-        <p class="lede center">Every semester, our staff researches, writes, edits, and designs a full print and digital
-          issue — spanning original research, faculty interviews, and science features.</p>
-      </div>
-      <div class="grid grid-4">
-        <div class="card reveal">
-          <h3>Features</h3>
-          <p>Long-form articles exploring current issues and breakthroughs across the scientific world.</p>
+    <section class="section-alt" id="current-issue">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Current issue</p>
+          <h2 data-issue-title>The latest issue</h2>
         </div>
-        <div class="card reveal">
-          <h3>Interviews</h3>
-          <p>Conversations with Berkeley faculty and researchers about their latest work.</p>
-        </div>
-        <div class="card reveal">
-          <h3>Research &amp; Blog</h3>
-          <p>Peer-reviewed undergraduate research and a rolling digital blog on science and policy.</p>
-        </div>
-        <div class="card reveal">
-          <h3>Design</h3>
-          <p>Editorial layout and typesetting that bring every issue to life in print.</p>
+        <div class="hero-grid">
+          <div>
+            <a class="hero-cover" data-issue-cover href="journals.html"></a>
+            <div class="hero-actions" data-issue-links></div>
+          </div>
+          <div>
+            <p class="issue-stamp" data-issue-stamp></p>
+            <p class="lede" data-issue-count></p>
+            <ul class="toc-list toc-columns" data-issue-contents></ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="article-preview-section">
-    <div class="container">
-      <div class="section-head article-preview-head">
-        <div>
-        <div class="eyebrow">From the archive</div>
-          <h2>Stories worth returning to.</h2>
-          <p class="lede">Explore the writing that shaped BSJ between issues: accessible reporting on science, people, and ideas.</p>
+    <section>
+      <div class="container">
+        <div class="section-head article-preview-head">
+          <div>
+            <p class="eyebrow">Recent issues</p>
+            <h2>Back issues</h2>
+          </div>
+          <a href="journals.html" class="btn btn-outline btn-sm">All 35 issues</a>
         </div>
-          <a href="journals.html?view=articles" class="btn btn-outline">Browse all articles <span aria-hidden="true">→</span></a>
+        <div class="issue-grid" id="recent-issues" data-limit="5"></div>
       </div>
-      <div class="article-preview-grid" id="article-preview" aria-live="polite">
-        <p class="article-loading">Loading articles…</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-head">
-        <div class="eyebrow">Latest Issue</div>
-        <h2>Fresh off the press.</h2>
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-head article-preview-head">
+          <div>
+            <p class="eyebrow">Online</p>
+            <h2>From the archive</h2>
+          </div>
+          <a href="journals.html?view=articles" class="btn btn-outline btn-sm">All articles</a>
+        </div>
+        <div class="article-preview-grid" id="article-preview" aria-live="polite">
+          <p class="article-loading">Loading articles…</p>
+        </div>
       </div>
-      <div class="grid grid-3">
-        <a href="https://escholarship.org/uc/our_bsj/29/2" target="_blank" rel="noopener" class="issue-card reveal">
-          <div class="issue-cover"><img src="assets/covers/webp/29_2.webp"
-              onerror="this.onerror=null;this.src='assets/covers/jpg/29_2.jpg'" alt="Chimera cover" loading="lazy">
-          </div>
-          <div class="issue-meta">
-            <div class="vol">Vol. 29 · No. 2</div>
-            <h4>Chimera</h4>
-            <div class="sem">Spring 2025</div>
-          </div>
-        </a>
-        <a href="https://escholarship.org/uc/our_bsj/29/1" target="_blank" rel="noopener" class="issue-card reveal">
-          <div class="issue-cover"><img src="assets/covers/webp/29_1.webp"
-              onerror="this.onerror=null;this.src='assets/covers/jpg/29_1.jpg'" alt="Pulse cover" loading="lazy"></div>
-          <div class="issue-meta">
-            <div class="vol">Vol. 29 · No. 1</div>
-            <h4>Pulse</h4>
-            <div class="sem">Fall 2024</div>
-          </div>
-        </a>
-        <a href="https://escholarship.org/uc/our_bsj/28/2" target="_blank" rel="noopener" class="issue-card reveal">
-          <div class="issue-cover"><img src="assets/covers/webp/28_2.webp"
-              onerror="this.onerror=null;this.src='assets/covers/jpg/28_2.jpg'" alt="Anomaly cover" loading="lazy">
-          </div>
-          <div class="issue-meta">
-            <div class="vol">Vol. 28 · No. 2</div>
-            <h4>Anomaly</h4>
-            <div class="sem">Spring 2024</div>
-          </div>
-        </a>
-      </div>
-      <div class="center" style="margin-top:36px;">
-        <a href="journals.html" class="btn btn-outline">View Full Archive →</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section-navy">
-    <div class="container">
-      <div class="cta-band" style="background:none;box-shadow:none;padding:0;">
-        <div>
-          <div class="eyebrow" style="color:var(--bsj-california-gold)">Get Involved</div>
-          <h2>Join the next issue's staff.</h2>
-          <p>We're always looking for undergraduate writers, editors, interviewers, and designers passionate about
-            science communication.</p>
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What we publish</p>
+          <h2>Five departments, one issue.</h2>
         </div>
-        <div style="display:flex;gap:14px;flex-wrap:wrap;">
-          <a href="contact.html" class="btn btn-gold">Get In Touch</a>
-          <a href="leadership.html" class="btn btn-outline" style="border-color:rgba(255,255,255,.3);color:#fff;">Meet
-            the Team</a>
+        <div class="grid grid-2" style="gap:0 48px;">
+          <div class="division-card">
+            <span class="num">01</span>
+            <div>
+              <h3>Features</h3>
+              <p>Long-form writing on current issues and developments across the sciences, written for a general
+                audience.</p>
+            </div>
+          </div>
+          <div class="division-card">
+            <span class="num">02</span>
+            <div>
+              <h3>Interviews</h3>
+              <p>In-depth conversations with Berkeley faculty and researchers about their work. All interviews are
+                conducted by the staff.</p>
+            </div>
+          </div>
+          <div class="division-card">
+            <span class="num">03</span>
+            <div>
+              <h3>Research</h3>
+              <p>Independent research by Berkeley undergraduates, reviewed by faculty before publication.</p>
+            </div>
+          </div>
+          <div class="division-card">
+            <span class="num">04</span>
+            <div>
+              <h3>Blog</h3>
+              <p>Shorter pieces and commentary on science and science policy, published online between print
+                issues.</p>
+            </div>
+          </div>
+          <div class="division-card">
+            <span class="num">05</span>
+            <div>
+              <h3>Design</h3>
+              <p>Layout and typesetting for every issue, in print and as a digital edition.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="section-navy">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <p class="eyebrow">Get involved</p>
+            <h2>Write for the next issue.</h2>
+            <p>Staff writers, interviewers, research editors, and designers join each semester through BSJ's DeCal.
+              Undergraduate research submissions are open year-round.</p>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-gold">Contact &amp; submissions</a>
+            <a href="leadership.html" class="btn btn-outline"
+              style="border-color:rgba(255,255,255,.34);color:#fff;">Meet the staff</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
           <div class="footer-brand">
-            <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
+            <img src="assets/brand/bsj-seal-badge.svg" alt="">
             <span>Berkeley Scientific Journal</span>
           </div>
-          <p>The undergraduate science research journal at UC Berkeley, publishing original research, interviews, and
-            features since 1996.</p>
-        </div>
-        <div>
-          <h5>Explore</h5>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="leadership.html">Leadership</a></li>
-            <li><a href="journals.html">Archive</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+          <p>The undergraduate science journal of the University of California, Berkeley. Published every semester
+            since 1996.</p>
         </div>
         <div>
           <h5>Read</h5>
           <ul>
-            <li><a href="journals.html?view=issues">Full Issues</a></li>
+            <li><a href="journals.html">Full issues</a></li>
             <li><a href="journals.html?view=articles">Articles</a></li>
             <li><a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener">eScholarship</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>About</h5>
+          <ul>
+            <li><a href="about.html">About the journal</a></li>
+            <li><a href="leadership.html">Staff</a></li>
+            <li><a href="contact.html">Submissions</a></li>
           </ul>
         </div>
         <div>
@@ -207,12 +216,9 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© <span id="year"></span> Berkeley Scientific Journal · UC Berkeley</span>
+        <span>© <span id="year"></span> Berkeley Scientific Journal</span>
         <div class="footer-social">
-          <button class="theme-toggle" aria-label="Switch to dark mode"><svg viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" />
-            </svg></button>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
           <span class="footer-divider"></span>
           <a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener" aria-label="Instagram">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
@@ -239,7 +245,7 @@
     </div>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/issues.js"></script>
   <script src="assets/js/articles.js"></script>
   <script src="assets/js/main.js"></script>
 </body>

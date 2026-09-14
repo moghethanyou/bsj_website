@@ -2,16 +2,12 @@
   'use strict';
 
   var LOCAL_DATA_URL = 'assets/data/articles.json';
-  var WORDPRESS_API_ROOT = 'https://bsj.studentorg.berkeley.edu/wp-json/wp/v2';
-  var WORDPRESS_ORIGIN = 'https://bsj.studentorg.berkeley.edu';
+  // Archived article HTML still carries root-relative URLs from the old WordPress
+  // install; they are resolved against this origin so the links keep working.
+  var LEGACY_ORIGIN = 'https://bsj.studentorg.berkeley.edu';
   var ARCHIVE_PAGE_SIZE = 18;
-  var REQUEST_TIMEOUT = 6000;
+  var REQUEST_TIMEOUT = 8000;
   var lastFigureTrigger = null;
-
-  function wordpressEnabled() {
-    var host = window.location.hostname;
-    return Boolean(host) && host !== 'localhost' && host !== '127.0.0.1' && host !== '::1';
-  }
 
   function fetchJson(url) {
     var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
@@ -21,19 +17,6 @@
     return fetch(url, options).then(function (response) {
       if (!response.ok) throw new Error('Request failed with status ' + response.status);
       return response.json();
-    }).finally(function () {
-      if (timer) window.clearTimeout(timer);
-    });
-  }
-
-  function fetchJsonResponse(url) {
-    var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
-    var timer = controller ? window.setTimeout(function () { controller.abort(); }, REQUEST_TIMEOUT) : null;
-    var options = { headers: { Accept: 'application/json' } };
-    if (controller) options.signal = controller.signal;
-    return fetch(url, options).then(function (response) {
-      if (!response.ok) throw new Error('Request failed with status ' + response.status);
-      return response.json().then(function (data) { return { data: data, response: response }; });
     }).finally(function () {
       if (timer) window.clearTimeout(timer);
     });
@@ -97,9 +80,9 @@
     if (source.indexOf('./assets/') === 0) source = source.slice(2);
     if (source.indexOf('assets/') === 0) return source;
     if (source.indexOf('//') === 0) source = 'https:' + source;
-    if (source.charAt(0) === '/') return WORDPRESS_ORIGIN + source;
+    if (source.charAt(0) === '/') return LEGACY_ORIGIN + source;
     try {
-      var url = new URL(source, WORDPRESS_ORIGIN);
+      var url = new URL(source, LEGACY_ORIGIN);
       if (url.protocol !== 'http:' && url.protocol !== 'https:') return '';
       if (url.hostname === 'bsj.studentorg.berkeley.edu') url.protocol = 'https:';
       return url.href;
@@ -116,9 +99,9 @@
     if (href.indexOf('assets/') === 0) return href;
     if (/^mailto:/i.test(href)) return href;
     if (href.indexOf('//') === 0) href = 'https:' + href;
-    if (href.charAt(0) === '/') href = WORDPRESS_ORIGIN + href;
+    if (href.charAt(0) === '/') href = LEGACY_ORIGIN + href;
     try {
-      var url = new URL(href, WORDPRESS_ORIGIN);
+      var url = new URL(href, LEGACY_ORIGIN);
       if (url.protocol !== 'http:' && url.protocol !== 'https:') return '';
       if (url.hostname === 'bsj.studentorg.berkeley.edu') url.protocol = 'https:';
       return url.href;
@@ -156,6 +139,14 @@
     return post._cardImage;
   }
 
+  /* Cards and article headers are labelled with the print issue an article ran in.
+     Articles published only online have no issue, and show no label. */
+  function categoryLabel(post) {
+    if (post.issue && post.issue.title) return post.issue.title;
+    if (post.issue) return 'Vol. ' + post.issue.volume + ' \u00b7 No. ' + post.issue.issue;
+    return usefulCategory(post.categories);
+  }
+
   function usefulCategory(categories) {
     var names = categories || [];
     var match = names.find(function (name) { return /interview/i.test(name); });
@@ -167,7 +158,7 @@
     match = names.find(function (name) {
       return !/^\d{4}$/.test(name) && !/^(featured|recent|uncategorized|fall|spring)/i.test(name);
     });
-    return match || 'Article';
+    return match || '';
   }
 
   function normalizeLocalPost(post) {
@@ -182,59 +173,10 @@
       author: (post.author || '').trim() || null,
       categories: Array.isArray(post.categories) ? post.categories : [],
       featured_image: post.featured_image || null,
+      issue: post.issue || null,
+      escholarship_url: post.escholarship_url || '',
       source_link: post.source_link || '',
       source: 'archive'
-    };
-  }
-
-  function wordpressAuthor(post) {
-    var candidates = [];
-    if (post.acf) candidates.push(post.acf.author, post.acf.byline, post.acf.writer);
-    if (post.meta) candidates.push(post.meta.author, post.meta.byline, post.meta.writer);
-    var embedded = post._embedded || {};
-    if (embedded.author && embedded.author[0]) candidates.push(embedded.author[0].name);
-    var author = candidates.find(function (candidate) {
-      return typeof candidate === 'string' && candidate.trim() && !/^(admin|bsj|berkeley scientific journal)$/i.test(candidate.trim());
-    });
-    return author ? plainText(author) : null;
-  }
-
-  function wordpressTerms(post) {
-    var embedded = post._embedded || {};
-    var groups = embedded['wp:term'] || [];
-    var names = [];
-    groups.forEach(function (group) {
-      (group || []).forEach(function (term) {
-        if (term && term.taxonomy === 'category' && term.name && names.indexOf(term.name) === -1) names.push(plainText(term.name));
-      });
-    });
-    return names;
-  }
-
-  function wordpressFeaturedImage(post) {
-    var embedded = post._embedded || {};
-    var media = embedded['wp:featuredmedia'] && embedded['wp:featuredmedia'][0];
-    if (!media) return null;
-    var sizes = media.media_details && media.media_details.sizes;
-    var preferred = sizes && (sizes.large || sizes.medium_large || sizes.full);
-    var source = normalizeSource((preferred && preferred.source_url) || media.source_url || '');
-    return source ? { src: source, alt: plainText(media.alt_text || media.caption && media.caption.rendered || '') } : null;
-  }
-
-  function normalizeWordPressPost(post) {
-    return {
-      id: post.id,
-      title: plainText(post.title && post.title.rendered || ''),
-      slug: post.slug,
-      date: post.date,
-      modified: post.modified || post.date,
-      content_html: post.content && post.content.rendered || '',
-      excerpt: plainText(post.excerpt && post.excerpt.rendered || ''),
-      author: wordpressAuthor(post),
-      categories: wordpressTerms(post),
-      featured_image: wordpressFeaturedImage(post),
-      source_link: normalizeLink(post.link || ''),
-      source: 'wordpress'
     };
   }
 
@@ -252,56 +194,6 @@
     return fetchJson(LOCAL_DATA_URL).then(function (posts) {
       return validPosts(posts.map(normalizeLocalPost));
     });
-  }
-
-  function requestWordPressArchive() {
-    var fields = 'id,date,modified,slug,link,title,excerpt,author,featured_media,categories,_links,_embedded';
-    function pageUrl(page) {
-      return WORDPRESS_API_ROOT + '/posts?per_page=100&page=' + page + '&orderby=date&order=desc&context=embed&_embed=1&_fields=' + encodeURIComponent(fields);
-    }
-    return fetchJsonResponse(pageUrl(1)).then(function (firstPage) {
-      var totalPages = Math.min(Number(firstPage.response.headers.get('X-WP-TotalPages') || 1), 10);
-      var requests = [];
-      for (var page = 2; page <= totalPages; page++) requests.push(fetchJson(pageUrl(page)));
-      return Promise.all(requests).then(function (remainingPages) {
-        var posts = firstPage.data.concat.apply(firstPage.data, remainingPages);
-        return validPosts(posts.map(normalizeWordPressPost));
-      });
-    });
-  }
-
-  function requestWordPressArticle(slug) {
-    var query = '?slug=' + encodeURIComponent(slug) + '&_embed=1';
-    return fetchJson(WORDPRESS_API_ROOT + '/posts' + query).then(function (posts) {
-      return posts && posts[0] ? normalizeWordPressPost(posts[0]) : null;
-    });
-  }
-
-  function mergePosts(localPosts, wordpressPosts) {
-    var bySlug = new Map();
-    localPosts.forEach(function (post) { bySlug.set(post.slug, post); });
-    wordpressPosts.forEach(function (remotePost) {
-      var localPost = bySlug.get(remotePost.slug);
-      if (!localPost) {
-        bySlug.set(remotePost.slug, remotePost);
-        return;
-      }
-      bySlug.set(remotePost.slug, {
-        id: remotePost.id || localPost.id,
-        title: remotePost.title || localPost.title,
-        slug: remotePost.slug,
-        date: remotePost.date || localPost.date,
-        modified: remotePost.modified || localPost.modified,
-        content_html: remotePost.content_html || localPost.content_html,
-        excerpt: remotePost.excerpt || localPost.excerpt,
-        author: remotePost.author || localPost.author,
-        categories: remotePost.categories.length ? remotePost.categories : localPost.categories,
-        featured_image: remotePost.featured_image || localPost.featured_image,
-        source_link: remotePost.source_link || localPost.source_link,
-        source: 'wordpress'
-      });
-    });
-    return validPosts(Array.from(bySlug.values()));
   }
 
   function createPlaceholder(container) {
@@ -325,7 +217,8 @@
     var visual = document.createElement('div');
     var category = document.createElement('span');
     category.className = 'article-card-category';
-    category.textContent = usefulCategory(post.categories);
+    category.textContent = categoryLabel(post);
+    if (!category.textContent) category.hidden = true;
     var image = firstImage(post);
     if (image && image.src) {
       visual.className = 'article-card-image' + (image.featured ? ' article-card-image-featured' : ' article-card-image-figure');
@@ -1025,10 +918,10 @@
 
   function relatedPosts(post, posts) {
     var words = new Set(normalizeSearch(post.title).split(/[^a-z0-9]+/).filter(function (word) { return word.length > 4; }));
-    var category = usefulCategory(post.categories);
+    var label = categoryLabel(post);
     var targetYear = Number(yearOf(post));
     return posts.filter(function (candidate) { return candidate.slug !== post.slug; }).map(function (candidate) {
-      var score = usefulCategory(candidate.categories) === category && category !== 'Article' ? 5 : 0;
+      var score = label && categoryLabel(candidate) === label ? 5 : 0;
       normalizeSearch(candidate.title).split(/[^a-z0-9]+/).forEach(function (word) { if (words.has(word)) score += 1; });
       if (Math.abs(Number(yearOf(candidate)) - targetYear) <= 1) score += 0.5;
       return { post: candidate, score: score };
@@ -1078,7 +971,29 @@
     var parsedDate = parseDate(post.date);
     if (parsedDate) date.dateTime = parsedDate.toISOString();
     duration.textContent = readingTime(post) + ' min read';
-    category.textContent = usefulCategory(post.categories);
+    category.textContent = categoryLabel(post);
+    category.hidden = !category.textContent;
+
+    var provenance = document.getElementById('article-issue');
+    if (provenance) {
+      provenance.replaceChildren();
+      if (post.issue) {
+        var where = post.issue.title
+          ? post.issue.title + ', Volume ' + post.issue.volume + ', Issue ' + post.issue.issue
+          : 'Volume ' + post.issue.volume + ', Issue ' + post.issue.issue;
+        provenance.appendChild(document.createTextNode('Published in '));
+        var link = document.createElement('a');
+        link.href = post.escholarship_url ||
+          ('https://escholarship.org/uc/our_bsj/' + post.issue.volume + '/' + post.issue.issue);
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.textContent = where;
+        provenance.appendChild(link);
+        provenance.hidden = false;
+      } else {
+        provenance.hidden = true;
+      }
+    }
 
     if (prepared.childNodes.length) {
       var nodes = Array.prototype.slice.call(prepared.childNodes);
@@ -1124,58 +1039,18 @@
 
   function boot() {
     var articleContent = document.getElementById('article-content');
-    var archiveController = null;
-    requestLocalArchive().then(function (localPosts) {
-      archiveController = setupArchive(localPosts);
-      renderPreview(localPosts);
+    var slug = new URLSearchParams(window.location.search).get('slug') || '';
 
+    requestLocalArchive().then(function (posts) {
       if (articleContent) {
-        var slug = new URLSearchParams(window.location.search).get('slug') || '';
-        var localPost = localPosts.find(function (post) { return post.slug === slug; });
-        if (localPost) renderArticle(localPost, localPosts);
-        if (!wordpressEnabled()) {
-          if (!localPost) renderNotFound();
-          return;
-        }
-        requestWordPressArticle(slug).then(function (wordpressPost) {
-          if (!wordpressPost) {
-            if (!localPost) renderNotFound();
-            return;
-          }
-          var merged = mergePosts(localPosts, [wordpressPost]);
-          renderArticle(merged.find(function (post) { return post.slug === slug; }), merged);
-        }).catch(function () {
-          if (!localPost) renderNotFound();
-        });
+        var post = posts.find(function (candidate) { return candidate.slug === slug; });
+        if (post) renderArticle(post, posts); else renderNotFound();
         return;
       }
-
-      if (!wordpressEnabled()) return;
-      requestWordPressArchive().then(function (wordpressPosts) {
-        var merged = mergePosts(localPosts, wordpressPosts);
-        if (archiveController) archiveController.update(merged);
-        renderPreview(merged);
-      }).catch(function () {});
+      setupArchive(posts);
+      renderPreview(posts);
     }).catch(function () {
-      if (articleContent) {
-        var slug = new URLSearchParams(window.location.search).get('slug') || '';
-        if (!wordpressEnabled()) {
-          renderNotFound();
-          return;
-        }
-        requestWordPressArticle(slug).then(function (post) {
-          if (post) renderArticle(post, [post]); else renderNotFound();
-        }).catch(renderNotFound);
-        return;
-      }
-      if (!wordpressEnabled()) {
-        showCollectionError();
-        return;
-      }
-      requestWordPressArchive().then(function (posts) {
-        setupArchive(posts);
-        renderPreview(posts);
-      }).catch(showCollectionError);
+      if (articleContent) renderNotFound(); else showCollectionError();
     });
   }
 

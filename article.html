@@ -25,21 +25,21 @@
   <header class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="brand">
-        <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
-        <span>Berkeley Scientific Journal<span class="brand-sub">UC Berkeley</span></span>
+        <img src="assets/brand/bsj-seal-badge.svg" alt="">
+        <span>Berkeley Scientific Journal<span class="brand-sub">University of California, Berkeley</span></span>
       </a>
-      <nav aria-label="Primary navigation">
+      <nav aria-label="Primary">
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="leadership.html">Leadership</a></li>
           <li><a href="journals.html" class="active" aria-current="page">Archive</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="leadership.html">Staff</a></li>
+          <li><a href="contact.html">Contact &amp; Submissions</a></li>
         </ul>
       </nav>
       <div class="nav-cta">
-        <a href="journals.html?view=issues" class="btn btn-outline btn-sm">Read the Journal</a>
-        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+        <a href="journals.html" class="btn btn-outline btn-sm">Read the journal</a>
+        <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
       </div>
     </div>
   </header>
@@ -51,17 +51,18 @@
           <a href="journals.html">Archive</a><span aria-hidden="true">/</span><a href="journals.html?view=articles">Articles</a>
         </nav>
         <div class="article-kicker-row">
-          <span id="article-category" class="article-category">Article</span>
+          <span id="article-category" class="article-category" hidden></span>
         </div>
         <h1 id="article-title">Loading article…</h1>
         <p id="article-deck" class="article-deck" hidden></p>
         <div class="article-byline-meta" aria-label="Article details">
-          <span id="article-author">Berkeley Scientific Journal</span>
+          <span id="article-author"></span>
           <span class="article-meta-separator" aria-hidden="true"></span>
           <time id="article-date"></time>
           <span class="article-meta-separator" aria-hidden="true"></span>
           <span id="article-reading-time"></span>
         </div>
+        <p id="article-issue" class="article-provenance" hidden></p>
       </div>
     </header>
 
@@ -115,26 +116,26 @@
       <div class="footer-grid">
         <div>
           <div class="footer-brand">
-            <img src="assets/brand/bsj-seal-badge.svg" alt="BSJ seal">
+            <img src="assets/brand/bsj-seal-badge.svg" alt="">
             <span>Berkeley Scientific Journal</span>
           </div>
-          <p>The undergraduate science research journal at UC Berkeley, publishing original research, interviews, and features since 1996.</p>
-        </div>
-        <div>
-          <h5>Explore</h5>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="leadership.html">Leadership</a></li>
-            <li><a href="journals.html">Archive</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+          <p>The undergraduate science journal of the University of California, Berkeley. Published every semester
+            since 1996.</p>
         </div>
         <div>
           <h5>Read</h5>
           <ul>
-            <li><a href="journals.html?view=issues">Full Issues</a></li>
+            <li><a href="journals.html">Full issues</a></li>
             <li><a href="journals.html?view=articles">Articles</a></li>
             <li><a href="https://escholarship.org/uc/our_bsj" target="_blank" rel="noopener">eScholarship</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>About</h5>
+          <ul>
+            <li><a href="about.html">About the journal</a></li>
+            <li><a href="leadership.html">Staff</a></li>
+            <li><a href="contact.html">Submissions</a></li>
           </ul>
         </div>
         <div>
@@ -142,24 +143,40 @@
           <ul>
             <li><a href="mailto:bsj.berkeley@gmail.com">bsj.berkeley@gmail.com</a></li>
             <li><a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/company/berkeley-scientific-journal" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/company/berkeley-scientific-journal" target="_blank"
+                rel="noopener">LinkedIn</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© <span id="year"></span> Berkeley Scientific Journal · UC Berkeley</span>
+        <span>© <span id="year"></span> Berkeley Scientific Journal</span>
         <div class="footer-social">
-          <button class="theme-toggle" aria-label="Switch to dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path></svg></button>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
           <span class="footer-divider"></span>
-          <a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"></circle></svg></a>
-          <a href="https://www.linkedin.com/company/berkeley-scientific-journal" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45z"></path></svg></a>
-          <a href="mailto:bsj.berkeley@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg></a>
+          <a href="https://www.instagram.com/bsj.berkeley/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/company/berkeley-scientific-journal" target="_blank" rel="noopener"
+            aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45z" />
+            </svg>
+          </a>
+          <a href="mailto:bsj.berkeley@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="m3 7 9 6 9-6" />
+            </svg>
+          </a>
         </div>
       </div>
     </div>
   </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="assets/js/articles.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
