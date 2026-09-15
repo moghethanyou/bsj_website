@@ -1026,6 +1026,10 @@
     content.setAttribute('aria-busy', 'false');
     var aside = document.querySelector('.article-aside');
     if (aside) aside.hidden = true;
+    // Hiding the aside removes it from the grid, which would otherwise drop the
+    // message into the narrow sidebar column.
+    var layout = document.querySelector('.article-layout');
+    if (layout) layout.classList.add('article-layout-single');
   }
 
   function showCollectionError() {

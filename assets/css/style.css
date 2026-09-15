@@ -410,13 +410,6 @@ p:last-child { margin-bottom: 0; }
 .hero-cover:hover { border-color: var(--rule-strong); }
 
 .hero h1 { margin-bottom: .3em; }
-.hero-theme {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: clamp(1rem, .95rem + .3vw, 1.15rem);
-  color: var(--ink-muted);
-  margin-bottom: 1.1em;
-}
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
 
 .hero-stats {
@@ -637,7 +630,7 @@ p:last-child { margin-bottom: 0; }
 .archive-hero { padding-block: clamp(32px, 4vw, 56px) clamp(32px, 4vw, 52px); }
 .archive-hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 280px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 240px);
   gap: clamp(28px, 4vw, 64px);
   align-items: start;
 }
@@ -1003,6 +996,8 @@ p:last-child { margin-bottom: 0; }
   padding-block: clamp(32px, 4vw, 52px);
 }
 
+.article-layout-single { grid-template-columns: minmax(0, 1fr); }
+
 .article-aside {
   position: sticky;
   top: 92px;
@@ -1068,7 +1063,9 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink-muted);
   margin: 1.8em 0 .6em;
 }
-.article-content a {
+/* :not(.btn) so a button inside article body copy keeps its own colour —
+   otherwise this rule wins on specificity and paints navy text on navy. */
+.article-content a:not(.btn) {
   color: var(--link);
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -1243,10 +1240,6 @@ a.person-card:hover .person-body h3 { text-decoration: underline; text-underline
 }
 .social-row a:hover { border-color: var(--ink); color: var(--ink); }
 .social-row svg { width: 17px; height: 17px; }
-
-.map-card { margin-top: 28px; border: 1px solid var(--rule); }
-.map-card iframe { display: block; width: 100%; height: 260px; border: 0; filter: grayscale(1) contrast(.95); }
-[data-theme="dark"] .map-card iframe { filter: grayscale(1) invert(.92) hue-rotate(180deg); }
 
 /* Submission guidance list */
 .guide-list { list-style: none; margin: 0; padding: 0; counter-reset: guide; }
