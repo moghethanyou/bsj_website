@@ -1373,3 +1373,7 @@ a.person-card:hover .person-body h3 { text-decoration: underline; text-underline
 [data-theme="dark"] .brand img,
 [data-theme="dark"] .footer-brand img { filter: invert(1); }
 .brand img, .footer-brand img { width: auto; }
+
+/* OCF's virtual hosting terms require a visible link to ocf.berkeley.edu. */
+.host-credit { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+.host-credit:hover { color: var(--link-hover); }
