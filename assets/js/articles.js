@@ -1,7 +1,8 @@
 (function () {
   'use strict';
 
-  var LOCAL_DATA_URL = 'assets/data/articles.json';
+  var INDEX_URL = 'assets/data/articles-index.json';
+  var ARTICLE_URL = 'assets/data/articles/';
   // Archived article HTML still carries root-relative URLs from the old WordPress
   // install; they are resolved against this origin so the links keep working.
   var LEGACY_ORIGIN = 'https://bsj.studentorg.berkeley.edu';
@@ -45,7 +46,7 @@
 
   function articleText(post) {
     if (typeof post._plainText === 'string') return post._plainText;
-    post._plainText = plainText(post.content_html);
+    post._plainText = post.content_html ? plainText(post.content_html) : (post.searchText || '');
     return post._plainText;
   }
 
@@ -70,6 +71,8 @@
   }
 
   function readingTime(post) {
+    // Precomputed in the index, since the index carries only a search blurb.
+    if (post.minutes) return post.minutes;
     var words = articleText(post).match(/[\w’'-]+/g) || [];
     return Math.max(1, Math.round(words.length / 225));
   }
@@ -112,6 +115,12 @@
 
   function firstImage(post) {
     if (Object.prototype.hasOwnProperty.call(post, '_cardImage')) return post._cardImage;
+    // Index entries carry the chosen image already; the body is not loaded for them.
+    if (!post.content_html && post.card_image) {
+      var indexed = normalizeSource(post.card_image);
+      post._cardImage = indexed ? { src: indexed, alt: '', featured: Boolean(post.cover_image) } : null;
+      return post._cardImage;
+    }
     // cover_image is the article's own cover photo — WordPress's featured image,
     // recovered from archived copies of the old site. It is a deliberate choice by
     // the editors, so it beats whatever figure happens to appear first in the body.
@@ -154,6 +163,7 @@
   function categoryLabel(post) {
     if (post.issue && post.issue.title) return post.issue.title;
     if (post.issue) return 'Vol. ' + post.issue.volume + ' \u00b7 No. ' + post.issue.issue;
+    if (post.section) return post.section;
     return usefulCategory(post.categories);
   }
 
@@ -180,12 +190,17 @@
       modified: post.modified || post.date,
       content_html: post.content_html || '',
       excerpt: plainText(post.excerpt || ''),
+      searchText: post.text || '',
       author: (post.author || '').trim() || null,
       categories: Array.isArray(post.categories) ? post.categories : [],
       featured_image: post.featured_image || null,
       cover_image: post.cover_image || null,
+      card_image: post.card_image || null,
+      minutes: Number(post.minutes) || 0,
+      section: post.section || null,
       issue: post.issue || null,
       escholarship_url: post.escholarship_url || '',
+      related: Array.isArray(post.related) ? post.related : null,
       source_link: post.source_link || '',
       source: 'archive'
     };
@@ -202,9 +217,14 @@
   }
 
   function requestLocalArchive() {
-    return fetchJson(LOCAL_DATA_URL).then(function (posts) {
+    return fetchJson(INDEX_URL).then(function (posts) {
       return validPosts(posts.map(normalizeLocalPost));
     });
+  }
+
+  function requestArticle(slug) {
+    return fetchJson(ARTICLE_URL + encodeURIComponent(slug) + '.json')
+      .then(normalizeLocalPost);
   }
 
   function createPlaceholder(container) {
@@ -946,7 +966,12 @@
     var section = document.getElementById('related-articles');
     var grid = document.getElementById('related-article-grid');
     if (!section || !grid) return;
-    var related = relatedPosts(post, posts);
+    // Precomputed at build time, so an article page does not download the whole
+    // index just to suggest three more pieces. Falls back to scoring in the
+    // browser if a article file predates that.
+    var related = (post.related && post.related.length)
+      ? post.related.map(normalizeLocalPost)
+      : relatedPosts(post, posts || []);
     if (!related.length) {
       section.hidden = true;
       return;
@@ -1073,17 +1098,18 @@
     var articleContent = document.getElementById('article-content');
     var slug = new URLSearchParams(window.location.search).get('slug') || '';
 
+    if (articleContent) {
+      // Only the article itself: its related pieces travel with it.
+      requestArticle(slug).then(function (post) {
+        if (post) renderArticle(post, null); else renderNotFound();
+      }).catch(renderNotFound);
+      return;
+    }
+
     requestLocalArchive().then(function (posts) {
-      if (articleContent) {
-        var post = posts.find(function (candidate) { return candidate.slug === slug; });
-        if (post) renderArticle(post, posts); else renderNotFound();
-        return;
-      }
       setupArchive(posts);
       renderPreview(posts);
-    }).catch(function () {
-      if (articleContent) renderNotFound(); else showCollectionError();
-    });
+    }).catch(showCollectionError);
   }
 
   var closeButton = document.getElementById('figure-lightbox-close');

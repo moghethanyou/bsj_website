@@ -6,7 +6,14 @@
    ========================================================================== */
 *, *::before, *::after { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  /* The masthead is sticky (68px), so anything scrolled to by its id has to
+     clear it. One mechanism only: adding scroll-margin-top to the targets as
+     well would stack with this and drop them far below the fold. */
+  scroll-padding-top: 96px;
+}
 
 body {
   margin: 0;
@@ -266,6 +273,10 @@ p:last-child { margin-bottom: 0; }
 }
 
 .nav-cta { display: flex; align-items: center; gap: 12px; }
+.nav-cta > .btn {
+  min-width: 152px;
+  white-space: nowrap;
+}
 
 .nav-toggle {
   display: none;
@@ -1361,7 +1372,8 @@ a.person-card:hover .person-body h3 { text-decoration: underline; text-underline
 /* Staff cards keep a consistent size rather than stretching to fill a short row. */
 .leadership-group .grid-4,
 .editor-dept .grid-4 {
-  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  /* 140px so two portraits still fit side by side on a 390px phone. */
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 24px;
 }
 @media (min-width: 861px) {
@@ -1394,4 +1406,20 @@ a.person-card:hover .person-body h3 { text-decoration: underline; text-underline
   height: auto;
   background: var(--surface-sunk);
   border: 1px solid var(--rule);
+}
+
+@media (max-width: 860px) {
+  /* Comfortable tap targets for standalone links. Links inside running prose are
+     deliberately left alone — padding them would break the line rhythm. */
+  .issue-links { gap: 18px; }
+  .issue-links a { padding-block: 6px; }
+  .issue-toc > summary { padding-block: 6px; }
+  .site-footer ul { gap: 2px; }
+  .site-footer ul a { display: block; padding-block: 8px; }
+  .footer-social a { padding: 6px; }
+  .breadcrumb, .archive-breadcrumb, .article-breadcrumb { gap: 10px; }
+  .breadcrumb a, .archive-breadcrumb a, .article-breadcrumb a { padding-block: 6px; }
+  .article-back-link { display: inline-block; padding-block: 8px; }
+  /* The share button already reads "Share article"; the label above is noise. */
+  .article-share .article-aside-label { display: none; }
 }
