@@ -112,6 +112,16 @@
 
   function firstImage(post) {
     if (Object.prototype.hasOwnProperty.call(post, '_cardImage')) return post._cardImage;
+    // cover_image is the article's own cover photo — WordPress's featured image,
+    // recovered from archived copies of the old site. It is a deliberate choice by
+    // the editors, so it beats whatever figure happens to appear first in the body.
+    if (post.cover_image) {
+      var coverSource = normalizeSource(post.cover_image);
+      if (coverSource) {
+        post._cardImage = { src: coverSource, alt: '', featured: true };
+        return post._cardImage;
+      }
+    }
     if (post.featured_image && post.featured_image.src) {
       var featuredSource = normalizeSource(post.featured_image.src);
       if (featuredSource) {
@@ -173,6 +183,7 @@
       author: (post.author || '').trim() || null,
       categories: Array.isArray(post.categories) ? post.categories : [],
       featured_image: post.featured_image || null,
+      cover_image: post.cover_image || null,
       issue: post.issue || null,
       escholarship_url: post.escholarship_url || '',
       source_link: post.source_link || '',
@@ -992,6 +1003,23 @@
         provenance.hidden = false;
       } else {
         provenance.hidden = true;
+      }
+    }
+
+    var coverFigure = document.getElementById('article-cover');
+    if (coverFigure) {
+      var coverSrc = post.cover_image ? normalizeSource(post.cover_image) : '';
+      // Don't repeat the cover if the body already opens with that same image.
+      var firstBodyImage = prepared.querySelector('img');
+      var duplicate = Boolean(coverSrc && firstBodyImage &&
+        normalizeSource(firstBodyImage.getAttribute('src')) === coverSrc);
+      if (coverSrc && !duplicate) {
+        var coverImg = coverFigure.querySelector('img');
+        coverImg.addEventListener('error', function () { coverFigure.hidden = true; });
+        coverImg.src = coverSrc;
+        coverFigure.hidden = false;
+      } else {
+        coverFigure.hidden = true;
       }
     }
 
