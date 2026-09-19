@@ -1,0 +1,53 @@
+# Automatic deploy to OCF.
+#
+# DISABLED BY DEFAULT. To turn it on:
+#   1. Rename this file to deploy.yml (drop the .disabled).
+#   2. On a machine with the OCF account, make a deploy-only key:
+#        ssh-keygen -t ed25519 -f bsj_deploy -C "github-actions" -N ""
+#        ssh-copy-id -i bsj_deploy.pub bsj@ssh.ocf.berkeley.edu
+#   3. In the repo: Settings > Secrets and variables > Actions > New secret
+#        name:  OCF_SSH_KEY
+#        value: the contents of the PRIVATE key file (bsj_deploy)
+#   4. Delete the local key files. Never commit them.
+#
+# Then editing any file on github.com and clicking Commit publishes the site
+# within about a minute, with no terminal involved.
+#
+# Why this is reasonably safe on a public repo: secrets are not exposed to
+# pull requests from forks, and this only runs on a push to main, which only
+# people with write access can do.
+
+name: Deploy to OCF
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:        # also runs from the Actions tab on demand
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rebuild data files
+        run: python3 scripts/build.py
+
+      - name: Load the deploy key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.OCF_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ssh.ocf.berkeley.edu >> ~/.ssh/known_hosts
+
+      - name: Publish
+        run: ./scripts/deploy.sh --no-build

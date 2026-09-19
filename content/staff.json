@@ -1,0 +1,144 @@
+{
+  "_comment": [
+    "BSJ staff roster. Editing this file changes the Staff page - nothing else to run.",
+    "Each person needs a name and a role. photo and linkedin are optional.",
+    "photo is the filename in assets/team/ without the extension, e.g. 'sania' for",
+    "assets/team/sania.jpg. Leave photo out and the page shows their initials instead.",
+    "Add photos as a .jpg in assets/team/ (square images look best)."
+  ],
+  "semester": "Fall 2026",
+  "groups": [
+    {
+      "group": "Executive board",
+      "members": [
+        {
+          "name": "Sania Moghe",
+          "role": "Editor-in-Chief",
+          "photo": "sania",
+          "linkedin": "https://www.linkedin.com/in/sania-moghe/"
+        },
+        {
+          "name": "Norah Hom",
+          "role": "Managing Editor",
+          "photo": "norah",
+          "linkedin": "https://www.linkedin.com/in/norahhom/"
+        }
+      ]
+    },
+    {
+      "group": "Chairs",
+      "members": [
+        {
+          "name": "Maanini Lakshmanan",
+          "role": "Production & Marketing Chair",
+          "photo": "maanini",
+          "linkedin": "https://www.linkedin.com/in/maanini-lakshmanan-3319522a6/"
+        },
+        {
+          "name": "Arjen Sen",
+          "role": "Publicity & Finance Chair"
+        },
+        {
+          "name": "Sophie Zhang",
+          "role": "Publicity & Finance Chair",
+          "photo": "sophie",
+          "linkedin": "https://www.linkedin.com/in/sophiezhang1618/"
+        }
+      ]
+    },
+    {
+      "group": "Editors",
+      "departments": [
+        {
+          "department": "Features",
+          "members": [
+            {
+              "name": "Lakshya Alagan",
+              "role": "Features Editor",
+              "photo": "lakshya",
+              "linkedin": "https://www.linkedin.com/in/lakshya-alagan-b25072216/"
+            },
+            {
+              "name": "Katie Murakami",
+              "role": "Features Editor",
+              "photo": "katie",
+              "linkedin": "https://www.linkedin.com/in/katie-murakami-353702305/"
+            }
+          ]
+        },
+        {
+          "department": "Research & Blog",
+          "members": [
+            {
+              "name": "Crystal Xu",
+              "role": "Research & Blog Editor",
+              "linkedin": "https://www.linkedin.com/in/crystal-xu3131/"
+            },
+            {
+              "name": "Ritika Appanagari",
+              "role": "Research & Blog Editor",
+              "photo": "ritika",
+              "linkedin": "https://www.linkedin.com/in/ritika-appanagari/"
+            }
+          ]
+        },
+        {
+          "department": "Interviews",
+          "members": [
+            {
+              "name": "Rohit Divekar",
+              "role": "Interview Editor",
+              "photo": "rohit",
+              "linkedin": "https://www.linkedin.com/in/rohitsdivekar/"
+            },
+            {
+              "name": "Alma Razavilar",
+              "role": "Interview Editor",
+              "photo": "alma",
+              "linkedin": "https://www.linkedin.com/in/alma-razavilar-5b3014156/"
+            }
+          ]
+        },
+        {
+          "department": "Design",
+          "members": [
+            {
+              "name": "Harjyot Kaur",
+              "role": "Design Editor",
+              "photo": "harjyot",
+              "linkedin": "https://www.linkedin.com/in/harjyot123/"
+            },
+            {
+              "name": "Audrey Wang",
+              "role": "Design Editor",
+              "linkedin": "https://www.linkedin.com/in/audrey-w-a52350246/"
+            }
+          ]
+        },
+        {
+          "department": "Copy Editing",
+          "members": [
+            {
+              "name": "Rami Kabakibi",
+              "role": "Copy Editor",
+              "photo": "rami",
+              "linkedin": "https://www.linkedin.com/in/rami-kabakibi/"
+            },
+            {
+              "name": "Sahana Sri",
+              "role": "Copy Editor",
+              "photo": "sahana",
+              "linkedin": "https://www.linkedin.com/in/sahana-s-b9a945210/"
+            },
+            {
+              "name": "Haaris Alam",
+              "role": "Copy Editor",
+              "photo": "haaris",
+              "linkedin": "https://www.linkedin.com/in/haarisalam/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
