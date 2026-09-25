@@ -1432,3 +1432,22 @@ a.person-card:hover .person-body h3 { text-decoration: underline; text-underline
   text-transform: uppercase;
   color: var(--ink-muted);
 }
+
+/* Submission deadline callout. */
+.deadline-note {
+  margin: 0 0 clamp(28px, 3.5vw, 40px);
+  padding: 14px 18px;
+  border-left: 3px solid var(--bsj-gold);
+  background: var(--surface);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.deadline-note strong { color: var(--ink); }
+
+.guide-footnote {
+  margin: 20px 0 0;
+  font-size: 14.5px;
+  color: var(--ink-muted);
+}
+.guide-footnote a { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
